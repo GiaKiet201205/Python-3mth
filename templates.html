@@ -359,7 +359,7 @@
             transition: transform 0.3s ease;
         }
 
-        .bottom-panel.collapsed .toggle-btn i {
+        .bottom-panel.collapsed .btn-link i {
             transform: rotate(180deg);
         }
 
@@ -371,7 +371,7 @@
 
         .panel-content {
             flex: 1;
-            padding: 1rem;
+            padding: 0 1rem 1rem 1rem;
             overflow-y: auto;
             min-height: 0;
         }
@@ -528,7 +528,7 @@
 </head>
 <body>
     <!-- Top Navigation -->
-    <nav class="top-nav">
+    <nav class="top-nav ">
         <div class="nav-brand">
             <i class="fas fa-route"></i>
             KMKN
@@ -592,9 +592,9 @@
                     <div class="driver-info">
                         <div class="driver-name">Driver 001</div>
                         <div class="driver-stats">
-                            <span><i class="fas fa-clock"></i> 7h 57m</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Orders: 41</span>
-                            <span><i class="fas fa-route"></i> 120km</span>
+<!--                            <span><i class="fas fa-clock"></i> 7h 57m</span>-->
+<!--                            <span><i class="fas fa-map-marker-alt"></i> Orders: 41</span>-->
+<!--                            <span><i class="fas fa-route"></i> 120km</span>-->
                         </div>
                     </div>
                 </div>
@@ -605,9 +605,9 @@
                     <div class="driver-info">
                         <div class="driver-name">Driver 002</div>
                         <div class="driver-stats">
-                            <span><i class="fas fa-clock"></i> 7h 56m</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Orders: 40</span>
-                            <span><i class="fas fa-route"></i> 98km</span>
+<!--                            <span><i class="fas fa-clock"></i> 7h 56m</span>-->
+<!--                            <span><i class="fas fa-map-marker-alt"></i> Orders: 40</span>-->
+<!--                            <span><i class="fas fa-route"></i> 98km</span>-->
                         </div>
                     </div>
                 </div>
@@ -618,9 +618,9 @@
                     <div class="driver-info">
                         <div class="driver-name">Driver 003</div>
                         <div class="driver-stats">
-                            <span><i class="fas fa-clock"></i> 7h 54m</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Orders: 58</span>
-                            <span><i class="fas fa-route"></i> 37km</span>
+<!--                            <span><i class="fas fa-clock"></i> 7h 54m</span>-->
+<!--                            <span><i class="fas fa-map-marker-alt"></i> Orders: 58</span>-->
+<!--                            <span><i class="fas fa-route"></i> 37km</span>-->
                         </div>
                     </div>
                 </div>
@@ -631,9 +631,9 @@
                     <div class="driver-info">
                         <div class="driver-name">Driver 004</div>
                         <div class="driver-stats">
-                            <span><i class="fas fa-clock"></i> 7h 59m</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Orders: 53</span>
-                            <span><i class="fas fa-route"></i> 58km</span>
+<!--                            <span><i class="fas fa-clock"></i> 7h 59m</span>-->
+<!--                            <span><i class="fas fa-map-marker-alt"></i> Orders: 53</span>-->
+<!--                            <span><i class="fas fa-route"></i> 58km</span>-->
                         </div>
                     </div>
                 </div>
@@ -699,38 +699,48 @@
             </div>
 
             <!-- Bottom Panel -->
-            <div class="bottom-panel">
-                <div class="panel-header">
-                    <div class="panel-tabs">
-                        <div class="panel-tab active" onclick="switchTab(this, 'orders')">
-                            <i class="fas fa-list"></i> Orders
-                        </div>
-                        <div class="panel-tab" onclick="switchTab(this, 'routes')">
-                            <i class="fas fa-route"></i> Routes
-                        </div>
-                        <div class="panel-tab" onclick="switchTab(this, 'timeline')">
-                            <i class="fas fa-clock"></i> Timeline
-                        </div>
-                        <div class="panel-tab" onclick="switchTab(this, 'not-scheduled')">
-                            <i class="fas fa-exclamation-triangle"></i> Not Scheduled
-                        </div>
-                    </div>
+            <div class="bottom-panel border-top bg-light">
+                  <div class="d-flex justify-content-between align-items-center p-2">
 
-                    <button class="toggle-btn" onclick="toggleBottomPanel()" title="Toggle Panel">
-                        <i class="fas fa-chevron-down"></i>
-                    </button>
+                    <!-- Tabs -->
+                    <ul class="nav nav-tabs" id="panelTabs">
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#" onclick="switchTab(this, 'orders')">
+                          <i class="fas fa-list"></i> Orders
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="switchTab(this, 'routes')">
+                          <i class="fas fa-route"></i> Routes
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="switchTab(this, 'timeline')">
+                          <i class="fas fa-clock"></i> Timeline
+                        </a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="switchTab(this, 'not-scheduled')">
+                          <i class="fas fa-exclamation-triangle"></i> Not Scheduled
+                        </a>
+                      </li>
+                    </ul>
 
-                    <div class="panel-actions">
-                        <input type="date" value="2025-09-27" class="form-control me-2" style="width: 150px;">
-                        <button class="btn-primary me-2" onclick="importOrders()">
+
+                    <div class="d-flex align-items-center">
+                          <input type="date" value="2025-09-27" class="form-control form-control-sm me-2" style="width: 150px;">
+                          <button class="btn btn-primary btn-sm me-2" onclick="importOrders()">
                             <i class="fas fa-upload"></i> Import Orders
-                        </button>
-                        <button class="btn-primary me-2" onclick="planRoutes()">
+                          </button>
+                          <button class="btn btn-success btn-sm me-2" onclick="planRoutes()">
                             <i class="fas fa-route"></i> Plan Routes
-                        </button>
-                        <button class="btn-outline" onclick="shareRoutes()">
+                          </button>
+                          <button class="btn btn-outline-secondary btn-sm" onclick="shareRoutes()">
                             <i class="fas fa-share"></i> Share Routes
-                        </button>
+                          </button>
+                          <button class="btn btn-link ms-2" onclick="toggleBottomPanel()" title="Toggle Panel">
+                            <i class="fas fa-chevron-down"></i>
+                          </button>
                     </div>
                 </div>
 
@@ -790,13 +800,13 @@
 
         // Sample orders data
         const ordersData = [
-            { id: 'ORD001', priority: 'high', location: 'Highlands Coffee', address: 'Mac Dinh Chi', weight: 5, volume: 1, duration: '4 min', driver: 'Driver 001' },
-            { id: 'ORD002', priority: 'medium', location: 'Ca Phe Juicy', address: '', weight: 5, volume: 1, duration: '5 min', driver: 'Driver 002' },
-            { id: 'ORD003', priority: 'medium', location: 'Loteria', address: '11BIS Nguyen Thi Minh Khai', weight: 5, volume: 1, duration: '3 min', driver: 'Driver 003' },
-            { id: 'ORD004', priority: 'medium', location: 'Ca Phe Smart', address: '9 Dinh Tien Hoang', weight: 5, volume: 1, duration: '10 min', driver: 'Driver 004' },
-            { id: 'ORD005', priority: 'medium', location: 'Ca Phe Cuoc Song Dep', address: '10A Pham Ngoc Thach', weight: 5, volume: 1, duration: '7 min', driver: 'Driver 001' },
-            { id: 'ORD006', priority: 'medium', location: 'Ca Phe Regina', address: '', weight: 5, volume: 1, duration: '9 min', driver: 'Driver 002' },
-            { id: 'ORD007', priority: 'medium', location: 'Nha Hang Soya Pudding', address: '172 Bui Thi Xuan', weight: 5, volume: 1, duration: '4 min', driver: 'Driver 003' },
+            // { id: 'ORD001', priority: 'high', location: 'Highlands Coffee', address: 'Mac Dinh Chi', weight: 5, volume: 1, duration: '4 min', driver: 'Driver 001' },
+            // { id: 'ORD002', priority: 'medium', location: 'Ca Phe Juicy', address: '', weight: 5, volume: 1, duration: '5 min', driver: 'Driver 002' },
+            // { id: 'ORD003', priority: 'medium', location: 'Loteria', address: '11BIS Nguyen Thi Minh Khai', weight: 5, volume: 1, duration: '3 min', driver: 'Driver 003' },
+            // { id: 'ORD004', priority: 'medium', location: 'Ca Phe Smart', address: '9 Dinh Tien Hoang', weight: 5, volume: 1, duration: '10 min', driver: 'Driver 004' },
+            // { id: 'ORD005', priority: 'medium', location: 'Ca Phe Cuoc Song Dep', address: '10A Pham Ngoc Thach', weight: 5, volume: 1, duration: '7 min', driver: 'Driver 001' },
+            // { id: 'ORD006', priority: 'medium', location: 'Ca Phe Regina', address: '', weight: 5, volume: 1, duration: '9 min', driver: 'Driver 002' },
+            // { id: 'ORD007', priority: 'medium', location: 'Nha Hang Soya Pudding', address: '172 Bui Thi Xuan', weight: 5, volume: 1, duration: '4 min', driver: 'Driver 003' },
         ];
 
         // Initialize map when page loads
@@ -857,6 +867,7 @@
             const tbody = document.getElementById('orders-tbody');
             tbody.innerHTML = '';
 
+            // đoạn này thêm dữ liệu
             ordersData.forEach((order, index) => {
                 const priorityClass = `priority-${order.priority}`;
                 const row = `
