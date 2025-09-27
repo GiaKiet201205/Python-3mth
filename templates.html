@@ -849,117 +849,58 @@
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.mapbox.com/">MapBox Streets</a>'
             }).addTo(map);
-
-            // Add sample markers and routes
-            addSampleMarkers();
-            addSampleRoutes();
         }
 
-        function addSampleMarkers() {
-            // Driver locations (depots)
-            const depots = [
-                { lat: 10.8231, lng: 106.6297, name: 'Depot 1', color: '#ef4444' },
-                { lat: 10.7769, lng: 106.6955, name: 'Depot 2', color: '#f97316' },
-                { lat: 10.8023, lng: 106.6633, name: 'Depot 3', color: '#22c55e' },
-                { lat: 10.7984, lng: 106.6438, name: 'Depot 4', color: '#f59e0b' }
-            ];
+ function addSampleMarkers() {
+    // Driver locations (depots) — giữ nguyên
+    const depots = [
+        { lat: 10.8231, lng: 106.6297, name: 'Depot 1', color: '#ef4444' },
+        { lat: 10.7769, lng: 106.6955, name: 'Depot 2', color: '#f97316' },
+        { lat: 10.8023, lng: 106.6633, name: 'Depot 3', color: '#22c55e' },
+        { lat: 10.7984, lng: 106.6438, name: 'Depot 4', color: '#f59e0b' }
+    ];
 
-            depots.forEach(depot => {
-                L.marker([depot.lat, depot.lng], {
-                    icon: L.divIcon({
-                        className: 'custom-depot-marker',
-                        html: `<div style="background: ${depot.color}; width: 20px; height: 20px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`,
-                        iconSize: [20, 20],
-                        iconAnchor: [10, 10]
-                    })
-                }).addTo(map).bindPopup(depot.name);
-            });
+    depots.forEach(depot => {
+        L.marker([depot.lat, depot.lng], {
+            icon: L.divIcon({
+                className: 'custom-depot-marker',
+                html: `<div style="background: ${depot.color}; width: 20px; height: 20px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`,
+                iconSize: [20, 20],
+                iconAnchor: [10, 10]
+            })
+        }).addTo(map).bindPopup(depot.name);
+    });
 
-            // Customer locations
-            const customers = [
-                { lat: 10.8150, lng: 106.6320, name: 'Customer 1', priority: 'high' },
-                { lat: 10.7850, lng: 106.6450, name: 'Customer 2', priority: 'medium' },
-                { lat: 10.7950, lng: 106.6550, name: 'Customer 3', priority: 'medium' },
-                { lat: 10.8050, lng: 106.6650, name: 'Customer 4', priority: 'low' },
-                { lat: 10.8250, lng: 106.6400, name: 'Customer 5', priority: 'high' }
-            ];
+    // Customer locations — SỬA: loại bỏ số bên trong marker
+    const customers = [
+        { lat: 10.8150, lng: 106.6320, name: 'Customer 1', priority: 'high' },
+        { lat: 10.7850, lng: 106.6450, name: 'Customer 2', priority: 'medium' },
+        { lat: 10.7950, lng: 106.6550, name: 'Customer 3', priority: 'medium' },
+        { lat: 10.8050, lng: 106.6650, name: 'Customer 4', priority: 'low' },
+        { lat: 10.8250, lng: 106.6400, name: 'Customer 5', priority: 'high' }
+    ];
 
-            customers.forEach((customer, index) => {
-                const color = customer.priority === 'high' ? '#dc2626' :
-                             customer.priority === 'medium' ? '#d97706' : '#059669';
+    customers.forEach((customer) => {
+        const color = customer.priority === 'high' ? '#dc2626' :
+                     customer.priority === 'medium' ? '#d97706' : '#059669';
 
-                L.marker([customer.lat, customer.lng], {
-                    icon: L.divIcon({
-                        className: 'custom-customer-marker',
-                        html: `<div style="background: ${color}; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">${index + 1}</div>`,
-                        iconSize: [24, 24],
-                        iconAnchor: [12, 12]
-                    })
-                }).addTo(map).bindPopup(`
-                    <div>
-                        <strong>${customer.name}</strong><br>
-                        Priority: ${customer.priority}<br>
-                        <button onclick="viewOrderDetails(${index})" class="btn btn-sm btn-primary mt-1">View Details</button>
-                    </div>
-                `);
-            });
-        }
-
-        function addSampleRoutes() {
-            // Sample route coordinates for different drivers
-            const routeColors = ['#ef4444', '#f97316', '#22c55e', '#f59e0b'];
-
-            const sampleRoutes = [
-                {
-                    color: '#ef4444',
-                    coords: [
-                        [10.8231, 106.6297],
-                        [10.8150, 106.6320],
-                        [10.8050, 106.6450],
-                        [10.7950, 106.6550],
-                        [10.8231, 106.6297]
-                    ]
-                },
-                {
-                    color: '#f97316',
-                    coords: [
-                        [10.7769, 106.6955],
-                        [10.7850, 106.6450],
-                        [10.7750, 106.6350],
-                        [10.7650, 106.6650],
-                        [10.7769, 106.6955]
-                    ]
-                },
-                {
-                    color: '#22c55e',
-                    coords: [
-                        [10.8023, 106.6633],
-                        [10.8123, 106.6733],
-                        [10.8223, 106.6533],
-                        [10.8323, 106.6433],
-                        [10.8023, 106.6633]
-                    ]
-                },
-                {
-                    color: '#f59e0b',
-                    coords: [
-                        [10.7984, 106.6438],
-                        [10.8084, 106.6538],
-                        [10.7884, 106.6638],
-                        [10.7784, 106.6338],
-                        [10.7984, 106.6438]
-                    ]
-                }
-            ];
-
-            sampleRoutes.forEach((route, index) => {
-                L.polyline(route.coords, {
-                    color: route.color,
-                    weight: 3,
-                    opacity: 0.8
-                }).addTo(map).bindPopup(`Route ${index + 1}`);
-            });
-        }
+        // marker chỉ là chấm tròn (không số)
+        L.marker([customer.lat, customer.lng], {
+            icon: L.divIcon({
+                className: 'custom-customer-marker',
+                html: `<div style="background: ${color}; width: 14px; height: 14px; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div>`,
+                iconSize: [14, 14],
+                iconAnchor: [7, 7]
+            })
+        }).addTo(map).bindPopup(`
+            <div>
+                <strong>${customer.name}</strong><br>
+                Priority: ${customer.priority}<br>
+                <button onclick="/* bạn có thể gọi viewOrderDetails tương ứng */" class="btn btn-sm btn-primary mt-1">View Details</button>
+            </div>
+        `);
+    });
+}
 
         // Toggle bottom panel
         function toggleBottomPanel() {
