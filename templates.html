@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OptimoRoute - Route Optimizer</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Leaflet Map -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+    <style>
+        :root {
+            --primary-color: #1e40af;
+            --secondary-color: #64748b;
+            --success-color: #059669;
+            --warning-color: #d97706;
+            --danger-color: #dc2626;
+            --sidebar-width: 350px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background-color: #f8fafc;
+            margin: 0;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* Top Navigation */
+        .top-nav {
+            background: var(--primary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            display: flex;
+            justify-content: between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            z-index: 1000;
+            position: relative;
+        }
+
+        .nav-brand {
+            font-size: 1.25rem;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .nav-right {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-left: auto;
+        }
+
+        .trial-info {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 0.25rem 0.75rem;
+            border-radius: 15px;
+            font-size: 0.875rem;
+        }
+
+        .nav-buttons {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .nav-btn {
+            background: rgba(255, 255, 255, 0.2);
+            border: none;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .nav-btn:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Main Layout */
+        .main-container {
+            display: flex;
+            height: calc(100vh - 60px);
+        }
+
+        /* Left Sidebar */
+        .sidebar {
+            width: var(--sidebar-width);
+            background: white;
+            border-right: 1px solid #e5e7eb;
+            display: flex;
+            flex-direction: column;
+            box-shadow: 2px 0 4px rgba(0,0,0,0.05);
+        }
+
+        .sidebar-header {
+            padding: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            background: #f8fafc;
+        }
+
+        .planning-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+
+        .stats-row {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .stat-item {
+            text-align: center;
+            flex: 1;
+        }
+
+        .stat-number {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        .stat-label {
+            font-size: 0.75rem;
+            color: var(--secondary-color);
+        }
+
+        .action-buttons {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .btn-primary {
+            background: var(--primary-color);
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            color: white;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+
+        .btn-primary:hover {
+            background: #1e3a8a;
+            transform: translateY(-1px);
+        }
+
+        .btn-outline {
+            background: transparent;
+            border: 1px solid #d1d5db;
+            padding: 0.5rem 1rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            transition: all 0.2s;
+        }
+
+        /* Drivers List */
+        .drivers-section {
+            flex: 1;
+            overflow-y: auto;
+            padding: 0 1rem;
+        }
+
+        .driver-item {
+            display: flex;
+            align-items: center;
+            padding: 0.75rem;
+            margin-bottom: 0.5rem;
+            background: white;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .driver-item:hover {
+            border-color: var(--primary-color);
+            box-shadow: 0 2px 8px rgba(30, 64, 175, 0.1);
+        }
+
+        .driver-item.selected {
+            border-color: var(--primary-color);
+            background: #eff6ff;
+        }
+
+        .driver-color {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            margin-right: 0.75rem;
+        }
+
+        .driver-info {
+            flex: 1;
+        }
+
+        .driver-name {
+            font-weight: 600;
+            margin-bottom: 0.25rem;
+        }
+
+        .driver-stats {
+            display: flex;
+            gap: 1rem;
+            font-size: 0.75rem;
+            color: var(--secondary-color);
+        }
+
+        .driver-checkbox {
+            margin-left: 0.5rem;
+        }
+
+        /* Map Container */
+        .map-container {
+            flex: 1;
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+        }
+
+        /* Map Controls */
+        .map-controls {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            z-index: 1000;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .control-btn {
+            width: 40px;
+            height: 40px;
+            background: white;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: all 0.2s;
+        }
+
+        .control-btn:hover {
+            background: #f3f4f6;
+            transform: translateY(-1px);
+        }
+
+        /* Bottom Panel */
+        .bottom-panel {
+            position: absolute;
+            bottom: 0;
+            left: var(--sidebar-width);
+            right: 0;
+            background: white;
+            border-top: 1px solid #e5e7eb;
+            box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+        }
+
+        .panel-header {
+            padding: 1rem;
+            border-bottom: 1px solid #e5e7eb;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .panel-tabs {
+            display: flex;
+            gap: 2rem;
+        }
+
+        .panel-tab {
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.2s;
+        }
+
+        .panel-tab.active {
+            border-bottom-color: var(--primary-color);
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .panel-content {
+            padding: 1rem;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        /* Orders Table */
+        .orders-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.875rem;
+        }
+
+        .orders-table th,
+        .orders-table td {
+            padding: 0.5rem;
+            text-align: left;
+            border-bottom: 1px solid #f3f4f6;
+        }
+
+        .orders-table th {
+            background: #f8fafc;
+            font-weight: 600;
+            color: var(--secondary-color);
+        }
+
+        .order-priority {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 0.5rem;
+        }
+
+        .priority-high { background: var(--danger-color); }
+        .priority-medium { background: var(--warning-color); }
+        .priority-low { background: var(--success-color); }
+
+        /* Status Indicators */
+        .status-scheduled {
+            color: var(--success-color);
+            background: #ecfdf5;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+        }
+
+        .status-unscheduled {
+            color: var(--secondary-color);
+            background: #f1f5f9;
+            padding: 0.25rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 280px;
+            }
+
+            .stats-row {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .action-buttons {
+                flex-direction: column;
+            }
+        }
+
+        /* Notification */
+        .notification {
+            position: absolute;
+            top: 1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #1f2937;
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .notification.success {
+            background: var(--success-color);
+        }
+
+        /* Loading Spinner */
+        .loading {
+            display: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2000;
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            text-align: center;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid #f3f4f6;
+            border-top: 4px solid var(--primary-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Top Navigation -->
+    <nav class="top-nav">
+        <div class="nav-brand">
+            <i class="fas fa-route"></i>
+            OptimoRoute™
+        </div>
+
+        <div class="nav-right">
+            <div class="trial-info">
+                Trial - 27 days left
+            </div>
+            <button class="nav-btn">
+                <i class="fas fa-shopping-cart"></i> Purchase
+            </button>
+            <div class="nav-buttons">
+                <button class="nav-btn">
+                    <i class="fas fa-play"></i> Get started
+                </button>
+                <button class="nav-btn">
+                    <i class="fas fa-cog"></i> Administration
+                </button>
+                <button class="nav-btn">
+                    <i class="fas fa-question-circle"></i> Support
+                </button>
+                <button class="nav-btn">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Left Sidebar -->
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="planning-section">
+                    <h5 class="mb-0">
+                        <i class="fas fa-calendar-alt"></i> Plan and Optimize
+                    </h5>
+                </div>
+
+                <div class="stats-row">
+                    <div class="stat-item">
+                        <div class="stat-number">192</div>
+                        <div class="stat-label">Scheduled</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Unscheduled</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">200</div>
+                        <div class="stat-label">Total</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">24</div>
+                        <div class="stat-label">Routes</div>
+                    </div>
+                </div>
+
+                <div class="action-buttons">
+                    <button class="btn-primary" onclick="optimizeRoutes()">
+                        <i class="fas fa-magic"></i> Optimize
+                    </button>
+                    <button class="btn-outline" onclick="switchView()">
+                        <i class="fas fa-exchange-alt"></i> Switch
+                    </button>
+                    <button class="btn-outline" onclick="reverseRoutes()">
+                        <i class="fas fa-undo"></i> Reverse
+                    </button>
+                </div>
+
+                <div class="mb-3">
+                    <button class="btn-outline me-2" onclick="copyRoutes()">
+                        <i class="fas fa-copy"></i> Copy
+                    </button>
+                    <input type="checkbox" id="unschedule" class="me-1">
+                    <label for="unschedule" style="font-size: 0.875rem;">Unschedule</label>
+                </div>
+            </div>
+
+            <div class="drivers-section">
+                <h6 class="mb-3 px-2">
+                    <i class="fas fa-truck"></i> Driver
+                    <span class="badge bg-primary rounded-pill ms-2">4 drivers selected</span>
+                </h6>
+
+                <!-- Driver List -->
+                <div class="driver-item selected" onclick="toggleDriver(this, 'driver001')">
+                    <input type="checkbox" class="driver-checkbox" checked>
+                    <div class="driver-color" style="background-color: #ef4444;"></div>
+                    <div class="driver-info">
+                        <div class="driver-name">Driver 001</div>
+                        <div class="driver-stats">
+                            <span><i class="fas fa-clock"></i> 7h 57m</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Orders: 41</span>
+                            <span><i class="fas fa-route"></i> 120km</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="driver-item selected" onclick="toggleDriver(this, 'driver002')">
+                    <input type="checkbox" class="driver-checkbox" checked>
+                    <div class="driver-color" style="background-color: #f97316;"></div>
+                    <div class="driver-info">
+                        <div class="driver-name">Driver 002</div>
+                        <div class="driver-stats">
+                            <span><i class="fas fa-clock"></i> 7h 56m</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Orders: 40</span>
+                            <span><i class="fas fa-route"></i> 98km</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="driver-item selected" onclick="toggleDriver(this, 'driver003')">
+                    <input type="checkbox" class="driver-checkbox" checked>
+                    <div class="driver-color" style="background-color: #22c55e;"></div>
+                    <div class="driver-info">
+                        <div class="driver-name">Driver 003</div>
+                        <div class="driver-stats">
+                            <span><i class="fas fa-clock"></i> 7h 54m</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Orders: 58</span>
+                            <span><i class="fas fa-route"></i> 37km</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="driver-item selected" onclick="toggleDriver(this, 'driver004')">
+                    <input type="checkbox" class="driver-checkbox" checked>
+                    <div class="driver-color" style="background-color: #f59e0b;"></div>
+                    <div class="driver-info">
+                        <div class="driver-name">Driver 004</div>
+                        <div class="driver-stats">
+                            <span><i class="fas fa-clock"></i> 7h 59m</span>
+                            <span><i class="fas fa-map-marker-alt"></i> Orders: 53</span>
+                            <span><i class="fas fa-route"></i> 58km</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Unassigned Drivers -->
+                <div class="driver-item" onclick="toggleDriver(this, 'driver005')">
+                    <input type="checkbox" class="driver-checkbox">
+                    <div class="driver-color" style="background-color: #6b7280;"></div>
+                    <div class="driver-info">
+                        <div class="driver-name">Driver 005</div>
+                        <div class="driver-stats">
+                            <span class="text-muted">Unassigned</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="driver-item" onclick="toggleDriver(this, 'driver006')">
+                    <input type="checkbox" class="driver-checkbox">
+                    <div class="driver-color" style="background-color: #6b7280;"></div>
+                    <div class="driver-info">
+                        <div class="driver-name">Driver 006</div>
+                        <div class="driver-stats">
+                            <span class="text-muted">Unassigned</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="p-3 border-top">
+                <button class="btn-outline w-100" onclick="hideDrivers()">
+                    <i class="fas fa-eye-slash"></i> Hide Drivers
+                </button>
+            </div>
+        </div>
+
+        <!-- Map Container -->
+        <div class="map-container">
+            <div id="map"></div>
+
+            <!-- Map Controls -->
+            <div class="map-controls">
+                <button class="control-btn" onclick="centerMap()" title="Center Map">
+                    <i class="fas fa-crosshairs"></i>
+                </button>
+                <button class="control-btn" onclick="zoomIn()" title="Zoom In">
+                    <i class="fas fa-plus"></i>
+                </button>
+                <button class="control-btn" onclick="zoomOut()" title="Zoom Out">
+                    <i class="fas fa-minus"></i>
+                </button>
+                <button class="control-btn" onclick="toggleSatellite()" title="Satellite View">
+                    <i class="fas fa-satellite"></i>
+                </button>
+                <button class="control-btn" onclick="toggleTraffic()" title="Traffic">
+                    <i class="fas fa-car"></i>
+                </button>
+                <button class="control-btn" onclick="exportMap()" title="Export">
+                    <i class="fas fa-download"></i>
+                </button>
+                <button class="control-btn" onclick="fullScreen()" title="Full Screen">
+                    <i class="fas fa-expand"></i>
+                </button>
+            </div>
+        </div>
+
+        <!-- Bottom Panel -->
+        <div class="bottom-panel">
+            <div class="panel-header">
+                <div class="panel-tabs">
+                    <div class="panel-tab active" onclick="switchTab(this, 'orders')">
+                        <i class="fas fa-list"></i> Orders
+                    </div>
+                    <div class="panel-tab" onclick="switchTab(this, 'routes')">
+                        <i class="fas fa-route"></i> Routes
+                    </div>
+                    <div class="panel-tab" onclick="switchTab(this, 'timeline')">
+                        <i class="fas fa-clock"></i> Timeline
+                    </div>
+                    <div class="panel-tab" onclick="switchTab(this, 'not-scheduled')">
+                        <i class="fas fa-exclamation-triangle"></i> Not Scheduled
+                    </div>
+                </div>
+
+                <div class="panel-actions">
+                    <input type="date" value="2025-09-27" class="form-control me-2" style="width: 150px;">
+                    <button class="btn-primary me-2" onclick="importOrders()">
+                        <i class="fas fa-upload"></i> Import Orders
+                    </button>
+                    <button class="btn-primary me-2" onclick="planRoutes()">
+                        <i class="fas fa-route"></i> Plan Routes
+                    </button>
+                    <button class="btn-outline" onclick="shareRoutes()">
+                        <i class="fas fa-share"></i> Share Routes
+                    </button>
+                </div>
+            </div>
+
+            <div class="panel-content">
+                <table class="orders-table">
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox" onchange="selectAllOrders(this)"></th>
+                            <th>Order ID</th>
+                            <th>Priority</th>
+                            <th>Location</th>
+                            <th>Address</th>
+                            <th>Rescheduled order from</th>
+                            <th>Rescheduled to</th>
+                            <th>Weight [kg]</th>
+                            <th>Volume [m3]</th>
+                            <th>Duration</th>
+                            <th>Time windows</th>
+                            <th>Skills</th>
+                            <th>Vehicle features</th>
+                        </tr>
+                    </thead>
+                    <tbody id="orders-tbody">
+                        <!-- Orders will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Notification -->
+    <div class="notification" id="notification" style="display: none;">
+        <i class="fas fa-check-circle"></i>
+        <span id="notification-text">Routes have been planned</span>
+        <button onclick="hideNotification()" style="background: none; border: none; color: white; margin-left: 1rem;">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+
+    <!-- Loading -->
+    <div class="loading" id="loading">
+        <div class="spinner"></div>
+        <div>Optimizing routes...</div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <script>
+        // Initialize map
+        let map;
+        let markers = [];
+        let routes = [];
+        let currentTab = 'orders';
+
+        // Sample orders data
+        const ordersData = [
+            { id: 'ORD001', priority: 'high', location: 'Highlands Coffee', address: 'Mac Dinh Chi', weight: 5, volume: 1, duration: '4 min', driver: 'Driver 001' },
+            { id: 'ORD002', priority: 'medium', location: 'Ca Phe Juicy', address: '', weight: 5, volume: 1, duration: '5 min', driver: 'Driver 002' },
+            { id: 'ORD003', priority: 'medium', location: 'Loteria', address: '11BIS Nguyen Thi Minh Khai', weight: 5, volume: 1, duration: '3 min', driver: 'Driver 003' },
+            { id: 'ORD004', priority: 'medium', location: 'Ca Phe Smart', address: '9 Dinh Tien Hoang', weight: 5, volume: 1, duration: '10 min', driver: 'Driver 004' },
+            { id: 'ORD005', priority: 'medium', location: 'Ca Phe Cuoc Song Dep', address: '10A Pham Ngoc Thach', weight: 5, volume: 1, duration: '7 min', driver: 'Driver 001' },
+            { id: 'ORD006', priority: 'medium', location: 'Ca Phe Regina', address: '', weight: 5, volume: 1, duration: '9 min', driver: 'Driver 002' },
+            { id: 'ORD007', priority: 'medium', location: 'Nha Hang Soya Pudding', address: '172 Bui Thi Xuan', weight: 5, volume: 1, duration: '4 min', driver: 'Driver 003' },
+        ];
+
+        // Initialize map when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initMap();
+            populateOrdersTable();
+            showNotification('Routes have been planned. Undo changes');
+        });
+
+        function initMap() {
+            // Initialize Leaflet map centered on Ho Chi Minh City
+            map = L.map('map').setView([10.8231, 106.6297], 12);
+
+            // Add tile layer
+            L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.mapbox.com/">MapBox Streets</a>'
+            }).addTo(map);
+
+            // Add sample markers and routes
+            addSampleMarkers();
+            addSampleRoutes();
+        }
+
+        function addSampleMarkers() {
+            // Driver locations (depots)
+            const depots = [
+                { lat: 10.8231, lng: 106.6297, name: 'Depot 1', color: '#ef4444' },
+                { lat: 10.7769, lng: 106.6955, name: 'Depot 2', color: '#f97316' },
+                { lat: 10.8023, lng: 106.6633, name: 'Depot 3', color: '#22c55e' },
+                { lat: 10.7984, lng: 106.6438, name: 'Depot 4', color: '#f59e0b' }
+            ];
+
+            depots.forEach(depot => {
+                L.marker([depot.lat, depot.lng], {
+                    icon: L.divIcon({
+                        className: 'custom-depot-marker',
+                        html: `<div style="background: ${depot.color}; width: 20px; height: 20px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`,
+                        iconSize: [20, 20],
+                        iconAnchor: [10, 10]
+                    })
+                }).addTo(map).bindPopup(depot.name);
+            });
+
+            // Customer locations
+            const customers = [
+                { lat: 10.8150, lng: 106.6320, name: 'Customer 1', priority: 'high' },
+                { lat: 10.7850, lng: 106.6450, name: 'Customer 2', priority: 'medium' },
+                { lat: 10.7950, lng: 106.6550, name: 'Customer 3', priority: 'medium' },
+                { lat: 10.8050, lng: 106.6650, name: 'Customer 4', priority: 'low' },
+                { lat: 10.8250, lng: 106.6400, name: 'Customer 5', priority: 'high' }
+            ];
+
+            customers.forEach((customer, index) => {
+                const color = customer.priority === 'high' ? '#dc2626' :
+                             customer.priority === 'medium' ? '#d97706' : '#059669';
+
+                L.marker([customer.lat, customer.lng], {
+                    icon: L.divIcon({
+                        className: 'custom-customer-marker',
+                        html: `<div style="background: ${color}; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; box-shadow: 0 2px 4px rgba(
