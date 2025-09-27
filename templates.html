@@ -780,4 +780,425 @@
                 L.marker([customer.lat, customer.lng], {
                     icon: L.divIcon({
                         className: 'custom-customer-marker',
-                        html: `<div style="background: ${color}; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; box-shadow: 0 2px 4px rgba(
+                        html: `<div style="background: ${color}; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">${index + 1}</div>`,
+                        iconSize: [24, 24],
+                        iconAnchor: [12, 12]
+                    })
+                }).addTo(map).bindPopup(`
+                    <div>
+                        <strong>${customer.name}</strong><br>
+                        Priority: ${customer.priority}<br>
+                        <button onclick="viewOrderDetails(${index})" class="btn btn-sm btn-primary mt-1">View Details</button>
+                    </div>
+                `);
+            });
+        }
+
+        function addSampleRoutes() {
+            // Sample route coordinates for different drivers
+            const routeColors = ['#ef4444', '#f97316', '#22c55e', '#f59e0b'];
+
+            const sampleRoutes = [
+                {
+                    color: '#ef4444',
+                    coords: [
+                        [10.8231, 106.6297],
+                        [10.8150, 106.6320],
+                        [10.8050, 106.6450],
+                        [10.7950, 106.6550],
+                        [10.8231, 106.6297]
+                    ]
+                },
+                {
+                    color: '#f97316',
+                    coords: [
+                        [10.7769, 106.6955],
+                        [10.7850, 106.6450],
+                        [10.7750, 106.6350],
+                        [10.7650, 106.6650],
+                        [10.7769, 106.6955]
+                    ]
+                },
+                {
+                    color: '#22c55e',
+                    coords: [
+                        [10.8023, 106.6633],
+                        [10.8123, 106.6733],
+                        [10.8223, 106.6533],
+                        [10.8323, 106.6433],
+                        [10.8023, 106.6633]
+                    ]
+                },
+                {
+                    color: '#f59e0b',
+                    coords: [
+                        [10.7984, 106.6438],
+                        [10.8084, 106.6538],
+                        [10.7884, 106.6638],
+                        [10.7784, 106.6338],
+                        [10.7984, 106.6438]
+                    ]
+                }
+            ];
+
+            sampleRoutes.forEach((route, index) => {
+                L.polyline(route.coords, {
+                    color: route.color,
+                    weight: 3,
+                    opacity: 0.8
+                }).addTo(map).bindPopup(`Route ${index + 1}`);
+            });
+        }
+
+        // Tab switching
+        function switchTab(tabElement, tabName) {
+            // Remove active class from all tabs
+            document.querySelectorAll('.panel-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+
+            // Add active class to clicked tab
+            tabElement.classList.add('active');
+            currentTab = tabName;
+
+            // Update content based on tab
+            updatePanelContent(tabName);
+        }
+
+        function updatePanelContent(tabName) {
+            const tbody = document.getElementById('orders-tbody');
+
+            if (tabName === 'orders') {
+                populateOrdersTable();
+            } else if (tabName === 'routes') {
+                tbody.innerHTML = '<tr><td colspan="13" class="text-center py-4">Routes information will be displayed here</td></tr>';
+            } else if (tabName === 'timeline') {
+                tbody.innerHTML = '<tr><td colspan="13" class="text-center py-4">Timeline view will be displayed here</td></tr>';
+            } else if (tabName === 'not-scheduled') {
+                tbody.innerHTML = '<tr><td colspan="13" class="text-center py-4">Unscheduled orders will be displayed here</td></tr>';
+            }
+        }
+
+        function populateOrdersTable() {
+            const tbody = document.getElementById('orders-tbody');
+            tbody.innerHTML = '';
+
+            ordersData.forEach((order, index) => {
+                const priorityClass = `priority-${order.priority}`;
+                const row = `
+                    <tr>
+                        <td><input type="checkbox" class="order-checkbox"></td>
+                        <td><strong>${order.id}</strong></td>
+                        <td><span class="order-priority ${priorityClass}"></span>${order.priority.charAt(0).toUpperCase() + order.priority.slice(1)}</td>
+                        <td>${order.location}</td>
+                        <td>${order.address}</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>${order.weight}</td>
+                        <td>${order.volume}</td>
+                        <td>${order.duration}</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                    </tr>
+                `;
+                tbody.innerHTML += row;
+            });
+        }
+
+        // Driver functions
+        function toggleDriver(element, driverId) {
+            const checkbox = element.querySelector('.driver-checkbox');
+            checkbox.checked = !checkbox.checked;
+
+            if (checkbox.checked) {
+                element.classList.add('selected');
+            } else {
+                element.classList.remove('selected');
+            }
+
+            updateSelectedDriversCount();
+        }
+
+        function updateSelectedDriversCount() {
+            const selectedCount = document.querySelectorAll('.driver-checkbox:checked').length;
+            document.querySelector('.badge').textContent = `${selectedCount} drivers selected`;
+        }
+
+        // Map functions
+        function centerMap() {
+            map.setView([10.8231, 106.6297], 12);
+        }
+
+        function zoomIn() {
+            map.zoomIn();
+        }
+
+        function zoomOut() {
+            map.zoomOut();
+        }
+
+        function toggleSatellite() {
+            // Toggle between normal and satellite view
+            const currentLayer = map._layers[Object.keys(map._layers)[0]];
+            map.removeLayer(currentLayer);
+
+            if (currentLayer._url.includes('openstreetmap')) {
+                // Switch to satellite
+                L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}', {
+                    attribution: 'Tiles © Esri'
+                }).addTo(map);
+            } else {
+                // Switch to normal
+                L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+                    attribution: '© OpenStreetMap contributors'
+                }).addTo(map);
+            }
+        }
+
+        function toggleTraffic() {
+            showNotification('Traffic layer toggled');
+        }
+
+        function exportMap() {
+            showNotification('Map exported successfully');
+        }
+
+        function fullScreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen();
+            } else {
+                document.exitFullscreen();
+            }
+        }
+
+        // Action functions
+        function optimizeRoutes() {
+            showLoading();
+
+            setTimeout(() => {
+                hideLoading();
+                showNotification('Routes optimized successfully!', 'success');
+
+                // Update stats
+                document.querySelectorAll('.stat-number')[0].textContent = '196';
+                document.querySelectorAll('.stat-number')[1].textContent = '4';
+            }, 3000);
+        }
+
+        function switchView() {
+            showNotification('View switched');
+        }
+
+        function reverseRoutes() {
+            showNotification('Routes reversed');
+        }
+
+        function copyRoutes() {
+            showNotification('Routes copied to clipboard');
+        }
+
+        function hideDrivers() {
+            const driversSection = document.querySelector('.drivers-section');
+            driversSection.style.display = driversSection.style.display === 'none' ? 'block' : 'none';
+        }
+
+        function importOrders() {
+            const input = document.createElement('input');
+            input.type = 'file';
+            input.accept = '.csv,.xlsx,.json';
+            input.onchange = function(e) {
+                const file = e.target.files[0];
+                if (file) {
+                    showNotification(`Importing ${file.name}...`);
+                    setTimeout(() => {
+                        showNotification('Orders imported successfully!', 'success');
+                    }, 2000);
+                }
+            };
+            input.click();
+        }
+
+        function planRoutes() {
+            showLoading();
+
+            setTimeout(() => {
+                hideLoading();
+                showNotification('Routes planned successfully!', 'success');
+            }, 2500);
+        }
+
+        function shareRoutes() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'Route Optimization Results',
+                    text: 'Check out these optimized routes!',
+                    url: window.location.href
+                });
+            } else {
+                // Fallback - copy to clipboard
+                navigator.clipboard.writeText(window.location.href);
+                showNotification('Link copied to clipboard!');
+            }
+        }
+
+        function selectAllOrders(checkbox) {
+            const orderCheckboxes = document.querySelectorAll('.order-checkbox');
+            orderCheckboxes.forEach(cb => {
+                cb.checked = checkbox.checked;
+            });
+        }
+
+        function viewOrderDetails(orderIndex) {
+            const order = ordersData[orderIndex];
+            alert(`Order Details:\n\nID: ${order.id}\nLocation: ${order.location}\nAddress: ${order.address}\nPriority: ${order.priority}\nWeight: ${order.weight}kg\nVolume: ${order.volume}m³\nDuration: ${order.duration}`);
+        }
+
+        // Utility functions
+        function showNotification(message, type = 'default') {
+            const notification = document.getElementById('notification');
+            const text = document.getElementById('notification-text');
+
+            text.textContent = message;
+            notification.className = `notification ${type}`;
+            notification.style.display = 'flex';
+
+            setTimeout(() => {
+                hideNotification();
+            }, 5000);
+        }
+
+        function hideNotification() {
+            document.getElementById('notification').style.display = 'none';
+        }
+
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(e) {
+            if (e.ctrlKey || e.metaKey) {
+                switch(e.key) {
+                    case 'o':
+                        e.preventDefault();
+                        optimizeRoutes();
+                        break;
+                    case 's':
+                        e.preventDefault();
+                        planRoutes();
+                        break;
+                    case 'i':
+                        e.preventDefault();
+                        importOrders();
+                        break;
+                }
+            }
+
+            // Escape key to close notifications
+            if (e.key === 'Escape') {
+                hideNotification();
+                hideLoading();
+            }
+        });
+
+        // Auto-save functionality
+        let autoSaveInterval;
+        function startAutoSave() {
+            autoSaveInterval = setInterval(() => {
+                // Simulate auto-save
+                console.log('Auto-saved at', new Date().toLocaleTimeString());
+            }, 30000); // Every 30 seconds
+        }
+
+        // Start auto-save when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            startAutoSave();
+        });
+
+        // Responsive handling
+        function handleResize() {
+            if (window.innerWidth < 768) {
+                document.querySelector('.sidebar').style.width = '280px';
+            } else {
+                document.querySelector('.sidebar').style.width = '350px';
+            }
+
+            // Invalidate map size on resize
+            if (map) {
+                setTimeout(() => {
+                    map.invalidateSize();
+                }, 100);
+            }
+        }
+
+        window.addEventListener('resize', handleResize);
+
+        // Map event handlers
+        document.addEventListener('DOMContentLoaded', function() {
+            // Handle map clicks
+            setTimeout(() => {
+                if (map) {
+                    map.on('click', function(e) {
+                        console.log('Map clicked at:', e.latlng);
+                        // Could add new order at clicked location
+                    });
+
+                    map.on('contextmenu', function(e) {
+                        // Right-click context menu
+                        const contextMenu = `
+                            <div style="position: absolute; background: white; border: 1px solid #ccc; border-radius: 4px; padding: 8px; z-index: 2000; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+                                <div onclick="addOrderHere(${e.latlng.lat}, ${e.latlng.lng})" style="padding: 4px 8px; cursor: pointer;">Add Order Here</div>
+                                <div onclick="addDepotHere(${e.latlng.lat}, ${e.latlng.lng})" style="padding: 4px 8px; cursor: pointer;">Add Depot Here</div>
+                            </div>
+                        `;
+                        // Could implement context menu
+                    });
+                }
+            }, 1000);
+        });
+
+        function addOrderHere(lat, lng) {
+            const newOrder = {
+                id: `ORD${String(ordersData.length + 1).padStart(3, '0')}`,
+                priority: 'medium',
+                location: 'New Location',
+                address: `${lat.toFixed(4)}, ${lng.toFixed(4)}`,
+                weight: 5,
+                volume: 1,
+                duration: '5 min',
+                driver: 'Unassigned'
+            };
+
+            ordersData.push(newOrder);
+
+            // Add marker to map
+            L.marker([lat, lng], {
+                icon: L.divIcon({
+                    className: 'custom-customer-marker',
+                    html: `<div style="background: #d97706; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">${ordersData.length}</div>`,
+                    iconSize: [24, 24],
+                    iconAnchor: [12, 12]
+                })
+            }).addTo(map).bindPopup(`
+                <div>
+                    <strong>${newOrder.id}</strong><br>
+                    New Order<br>
+                    <button onclick="viewOrderDetails(${ordersData.length - 1})" class="btn btn-sm btn-primary mt-1">View Details</button>
+                </div>
+            `);
+
+            // Refresh orders table if currently viewing orders
+            if (currentTab === 'orders') {
+                populateOrdersTable();
+            }
+
+            showNotification('New order added successfully!', 'success');
+        }
+    </script>
+</body>
+</html>
