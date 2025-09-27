@@ -36,11 +36,12 @@
             color: white;
             padding: 0.5rem 1rem;
             display: flex;
-            justify-content: between;
+            justify-content: space-between;
             align-items: center;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
             z-index: 1000;
             position: relative;
+            height: 60px;
         }
 
         .nav-brand {
@@ -124,11 +125,6 @@
             flex: 1;
         }
 
-        .stat-number {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--primary-color);
-        }
 
         .stat-label {
             font-size: 0.75rem;
@@ -150,6 +146,9 @@
             cursor: pointer;
             font-size: 0.875rem;
             transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
         .btn-primary:hover {
@@ -165,6 +164,13 @@
             cursor: pointer;
             font-size: 0.875rem;
             transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-outline:hover {
+            background: #f3f4f6;
         }
 
         /* Drivers List */
@@ -227,11 +233,14 @@
         .map-container {
             flex: 1;
             position: relative;
+            display: flex;
+            flex-direction: column;
         }
 
         #map {
+            flex: 1;
             width: 100%;
-            height: 100%;
+            min-height: 0; /* Important for flex shrinking */
         }
 
         /* Map Controls */
@@ -266,13 +275,22 @@
 
         /* Bottom Panel */
         .bottom-panel {
-            position: absolute;
-            bottom: 0;
-            left: var(--sidebar-width);
-            right: 0;
             background: white;
             border-top: 1px solid #e5e7eb;
             box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+            transition: all 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            max-height: 300px;
+            min-height: 60px;
+        }
+
+        .bottom-panel.collapsed {
+            max-height: 60px;
+        }
+
+        .bottom-panel.collapsed .panel-content {
+            display: none;
         }
 
         .panel-header {
@@ -281,6 +299,9 @@
             display: flex;
             align-items: center;
             justify-content: space-between;
+            position: relative;
+            min-height: 60px;
+            background: #f8fafc;
         }
 
         .panel-tabs {
@@ -293,6 +314,9 @@
             cursor: pointer;
             border-bottom: 2px solid transparent;
             transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
         }
 
         .panel-tab.active {
@@ -301,10 +325,55 @@
             font-weight: 600;
         }
 
+        .panel-tab:hover:not(.active) {
+            color: var(--secondary-color);
+        }
+
+        .toggle-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            width: 32px;
+            height: 32px;
+            border-radius: 16px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            transition: all 0.2s ease;
+            z-index: 10;
+            box-shadow: 0 2px 8px rgba(30, 64, 175, 0.3);
+        }
+
+        .toggle-btn:hover {
+            background: #1e3a8a;
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+
+        .toggle-btn i {
+            transition: transform 0.3s ease;
+        }
+
+        .bottom-panel.collapsed .toggle-btn i {
+            transform: rotate(180deg);
+        }
+
+        .panel-actions {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
         .panel-content {
+            flex: 1;
             padding: 1rem;
-            max-height: 200px;
             overflow-y: auto;
+            min-height: 0;
         }
 
         /* Orders Table */
@@ -325,6 +394,13 @@
             background: #f8fafc;
             font-weight: 600;
             color: var(--secondary-color);
+            position: sticky;
+            top: 0;
+            z-index: 1;
+        }
+
+        .orders-table tbody tr:hover {
+            background: #f8fafc;
         }
 
         .order-priority {
@@ -362,6 +438,10 @@
                 width: 280px;
             }
 
+            :root {
+                --sidebar-width: 280px;
+            }
+
             .stats-row {
                 flex-direction: column;
                 gap: 0.5rem;
@@ -369,6 +449,28 @@
 
             .action-buttons {
                 flex-direction: column;
+            }
+
+            .panel-header {
+                flex-direction: column;
+                gap: 1rem;
+                align-items: stretch;
+            }
+
+            .panel-tabs {
+                justify-content: center;
+            }
+
+            .panel-actions {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+
+            .toggle-btn {
+                position: static;
+                transform: none;
+                margin: 10px auto 0;
+                align-self: center;
             }
         }
 
@@ -429,7 +531,7 @@
     <nav class="top-nav">
         <div class="nav-brand">
             <i class="fas fa-route"></i>
-            OptimoRoute™
+            KMKN
         </div>
 
         <div class="nav-right">
@@ -455,24 +557,6 @@
                     </h5>
                 </div>
 
-                <div class="stats-row">
-                    <div class="stat-item">
-                        <div class="stat-number">192</div>
-                        <div class="stat-label">Scheduled</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">8</div>
-                        <div class="stat-label">Unscheduled</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">200</div>
-                        <div class="stat-label">Total</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">24</div>
-                        <div class="stat-label">Routes</div>
-                    </div>
-                </div>
 
                 <div class="action-buttons">
                     <button class="btn-primary" onclick="optimizeRoutes()">
@@ -543,7 +627,7 @@
 
                 <div class="driver-item selected" onclick="toggleDriver(this, 'driver004')">
                     <input type="checkbox" class="driver-checkbox" checked>
-                    <div class="driver-color" style="background-color: #f59e0b;"></div>
+                    <div class="driver-color" style="background-color: #0bd2f5;"></div>
                     <div class="driver-info">
                         <div class="driver-name">Driver 004</div>
                         <div class="driver-stats">
@@ -613,63 +697,67 @@
                     <i class="fas fa-expand"></i>
                 </button>
             </div>
-        </div>
 
-        <!-- Bottom Panel -->
-        <div class="bottom-panel">
-            <div class="panel-header">
-                <div class="panel-tabs">
-                    <div class="panel-tab active" onclick="switchTab(this, 'orders')">
-                        <i class="fas fa-list"></i> Orders
+            <!-- Bottom Panel -->
+            <div class="bottom-panel">
+                <div class="panel-header">
+                    <div class="panel-tabs">
+                        <div class="panel-tab active" onclick="switchTab(this, 'orders')">
+                            <i class="fas fa-list"></i> Orders
+                        </div>
+                        <div class="panel-tab" onclick="switchTab(this, 'routes')">
+                            <i class="fas fa-route"></i> Routes
+                        </div>
+                        <div class="panel-tab" onclick="switchTab(this, 'timeline')">
+                            <i class="fas fa-clock"></i> Timeline
+                        </div>
+                        <div class="panel-tab" onclick="switchTab(this, 'not-scheduled')">
+                            <i class="fas fa-exclamation-triangle"></i> Not Scheduled
+                        </div>
                     </div>
-                    <div class="panel-tab" onclick="switchTab(this, 'routes')">
-                        <i class="fas fa-route"></i> Routes
-                    </div>
-                    <div class="panel-tab" onclick="switchTab(this, 'timeline')">
-                        <i class="fas fa-clock"></i> Timeline
-                    </div>
-                    <div class="panel-tab" onclick="switchTab(this, 'not-scheduled')">
-                        <i class="fas fa-exclamation-triangle"></i> Not Scheduled
+
+                    <button class="toggle-btn" onclick="toggleBottomPanel()" title="Toggle Panel">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+
+                    <div class="panel-actions">
+                        <input type="date" value="2025-09-27" class="form-control me-2" style="width: 150px;">
+                        <button class="btn-primary me-2" onclick="importOrders()">
+                            <i class="fas fa-upload"></i> Import Orders
+                        </button>
+                        <button class="btn-primary me-2" onclick="planRoutes()">
+                            <i class="fas fa-route"></i> Plan Routes
+                        </button>
+                        <button class="btn-outline" onclick="shareRoutes()">
+                            <i class="fas fa-share"></i> Share Routes
+                        </button>
                     </div>
                 </div>
 
-                <div class="panel-actions">
-                    <input type="date" value="2025-09-27" class="form-control me-2" style="width: 150px;">
-                    <button class="btn-primary me-2" onclick="importOrders()">
-                        <i class="fas fa-upload"></i> Import Orders
-                    </button>
-                    <button class="btn-primary me-2" onclick="planRoutes()">
-                        <i class="fas fa-route"></i> Plan Routes
-                    </button>
-                    <button class="btn-outline" onclick="shareRoutes()">
-                        <i class="fas fa-share"></i> Share Routes
-                    </button>
+                <div class="panel-content">
+                    <table class="orders-table">
+                        <thead>
+                            <tr>
+                                <th><input type="checkbox" onchange="selectAllOrders(this)"></th>
+                                <th>Order ID</th>
+                                <th>Priority</th>
+                                <th>Location</th>
+                                <th>Address</th>
+                                <th>Rescheduled order from</th>
+                                <th>Rescheduled to</th>
+                                <th>Weight [kg]</th>
+                                <th>Volume [m3]</th>
+                                <th>Duration</th>
+                                <th>Time windows</th>
+                                <th>Skills</th>
+                                <th>Vehicle features</th>
+                            </tr>
+                        </thead>
+                        <tbody id="orders-tbody">
+                            <!-- Orders will be populated by JavaScript -->
+                        </tbody>
+                    </table>
                 </div>
-            </div>
-
-            <div class="panel-content">
-                <table class="orders-table">
-                    <thead>
-                        <tr>
-                            <th><input type="checkbox" onchange="selectAllOrders(this)"></th>
-                            <th>Order ID</th>
-                            <th>Priority</th>
-                            <th>Location</th>
-                            <th>Address</th>
-                            <th>Rescheduled order from</th>
-                            <th>Rescheduled to</th>
-                            <th>Weight [kg]</th>
-                            <th>Volume [m3]</th>
-                            <th>Duration</th>
-                            <th>Time windows</th>
-                            <th>Skills</th>
-                            <th>Vehicle features</th>
-                        </tr>
-                    </thead>
-                    <tbody id="orders-tbody">
-                        <!-- Orders will be populated by JavaScript -->
-                    </tbody>
-                </table>
             </div>
         </div>
     </div>
@@ -726,117 +814,15 @@
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.mapbox.com/">MapBox Streets</a>'
             }).addTo(map);
-
-            // Add sample markers and routes
-            addSampleMarkers();
-            addSampleRoutes();
         }
 
-        function addSampleMarkers() {
-            // Driver locations (depots)
-            const depots = [
-                { lat: 10.8231, lng: 106.6297, name: 'Depot 1', color: '#ef4444' },
-                { lat: 10.7769, lng: 106.6955, name: 'Depot 2', color: '#f97316' },
-                { lat: 10.8023, lng: 106.6633, name: 'Depot 3', color: '#22c55e' },
-                { lat: 10.7984, lng: 106.6438, name: 'Depot 4', color: '#f59e0b' }
-            ];
-
-            depots.forEach(depot => {
-                L.marker([depot.lat, depot.lng], {
-                    icon: L.divIcon({
-                        className: 'custom-depot-marker',
-                        html: `<div style="background: ${depot.color}; width: 20px; height: 20px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`,
-                        iconSize: [20, 20],
-                        iconAnchor: [10, 10]
-                    })
-                }).addTo(map).bindPopup(depot.name);
-            });
-
-            // Customer locations
-            const customers = [
-                { lat: 10.8150, lng: 106.6320, name: 'Customer 1', priority: 'high' },
-                { lat: 10.7850, lng: 106.6450, name: 'Customer 2', priority: 'medium' },
-                { lat: 10.7950, lng: 106.6550, name: 'Customer 3', priority: 'medium' },
-                { lat: 10.8050, lng: 106.6650, name: 'Customer 4', priority: 'low' },
-                { lat: 10.8250, lng: 106.6400, name: 'Customer 5', priority: 'high' }
-            ];
-
-            customers.forEach((customer, index) => {
-                const color = customer.priority === 'high' ? '#dc2626' :
-                             customer.priority === 'medium' ? '#d97706' : '#059669';
-
-                L.marker([customer.lat, customer.lng], {
-                    icon: L.divIcon({
-                        className: 'custom-customer-marker',
-                        html: `<div style="background: ${color}; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">${index + 1}</div>`,
-                        iconSize: [24, 24],
-                        iconAnchor: [12, 12]
-                    })
-                }).addTo(map).bindPopup(`
-                    <div>
-                        <strong>${customer.name}</strong><br>
-                        Priority: ${customer.priority}<br>
-                        <button onclick="viewOrderDetails(${index})" class="btn btn-sm btn-primary mt-1">View Details</button>
-                    </div>
-                `);
-            });
+        // Toggle bottom panel
+        function toggleBottomPanel() {
+            const panel = document.querySelector('.bottom-panel');
+            panel.classList.toggle('collapsed');
         }
 
-        function addSampleRoutes() {
-            // Sample route coordinates for different drivers
-            const routeColors = ['#ef4444', '#f97316', '#22c55e', '#f59e0b'];
 
-            const sampleRoutes = [
-                {
-                    color: '#ef4444',
-                    coords: [
-                        [10.8231, 106.6297],
-                        [10.8150, 106.6320],
-                        [10.8050, 106.6450],
-                        [10.7950, 106.6550],
-                        [10.8231, 106.6297]
-                    ]
-                },
-                {
-                    color: '#f97316',
-                    coords: [
-                        [10.7769, 106.6955],
-                        [10.7850, 106.6450],
-                        [10.7750, 106.6350],
-                        [10.7650, 106.6650],
-                        [10.7769, 106.6955]
-                    ]
-                },
-                {
-                    color: '#22c55e',
-                    coords: [
-                        [10.8023, 106.6633],
-                        [10.8123, 106.6733],
-                        [10.8223, 106.6533],
-                        [10.8323, 106.6433],
-                        [10.8023, 106.6633]
-                    ]
-                },
-                {
-                    color: '#f59e0b',
-                    coords: [
-                        [10.7984, 106.6438],
-                        [10.8084, 106.6538],
-                        [10.7884, 106.6638],
-                        [10.7784, 106.6338],
-                        [10.7984, 106.6438]
-                    ]
-                }
-            ];
-
-            sampleRoutes.forEach((route, index) => {
-                L.polyline(route.coords, {
-                    color: route.color,
-                    weight: 3,
-                    opacity: 0.8
-                }).addTo(map).bindPopup(`Route ${index + 1}`);
-            });
-        }
 
         // Tab switching
         function switchTab(tabElement, tabName) {
@@ -1068,125 +1054,14 @@
             document.getElementById('loading').style.display = 'none';
         }
 
-        // Keyboard shortcuts
-        document.addEventListener('keydown', function(e) {
-            if (e.ctrlKey || e.metaKey) {
-                switch(e.key) {
-                    case 'o':
-                        e.preventDefault();
-                        optimizeRoutes();
-                        break;
-                    case 's':
-                        e.preventDefault();
-                        planRoutes();
-                        break;
-                    case 'i':
-                        e.preventDefault();
-                        importOrders();
-                        break;
-                }
-            }
-
-            // Escape key to close notifications
-            if (e.key === 'Escape') {
-                hideNotification();
-                hideLoading();
-            }
-        });
-
-        // Auto-save functionality
-        let autoSaveInterval;
-        function startAutoSave() {
-            autoSaveInterval = setInterval(() => {
-                // Simulate auto-save
-                console.log('Auto-saved at', new Date().toLocaleTimeString());
-            }, 30000); // Every 30 seconds
-        }
-
-        // Start auto-save when page loads
-        document.addEventListener('DOMContentLoaded', function() {
-            startAutoSave();
-        });
-
-        // Responsive handling
-        function handleResize() {
-            if (window.innerWidth < 768) {
-                document.querySelector('.sidebar').style.width = '280px';
-            } else {
-                document.querySelector('.sidebar').style.width = '350px';
-            }
-
-            // Invalidate map size on resize
+        // Map resize handler
+        window.addEventListener('resize', function() {
             if (map) {
                 setTimeout(() => {
                     map.invalidateSize();
                 }, 100);
             }
-        }
-
-        window.addEventListener('resize', handleResize);
-
-        // Map event handlers
-        document.addEventListener('DOMContentLoaded', function() {
-            // Handle map clicks
-            setTimeout(() => {
-                if (map) {
-                    map.on('click', function(e) {
-                        console.log('Map clicked at:', e.latlng);
-                        // Could add new order at clicked location
-                    });
-
-                    map.on('contextmenu', function(e) {
-                        // Right-click context menu
-                        const contextMenu = `
-                            <div style="position: absolute; background: white; border: 1px solid #ccc; border-radius: 4px; padding: 8px; z-index: 2000; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-                                <div onclick="addOrderHere(${e.latlng.lat}, ${e.latlng.lng})" style="padding: 4px 8px; cursor: pointer;">Add Order Here</div>
-                                <div onclick="addDepotHere(${e.latlng.lat}, ${e.latlng.lng})" style="padding: 4px 8px; cursor: pointer;">Add Depot Here</div>
-                            </div>
-                        `;
-                        // Could implement context menu
-                    });
-                }
-            }, 1000);
         });
-
-        function addOrderHere(lat, lng) {
-            const newOrder = {
-                id: `ORD${String(ordersData.length + 1).padStart(3, '0')}`,
-                priority: 'medium',
-                location: 'New Location',
-                address: `${lat.toFixed(4)}, ${lng.toFixed(4)}`,
-                weight: 5,
-                volume: 1,
-                duration: '5 min',
-                driver: 'Unassigned'
-            };
-
-            ordersData.push(newOrder);
-
-            // Add marker to map
-            L.marker([lat, lng], {
-                icon: L.divIcon({
-                    className: 'custom-customer-marker',
-                    html: `<div style="background: #d97706; color: white; width: 24px; height: 24px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 10px; font-weight: bold; box-shadow: 0 2px 4px rgba(0,0,0,0.3);">${ordersData.length}</div>`,
-                    iconSize: [24, 24],
-                    iconAnchor: [12, 12]
-                })
-            }).addTo(map).bindPopup(`
-                <div>
-                    <strong>${newOrder.id}</strong><br>
-                    New Order<br>
-                    <button onclick="viewOrderDetails(${ordersData.length - 1})" class="btn btn-sm btn-primary mt-1">View Details</button>
-                </div>
-            `);
-
-            // Refresh orders table if currently viewing orders
-            if (currentTab === 'orders') {
-                populateOrdersTable();
-            }
-
-            showNotification('New order added successfully!', 'success');
-        }
     </script>
 </body>
 </html>
