@@ -125,11 +125,6 @@
             flex: 1;
         }
 
-        .stat-number {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: var(--primary-color);
-        }
 
         .stat-label {
             font-size: 0.75rem;
@@ -536,7 +531,7 @@
     <nav class="top-nav">
         <div class="nav-brand">
             <i class="fas fa-route"></i>
-            OptimoRoute™
+            KMKN
         </div>
 
         <div class="nav-right">
@@ -574,24 +569,6 @@
                     </h5>
                 </div>
 
-                <div class="stats-row">
-                    <div class="stat-item">
-                        <div class="stat-number">192</div>
-                        <div class="stat-label">Scheduled</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">8</div>
-                        <div class="stat-label">Unscheduled</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">200</div>
-                        <div class="stat-label">Total</div>
-                    </div>
-                    <div class="stat-item">
-                        <div class="stat-number">24</div>
-                        <div class="stat-label">Routes</div>
-                    </div>
-                </div>
 
                 <div class="action-buttons">
                     <button class="btn-primary" onclick="optimizeRoutes()">
@@ -662,7 +639,7 @@
 
                 <div class="driver-item selected" onclick="toggleDriver(this, 'driver004')">
                     <input type="checkbox" class="driver-checkbox" checked>
-                    <div class="driver-color" style="background-color: #f59e0b;"></div>
+                    <div class="driver-color" style="background-color: #0bd2f5;"></div>
                     <div class="driver-info">
                         <div class="driver-name">Driver 004</div>
                         <div class="driver-stats">
@@ -851,62 +828,13 @@
             }).addTo(map);
         }
 
- function addSampleMarkers() {
-    // Driver locations (depots) — giữ nguyên
-    const depots = [
-        { lat: 10.8231, lng: 106.6297, name: 'Depot 1', color: '#ef4444' },
-        { lat: 10.7769, lng: 106.6955, name: 'Depot 2', color: '#f97316' },
-        { lat: 10.8023, lng: 106.6633, name: 'Depot 3', color: '#22c55e' },
-        { lat: 10.7984, lng: 106.6438, name: 'Depot 4', color: '#f59e0b' }
-    ];
-
-    depots.forEach(depot => {
-        L.marker([depot.lat, depot.lng], {
-            icon: L.divIcon({
-                className: 'custom-depot-marker',
-                html: `<div style="background: ${depot.color}; width: 20px; height: 20px; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.3);"></div>`,
-                iconSize: [20, 20],
-                iconAnchor: [10, 10]
-            })
-        }).addTo(map).bindPopup(depot.name);
-    });
-
-    // Customer locations — SỬA: loại bỏ số bên trong marker
-    const customers = [
-        { lat: 10.8150, lng: 106.6320, name: 'Customer 1', priority: 'high' },
-        { lat: 10.7850, lng: 106.6450, name: 'Customer 2', priority: 'medium' },
-        { lat: 10.7950, lng: 106.6550, name: 'Customer 3', priority: 'medium' },
-        { lat: 10.8050, lng: 106.6650, name: 'Customer 4', priority: 'low' },
-        { lat: 10.8250, lng: 106.6400, name: 'Customer 5', priority: 'high' }
-    ];
-
-    customers.forEach((customer) => {
-        const color = customer.priority === 'high' ? '#dc2626' :
-                     customer.priority === 'medium' ? '#d97706' : '#059669';
-
-        // marker chỉ là chấm tròn (không số)
-        L.marker([customer.lat, customer.lng], {
-            icon: L.divIcon({
-                className: 'custom-customer-marker',
-                html: `<div style="background: ${color}; width: 14px; height: 14px; border-radius: 50%; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"></div>`,
-                iconSize: [14, 14],
-                iconAnchor: [7, 7]
-            })
-        }).addTo(map).bindPopup(`
-            <div>
-                <strong>${customer.name}</strong><br>
-                Priority: ${customer.priority}<br>
-                <button onclick="/* bạn có thể gọi viewOrderDetails tương ứng */" class="btn btn-sm btn-primary mt-1">View Details</button>
-            </div>
-        `);
-    });
-}
-
         // Toggle bottom panel
         function toggleBottomPanel() {
             const panel = document.querySelector('.bottom-panel');
             panel.classList.toggle('collapsed');
         }
+
+
 
         // Tab switching
         function switchTab(tabElement, tabName) {
