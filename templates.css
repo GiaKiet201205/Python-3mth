@@ -131,7 +131,7 @@ body {
 .btn-primary {
     background: var(--primary-color);
     border: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.75rem;
     border-radius: 6px;
     color: white;
     cursor: pointer;
