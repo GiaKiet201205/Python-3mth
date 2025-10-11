@@ -313,15 +313,48 @@
             }).addTo(map);
 
             // Đọc file JSON
+            // 1️⃣ Tạo icon riêng cho depot (màu xanh dương)
+            const depotIcon = L.icon({
+              iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-blue.png',
+              shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+              iconSize: [25, 41],
+              iconAnchor: [12, 41],
+              popupAnchor: [1, -34],
+              shadowSize: [41, 41]
+            });
+
+            // 2️⃣ Tạo icon riêng cho customer (màu đỏ)
+            const customerIcon = L.icon({
+              iconUrl: 'https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-red.png',
+              shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-shadow.png',
+              iconSize: [25, 41],
+              iconAnchor: [12, 41],
+              popupAnchor: [1, -34],
+              shadowSize: [41, 41]
+            });
+
+            // 3️⃣ Load depot markers (màu xanh)
             fetch("../data/depots.json")
               .then(response => response.json())
               .then(data => {
                 data.forEach(depot => {
-                  const marker = L.marker([depot.latitude, depot.longitude]).addTo(map);
+                  const marker = L.marker([depot.latitude, depot.longitude], { icon: depotIcon }).addTo(map);
                   marker.bindPopup(`<b>${depot.name}</b><br>Lat: ${depot.latitude}<br>Lon: ${depot.longitude}`);
                 });
               })
-              .catch(error => console.error("Lỗi tải JSON:", error));
+              .catch(error => console.error("Lỗi tải JSON depot:", error));
+
+            // 4️⃣ Load customer markers (màu đỏ)
+            fetch("../data/customers_qk7.json")
+              .then(response => response.json())
+              .then(data => {
+                data.forEach(order => {
+                  const marker = L.marker([order.lat, order.lng], { icon: customerIcon }).addTo(map);
+                  marker.bindPopup(`<b>${order.name}</b><br>Lat: ${order.lat}<br>Lon: ${order.lng}`);
+                });
+              })
+              .catch(error => console.error("Lỗi tải JSON customer:", error));
+
         }
 
         // Toggle bottom panel
@@ -457,16 +490,32 @@
 
         // Action functions
         function optimizeRoutes() {
-            showLoading();
+          showLoading();
+          try {
+            const response = await fetch("/api/calculate/", {
+              method: "POST",
+              headers: { "Content-Type": "application/json" },
+              body: JSON.stringify({
+                num_vehicles_per_depot: 2
+              })
+            });
 
-            setTimeout(() => {
-                hideLoading();
-                showNotification('Routes optimized successfully!', 'success');
+            const result = await response.json();
+            hideLoading();
 
-                // Update stats
-                document.querySelectorAll('.stat-number')[0].textContent = '196';
-                document.querySelectorAll('.stat-number')[1].textContent = '4';
-            }, 3000);
+            if (result.status === "success") {
+              showNotification("Routes optimized successfully!", "success");
+              console.log("Kết quả:", result);
+              // Có thể render routes lên map ở đây
+            } else {
+              showNotification(result.message || "No solution found!", "error");
+            }
+
+          } catch (error) {
+            hideLoading();
+            console.error("Error:", error);
+            showNotification("Error while optimizing routes!", "error");
+          }
         }
 
         function switchView() {
