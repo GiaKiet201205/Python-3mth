@@ -1,0 +1,4 @@
+
+ortools
+python-dotenv
+django-cors-headers

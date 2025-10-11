@@ -311,6 +311,17 @@
             L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
                 attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors | <a href="https://www.mapbox.com/">MapBox Streets</a>'
             }).addTo(map);
+
+            // Đọc file JSON
+            fetch("../data/depots.json")
+              .then(response => response.json())
+              .then(data => {
+                data.forEach(depot => {
+                  const marker = L.marker([depot.latitude, depot.longitude]).addTo(map);
+                  marker.bindPopup(`<b>${depot.name}</b><br>Lat: ${depot.latitude}<br>Lon: ${depot.longitude}`);
+                });
+              })
+              .catch(error => console.error("Lỗi tải JSON:", error));
         }
 
         // Toggle bottom panel
