@@ -125,30 +125,29 @@ def solve_mdvrp(depots, customers, num_vehicles_per_depot, vehicle_capacities=No
                 })
                 total_distance += route_distance
 
-        print(f"Tổng khoảng cách: {total_distance / 100:.2f}")
-        # // trả về API
-        # return {
-        #     'status': 'success',
-        #     'total_distance': total_distance / 100,
-        #     'routes': routes
-        # }
+        # print(f"Tổng khoảng cách: {total_distance / 100:.2f}")
+        return {
+            'status': 'success',
+            'total_distance': total_distance / 100,
+            'routes': routes
+        }
     else:
-        print("Không tìm thấy giải pháp!")
-        # return {
-        #     'status': 'failed',
-        #     'message': 'No solution found!'
-        # }
+        # print("Không tìm thấy giải pháp!")
+        return {
+            'status': 'failed',
+            'message': 'No solution found!'
+        }
 
     return routes
 
 
 # # Test
-if __name__ == "__main__":
-    depots = [(0, 0), (100, 100)]
-    customers = [(20, 30), (40, 50), (60, 20), (80, 80), (30, 70)]
-
-    routes = solve_mdvrp(depots, customers, num_vehicles_per_depot=1)
-
-    for route_info in routes:
-        print(f"Xe {route_info['vehicle_id']} (Depot {route_info['depot']}): "
-              f"{route_info['route']} - Khoảng cách: {route_info['distance']:.2f}")
+# if __name__ == "__main__":
+#     depots = [(0, 0), (100, 100)]
+#     customers = [(20, 30), (40, 50), (60, 20), (80, 80), (30, 70)]
+#
+#     routes = solve_mdvrp(depots, customers, num_vehicles_per_depot=1)
+#
+#     for route_info in routes:
+#         print(f"Xe {route_info['vehicle_id']} (Depot {route_info['depot']}): "
+#               f"{route_info['route']} - Khoảng cách: {route_info['distance']:.2f}")
