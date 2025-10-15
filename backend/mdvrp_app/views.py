@@ -14,8 +14,8 @@ def calculate_routes(request):
 
             # Giả sử lấy sẵn dữ liệu từ file JSON
             base_dir = os.path.dirname(__file__)
-            depots_path = os.path.join(base_dir, "../data/depots.json")
-            customers_path = os.path.join(base_dir, "../data/customers_qk7.json")
+            depots_path = os.path.join(base_dir, "../../data/depots.json")
+            customers_path = os.path.join(base_dir, "../../data/customers_qk7.json")
 
             with open(depots_path, "r", encoding="utf-8") as f:
                 depots = [(d["latitude"], d["longitude"]) for d in json.load(f)]
