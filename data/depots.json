@@ -1,1202 +1,1752 @@
 [
-    {
-        "id": 1,
-        "name": "Depot_1",
-        "latitude": 10.782263,
-        "longitude": 106.731577
-    },
-    {
-        "id": 2,
-        "name": "Depot_2",
-        "latitude": 10.803545,
-        "longitude": 106.614513
-    },
-    {
-        "id": 3,
-        "name": "Depot_3",
-        "latitude": 10.635054,
-        "longitude": 106.686804
-    },
-    {
-        "id": 4,
-        "name": "Depot_4",
-        "latitude": 10.843767,
-        "longitude": 106.617278
-    },
-    {
-        "id": 5,
-        "name": "Depot_5",
-        "latitude": 10.78943,
-        "longitude": 106.810795
-    },
-    {
-        "id": 6,
-        "name": "Depot_6",
-        "latitude": 10.787013,
-        "longitude": 106.831688
-    },
-    {
-        "id": 7,
-        "name": "Depot_7",
-        "latitude": 10.812521,
-        "longitude": 106.769032
-    },
-    {
-        "id": 8,
-        "name": "Depot_8",
-        "latitude": 10.74398,
-        "longitude": 106.819424
-    },
-    {
-        "id": 9,
-        "name": "Depot_9",
-        "latitude": 10.623887,
-        "longitude": 106.640426
-    },
-    {
-        "id": 10,
-        "name": "Depot_10",
-        "latitude": 10.819226,
-        "longitude": 106.68731
-    },
-    {
-        "id": 11,
-        "name": "Depot_11",
-        "latitude": 10.880856,
-        "longitude": 106.605286
-    },
-    {
-        "id": 12,
-        "name": "Depot_12",
-        "latitude": 10.79477,
-        "longitude": 106.784495
-    },
-    {
-        "id": 13,
-        "name": "Depot_13",
-        "latitude": 10.827977,
-        "longitude": 106.872828
-    },
-    {
-        "id": 14,
-        "name": "Depot_14",
-        "latitude": 10.836575,
-        "longitude": 106.681579
-    },
-    {
-        "id": 15,
-        "name": "Depot_15",
-        "latitude": 10.705559,
-        "longitude": 106.73933
-    },
-    {
-        "id": 16,
-        "name": "Depot_16",
-        "latitude": 10.715533,
-        "longitude": 106.66981
-    },
-    {
-        "id": 17,
-        "name": "Depot_17",
-        "latitude": 10.748902,
-        "longitude": 106.787567
-    },
-    {
-        "id": 18,
-        "name": "Depot_18",
-        "latitude": 10.808513,
-        "longitude": 106.673452
-    },
-    {
-        "id": 19,
-        "name": "Depot_19",
-        "latitude": 10.786274,
-        "longitude": 106.691579
-    },
-    {
-        "id": 20,
-        "name": "Depot_20",
-        "latitude": 10.790724,
-        "longitude": 106.767196
-    },
-    {
-        "id": 21,
-        "name": "Depot_21",
-        "latitude": 10.710026,
-        "longitude": 106.774529
-    },
-    {
-        "id": 22,
-        "name": "Depot_22",
-        "latitude": 10.895927,
-        "longitude": 106.620196
-    },
-    {
-        "id": 23,
-        "name": "Depot_23",
-        "latitude": 10.831359,
-        "longitude": 106.650177
-    },
-    {
-        "id": 24,
-        "name": "Depot_24",
-        "latitude": 10.751203,
-        "longitude": 106.773408
-    },
-    {
-        "id": 25,
-        "name": "Depot_25",
-        "latitude": 10.646575,
-        "longitude": 106.603647
-    },
-    {
-        "id": 26,
-        "name": "Depot_26",
-        "latitude": 10.675305,
-        "longitude": 106.89522
-    },
-    {
-        "id": 27,
-        "name": "Depot_27",
-        "latitude": 10.65234,
-        "longitude": 106.708479
-    },
-    {
-        "id": 28,
-        "name": "Depot_28",
-        "latitude": 10.670947,
-        "longitude": 106.826142
-    },
-    {
-        "id": 29,
-        "name": "Depot_29",
-        "latitude": 10.830648,
-        "longitude": 106.746646
-    },
-    {
-        "id": 30,
-        "name": "Depot_30",
-        "latitude": 10.718998,
-        "longitude": 106.749952
-    },
-    {
-        "id": 31,
-        "name": "Depot_31",
-        "latitude": 10.805504,
-        "longitude": 106.67319
-    },
-    {
-        "id": 32,
-        "name": "Depot_32",
-        "latitude": 10.720049,
-        "longitude": 106.846863
-    },
-    {
-        "id": 33,
-        "name": "Depot_33",
-        "latitude": 10.837209,
-        "longitude": 106.794565
-    },
-    {
-        "id": 34,
-        "name": "Depot_34",
-        "latitude": 10.761297,
-        "longitude": 106.808665
-    },
-    {
-        "id": 35,
-        "name": "Depot_35",
-        "latitude": 10.776807,
-        "longitude": 106.815001
-    },
-    {
-        "id": 36,
-        "name": "Depot_36",
-        "latitude": 10.870296,
-        "longitude": 106.826512
-    },
-    {
-        "id": 37,
-        "name": "Depot_37",
-        "latitude": 10.826831,
-        "longitude": 106.89907
-    },
-    {
-        "id": 38,
-        "name": "Depot_38",
-        "latitude": 10.831845,
-        "longitude": 106.694426
-    },
-    {
-        "id": 39,
-        "name": "Depot_39",
-        "latitude": 10.714696,
-        "longitude": 106.865141
-    },
-    {
-        "id": 40,
-        "name": "Depot_40",
-        "latitude": 10.639772,
-        "longitude": 106.649484
-    },
-    {
-        "id": 41,
-        "name": "Depot_41",
-        "latitude": 10.867425,
-        "longitude": 106.753124
-    },
-    {
-        "id": 42,
-        "name": "Depot_42",
-        "latitude": 10.85848,
-        "longitude": 106.850807
-    },
-    {
-        "id": 43,
-        "name": "Depot_43",
-        "latitude": 10.768779,
-        "longitude": 106.625075
-    },
-    {
-        "id": 44,
-        "name": "Depot_44",
-        "latitude": 10.899037,
-        "longitude": 106.745519
-    },
-    {
-        "id": 45,
-        "name": "Depot_45",
-        "latitude": 10.785349,
-        "longitude": 106.60983
-    },
-    {
-        "id": 46,
-        "name": "Depot_46",
-        "latitude": 10.770023,
-        "longitude": 106.668835
-    },
-    {
-        "id": 47,
-        "name": "Depot_47",
-        "latitude": 10.80449,
-        "longitude": 106.714727
-    },
-    {
-        "id": 48,
-        "name": "Depot_48",
-        "latitude": 10.710273,
-        "longitude": 106.700114
-    },
-    {
-        "id": 49,
-        "name": "Depot_49",
-        "latitude": 10.70052,
-        "longitude": 106.798231
-    },
-    {
-        "id": 50,
-        "name": "Depot_50",
-        "latitude": 10.619211,
-        "longitude": 106.89206
-    },
-    {
-        "id": 51,
-        "name": "Depot_51",
-        "latitude": 10.736649,
-        "longitude": 106.636825
-    },
-    {
-        "id": 52,
-        "name": "Depot_52",
-        "latitude": 10.687265,
-        "longitude": 106.8464
-    },
-    {
-        "id": 53,
-        "name": "Depot_53",
-        "latitude": 10.687307,
-        "longitude": 106.634446
-    },
-    {
-        "id": 54,
-        "name": "Depot_54",
-        "latitude": 10.813372,
-        "longitude": 106.686041
-    },
-    {
-        "id": 55,
-        "name": "Depot_55",
-        "latitude": 10.829745,
-        "longitude": 106.605553
-    },
-    {
-        "id": 56,
-        "name": "Depot_56",
-        "latitude": 10.655458,
-        "longitude": 106.783027
-    },
-    {
-        "id": 57,
-        "name": "Depot_57",
-        "latitude": 10.82469,
-        "longitude": 106.778354
-    },
-    {
-        "id": 58,
-        "name": "Depot_58",
-        "latitude": 10.671527,
-        "longitude": 106.753254
-    },
-    {
-        "id": 59,
-        "name": "Depot_59",
-        "latitude": 10.707897,
-        "longitude": 106.621339
-    },
-    {
-        "id": 60,
-        "name": "Depot_60",
-        "latitude": 10.756912,
-        "longitude": 106.755935
-    },
-    {
-        "id": 61,
-        "name": "Depot_61",
-        "latitude": 10.602121,
-        "longitude": 106.788889
-    },
-    {
-        "id": 62,
-        "name": "Depot_62",
-        "latitude": 10.655161,
-        "longitude": 106.859695
-    },
-    {
-        "id": 63,
-        "name": "Depot_63",
-        "latitude": 10.878109,
-        "longitude": 106.669839
-    },
-    {
-        "id": 64,
-        "name": "Depot_64",
-        "latitude": 10.658538,
-        "longitude": 106.653341
-    },
-    {
-        "id": 65,
-        "name": "Depot_65",
-        "latitude": 10.896318,
-        "longitude": 106.716454
-    },
-    {
-        "id": 66,
-        "name": "Depot_66",
-        "latitude": 10.615437,
-        "longitude": 106.828136
-    },
-    {
-        "id": 67,
-        "name": "Depot_67",
-        "latitude": 10.637341,
-        "longitude": 106.692623
-    },
-    {
-        "id": 68,
-        "name": "Depot_68",
-        "latitude": 10.709487,
-        "longitude": 106.869052
-    },
-    {
-        "id": 69,
-        "name": "Depot_69",
-        "latitude": 10.829462,
-        "longitude": 106.616098
-    },
-    {
-        "id": 70,
-        "name": "Depot_70",
-        "latitude": 10.674059,
-        "longitude": 106.647761
-    },
-    {
-        "id": 71,
-        "name": "Depot_71",
-        "latitude": 10.761178,
-        "longitude": 106.728457
-    },
-    {
-        "id": 72,
-        "name": "Depot_72",
-        "latitude": 10.613561,
-        "longitude": 106.603583
-    },
-    {
-        "id": 73,
-        "name": "Depot_73",
-        "latitude": 10.669527,
-        "longitude": 106.780838
-    },
-    {
-        "id": 74,
-        "name": "Depot_74",
-        "latitude": 10.816168,
-        "longitude": 106.688742
-    },
-    {
-        "id": 75,
-        "name": "Depot_75",
-        "latitude": 10.87764,
-        "longitude": 106.78595
-    },
-    {
-        "id": 76,
-        "name": "Depot_76",
-        "latitude": 10.710343,
-        "longitude": 106.642015
-    },
-    {
-        "id": 77,
-        "name": "Depot_77",
-        "latitude": 10.62468,
-        "longitude": 106.814382
-    },
-    {
-        "id": 78,
-        "name": "Depot_78",
-        "latitude": 10.620434,
-        "longitude": 106.639972
-    },
-    {
-        "id": 79,
-        "name": "Depot_79",
-        "latitude": 10.872389,
-        "longitude": 106.618473
-    },
-    {
-        "id": 80,
-        "name": "Depot_80",
-        "latitude": 10.745987,
-        "longitude": 106.712045
-    },
-    {
-        "id": 81,
-        "name": "Depot_81",
-        "latitude": 10.780389,
-        "longitude": 106.710804
-    },
-    {
-        "id": 82,
-        "name": "Depot_82",
-        "latitude": 10.76953,
-        "longitude": 106.850793
-    },
-    {
-        "id": 83,
-        "name": "Depot_83",
-        "latitude": 10.769436,
-        "longitude": 106.641212
-    },
-    {
-        "id": 84,
-        "name": "Depot_84",
-        "latitude": 10.674679,
-        "longitude": 106.771091
-    },
-    {
-        "id": 85,
-        "name": "Depot_85",
-        "latitude": 10.856446,
-        "longitude": 106.868215
-    },
-    {
-        "id": 86,
-        "name": "Depot_86",
-        "latitude": 10.790196,
-        "longitude": 106.636068
-    },
-    {
-        "id": 87,
-        "name": "Depot_87",
-        "latitude": 10.602975,
-        "longitude": 106.805822
-    },
-    {
-        "id": 88,
-        "name": "Depot_88",
-        "latitude": 10.64687,
-        "longitude": 106.773422
-    },
-    {
-        "id": 89,
-        "name": "Depot_89",
-        "latitude": 10.65144,
-        "longitude": 106.713014
-    },
-    {
-        "id": 90,
-        "name": "Depot_90",
-        "latitude": 10.75869,
-        "longitude": 106.673364
-    },
-    {
-        "id": 91,
-        "name": "Depot_91",
-        "latitude": 10.838916,
-        "longitude": 106.741169
-    },
-    {
-        "id": 92,
-        "name": "Depot_92",
-        "latitude": 10.60305,
-        "longitude": 106.706536
-    },
-    {
-        "id": 93,
-        "name": "Depot_93",
-        "latitude": 10.89182,
-        "longitude": 106.675454
-    },
-    {
-        "id": 94,
-        "name": "Depot_94",
-        "latitude": 10.603001,
-        "longitude": 106.760719
-    },
-    {
-        "id": 95,
-        "name": "Depot_95",
-        "latitude": 10.717738,
-        "longitude": 106.682265
-    },
-    {
-        "id": 96,
-        "name": "Depot_96",
-        "latitude": 10.66816,
-        "longitude": 106.669312
-    },
-    {
-        "id": 97,
-        "name": "Depot_97",
-        "latitude": 10.637288,
-        "longitude": 106.829548
-    },
-    {
-        "id": 98,
-        "name": "Depot_98",
-        "latitude": 10.882702,
-        "longitude": 106.652922
-    },
-    {
-        "id": 99,
-        "name": "Depot_99",
-        "latitude": 10.600077,
-        "longitude": 106.630142
-    },
-    {
-        "id": 100,
-        "name": "Depot_100",
-        "latitude": 10.665275,
-        "longitude": 106.640711
-    },
-    {
-        "id": 101,
-        "name": "Depot_101",
-        "latitude": 10.848843,
-        "longitude": 106.73984
-    },
-    {
-        "id": 102,
-        "name": "Depot_102",
-        "latitude": 10.633113,
-        "longitude": 106.724914
-    },
-    {
-        "id": 103,
-        "name": "Depot_103",
-        "latitude": 10.636137,
-        "longitude": 106.751812
-    },
-    {
-        "id": 104,
-        "name": "Depot_104",
-        "latitude": 10.688042,
-        "longitude": 106.607392
-    },
-    {
-        "id": 105,
-        "name": "Depot_105",
-        "latitude": 10.748786,
-        "longitude": 106.752573
-    },
-    {
-        "id": 106,
-        "name": "Depot_106",
-        "latitude": 10.723831,
-        "longitude": 106.77098
-    },
-    {
-        "id": 107,
-        "name": "Depot_107",
-        "latitude": 10.68231,
-        "longitude": 106.777415
-    },
-    {
-        "id": 108,
-        "name": "Depot_108",
-        "latitude": 10.717417,
-        "longitude": 106.862713
-    },
-    {
-        "id": 109,
-        "name": "Depot_109",
-        "latitude": 10.739569,
-        "longitude": 106.869315
-    },
-    {
-        "id": 110,
-        "name": "Depot_110",
-        "latitude": 10.81473,
-        "longitude": 106.658369
-    },
-    {
-        "id": 111,
-        "name": "Depot_111",
-        "latitude": 10.622312,
-        "longitude": 106.681525
-    },
-    {
-        "id": 112,
-        "name": "Depot_112",
-        "latitude": 10.743855,
-        "longitude": 106.880149
-    },
-    {
-        "id": 113,
-        "name": "Depot_113",
-        "latitude": 10.744064,
-        "longitude": 106.689536
-    },
-    {
-        "id": 114,
-        "name": "Depot_114",
-        "latitude": 10.726217,
-        "longitude": 106.620725
-    },
-    {
-        "id": 115,
-        "name": "Depot_115",
-        "latitude": 10.670747,
-        "longitude": 106.736931
-    },
-    {
-        "id": 116,
-        "name": "Depot_116",
-        "latitude": 10.762138,
-        "longitude": 106.850225
-    },
-    {
-        "id": 117,
-        "name": "Depot_117",
-        "latitude": 10.694686,
-        "longitude": 106.814155
-    },
-    {
-        "id": 118,
-        "name": "Depot_118",
-        "latitude": 10.621798,
-        "longitude": 106.809932
-    },
-    {
-        "id": 119,
-        "name": "Depot_119",
-        "latitude": 10.696121,
-        "longitude": 106.827222
-    },
-    {
-        "id": 120,
-        "name": "Depot_120",
-        "latitude": 10.652059,
-        "longitude": 106.768152
-    },
-    {
-        "id": 121,
-        "name": "Depot_121",
-        "latitude": 10.729306,
-        "longitude": 106.713206
-    },
-    {
-        "id": 122,
-        "name": "Depot_122",
-        "latitude": 10.810946,
-        "longitude": 106.769438
-    },
-    {
-        "id": 123,
-        "name": "Depot_123",
-        "latitude": 10.684955,
-        "longitude": 106.688935
-    },
-    {
-        "id": 124,
-        "name": "Depot_124",
-        "latitude": 10.819945,
-        "longitude": 106.88262
-    },
-    {
-        "id": 125,
-        "name": "Depot_125",
-        "latitude": 10.791325,
-        "longitude": 106.608845
-    },
-    {
-        "id": 126,
-        "name": "Depot_126",
-        "latitude": 10.814744,
-        "longitude": 106.610071
-    },
-    {
-        "id": 127,
-        "name": "Depot_127",
-        "latitude": 10.693756,
-        "longitude": 106.871852
-    },
-    {
-        "id": 128,
-        "name": "Depot_128",
-        "latitude": 10.602096,
-        "longitude": 106.668653
-    },
-    {
-        "id": 129,
-        "name": "Depot_129",
-        "latitude": 10.619951,
-        "longitude": 106.782031
-    },
-    {
-        "id": 130,
-        "name": "Depot_130",
-        "latitude": 10.805626,
-        "longitude": 106.84752
-    },
-    {
-        "id": 131,
-        "name": "Depot_131",
-        "latitude": 10.81773,
-        "longitude": 106.828832
-    },
-    {
-        "id": 132,
-        "name": "Depot_132",
-        "latitude": 10.646192,
-        "longitude": 106.719725
-    },
-    {
-        "id": 133,
-        "name": "Depot_133",
-        "latitude": 10.606516,
-        "longitude": 106.602568
-    },
-    {
-        "id": 134,
-        "name": "Depot_134",
-        "latitude": 10.769487,
-        "longitude": 106.631317
-    },
-    {
-        "id": 135,
-        "name": "Depot_135",
-        "latitude": 10.834366,
-        "longitude": 106.735575
-    },
-    {
-        "id": 136,
-        "name": "Depot_136",
-        "latitude": 10.761402,
-        "longitude": 106.877791
-    },
-    {
-        "id": 137,
-        "name": "Depot_137",
-        "latitude": 10.86983,
-        "longitude": 106.641607
-    },
-    {
-        "id": 138,
-        "name": "Depot_138",
-        "latitude": 10.651252,
-        "longitude": 106.786479
-    },
-    {
-        "id": 139,
-        "name": "Depot_139",
-        "latitude": 10.775807,
-        "longitude": 106.773133
-    },
-    {
-        "id": 140,
-        "name": "Depot_140",
-        "latitude": 10.746789,
-        "longitude": 106.643102
-    },
-    {
-        "id": 141,
-        "name": "Depot_141",
-        "latitude": 10.771781,
-        "longitude": 106.863899
-    },
-    {
-        "id": 142,
-        "name": "Depot_142",
-        "latitude": 10.865034,
-        "longitude": 106.777729
-    },
-    {
-        "id": 143,
-        "name": "Depot_143",
-        "latitude": 10.789296,
-        "longitude": 106.729916
-    },
-    {
-        "id": 144,
-        "name": "Depot_144",
-        "latitude": 10.861986,
-        "longitude": 106.854721
-    },
-    {
-        "id": 145,
-        "name": "Depot_145",
-        "latitude": 10.871322,
-        "longitude": 106.670617
-    },
-    {
-        "id": 146,
-        "name": "Depot_146",
-        "latitude": 10.858682,
-        "longitude": 106.776531
-    },
-    {
-        "id": 147,
-        "name": "Depot_147",
-        "latitude": 10.707706,
-        "longitude": 106.87616
-    },
-    {
-        "id": 148,
-        "name": "Depot_148",
-        "latitude": 10.741127,
-        "longitude": 106.758585
-    },
-    {
-        "id": 149,
-        "name": "Depot_149",
-        "latitude": 10.890853,
-        "longitude": 106.755109
-    },
-    {
-        "id": 150,
-        "name": "Depot_150",
-        "latitude": 10.844949,
-        "longitude": 106.873037
-    },
-    {
-        "id": 151,
-        "name": "Depot_151",
-        "latitude": 10.723074,
-        "longitude": 106.803823
-    },
-    {
-        "id": 152,
-        "name": "Depot_152",
-        "latitude": 10.861267,
-        "longitude": 106.703425
-    },
-    {
-        "id": 153,
-        "name": "Depot_153",
-        "latitude": 10.671132,
-        "longitude": 106.874186
-    },
-    {
-        "id": 154,
-        "name": "Depot_154",
-        "latitude": 10.633352,
-        "longitude": 106.624768
-    },
-    {
-        "id": 155,
-        "name": "Depot_155",
-        "latitude": 10.890162,
-        "longitude": 106.817391
-    },
-    {
-        "id": 156,
-        "name": "Depot_156",
-        "latitude": 10.883968,
-        "longitude": 106.668425
-    },
-    {
-        "id": 157,
-        "name": "Depot_157",
-        "latitude": 10.824638,
-        "longitude": 106.870716
-    },
-    {
-        "id": 158,
-        "name": "Depot_158",
-        "latitude": 10.859047,
-        "longitude": 106.766035
-    },
-    {
-        "id": 159,
-        "name": "Depot_159",
-        "latitude": 10.773092,
-        "longitude": 106.822951
-    },
-    {
-        "id": 160,
-        "name": "Depot_160",
-        "latitude": 10.675409,
-        "longitude": 106.742806
-    },
-    {
-        "id": 161,
-        "name": "Depot_161",
-        "latitude": 10.851814,
-        "longitude": 106.700387
-    },
-    {
-        "id": 162,
-        "name": "Depot_162",
-        "latitude": 10.803475,
-        "longitude": 106.758405
-    },
-    {
-        "id": 163,
-        "name": "Depot_163",
-        "latitude": 10.777403,
-        "longitude": 106.763179
-    },
-    {
-        "id": 164,
-        "name": "Depot_164",
-        "latitude": 10.618909,
-        "longitude": 106.646056
-    },
-    {
-        "id": 165,
-        "name": "Depot_165",
-        "latitude": 10.81911,
-        "longitude": 106.66312
-    },
-    {
-        "id": 166,
-        "name": "Depot_166",
-        "latitude": 10.667907,
-        "longitude": 106.657263
-    },
-    {
-        "id": 167,
-        "name": "Depot_167",
-        "latitude": 10.737494,
-        "longitude": 106.76832
-    },
-    {
-        "id": 168,
-        "name": "Depot_168",
-        "latitude": 10.765581,
-        "longitude": 106.796931
-    },
-    {
-        "id": 169,
-        "name": "Depot_169",
-        "latitude": 10.641067,
-        "longitude": 106.646796
-    },
-    {
-        "id": 170,
-        "name": "Depot_170",
-        "latitude": 10.646782,
-        "longitude": 106.739764
-    },
-    {
-        "id": 171,
-        "name": "Depot_171",
-        "latitude": 10.675742,
-        "longitude": 106.867014
-    },
-    {
-        "id": 172,
-        "name": "Depot_172",
-        "latitude": 10.885164,
-        "longitude": 106.613002
-    },
-    {
-        "id": 173,
-        "name": "Depot_173",
-        "latitude": 10.72517,
-        "longitude": 106.874465
-    },
-    {
-        "id": 174,
-        "name": "Depot_174",
-        "latitude": 10.692362,
-        "longitude": 106.85463
-    },
-    {
-        "id": 175,
-        "name": "Depot_175",
-        "latitude": 10.817402,
-        "longitude": 106.706873
-    },
-    {
-        "id": 176,
-        "name": "Depot_176",
-        "latitude": 10.779745,
-        "longitude": 106.862213
-    },
-    {
-        "id": 177,
-        "name": "Depot_177",
-        "latitude": 10.708048,
-        "longitude": 106.862083
-    },
-    {
-        "id": 178,
-        "name": "Depot_178",
-        "latitude": 10.831397,
-        "longitude": 106.844785
-    },
-    {
-        "id": 179,
-        "name": "Depot_179",
-        "latitude": 10.674798,
-        "longitude": 106.877
-    },
-    {
-        "id": 180,
-        "name": "Depot_180",
-        "latitude": 10.643608,
-        "longitude": 106.808425
-    },
-    {
-        "id": 181,
-        "name": "Depot_181",
-        "latitude": 10.607936,
-        "longitude": 106.698766
-    },
-    {
-        "id": 182,
-        "name": "Depot_182",
-        "latitude": 10.883682,
-        "longitude": 106.606435
-    },
-    {
-        "id": 183,
-        "name": "Depot_183",
-        "latitude": 10.608125,
-        "longitude": 106.715655
-    },
-    {
-        "id": 184,
-        "name": "Depot_184",
-        "latitude": 10.605151,
-        "longitude": 106.842107
-    },
-    {
-        "id": 185,
-        "name": "Depot_185",
-        "latitude": 10.803486,
-        "longitude": 106.827815
-    },
-    {
-        "id": 186,
-        "name": "Depot_186",
-        "latitude": 10.888202,
-        "longitude": 106.872181
-    },
-    {
-        "id": 187,
-        "name": "Depot_187",
-        "latitude": 10.805005,
-        "longitude": 106.724341
-    },
-    {
-        "id": 188,
-        "name": "Depot_188",
-        "latitude": 10.715986,
-        "longitude": 106.666848
-    },
-    {
-        "id": 189,
-        "name": "Depot_189",
-        "latitude": 10.648235,
-        "longitude": 106.71582
-    },
-    {
-        "id": 190,
-        "name": "Depot_190",
-        "latitude": 10.784964,
-        "longitude": 106.795335
-    },
-    {
-        "id": 191,
-        "name": "Depot_191",
-        "latitude": 10.741275,
-        "longitude": 106.833577
-    },
-    {
-        "id": 192,
-        "name": "Depot_192",
-        "latitude": 10.790224,
-        "longitude": 106.664283
-    },
-    {
-        "id": 193,
-        "name": "Depot_193",
-        "latitude": 10.898586,
-        "longitude": 106.646635
-    },
-    {
-        "id": 194,
-        "name": "Depot_194",
-        "latitude": 10.734021,
-        "longitude": 106.833701
-    },
-    {
-        "id": 195,
-        "name": "Depot_195",
-        "latitude": 10.860815,
-        "longitude": 106.86442
-    },
-    {
-        "id": 196,
-        "name": "Depot_196",
-        "latitude": 10.850654,
-        "longitude": 106.754023
-    },
-    {
-        "id": 197,
-        "name": "Depot_197",
-        "latitude": 10.838571,
-        "longitude": 106.769723
-    },
-    {
-        "id": 198,
-        "name": "Depot_198",
-        "latitude": 10.603853,
-        "longitude": 106.861211
-    },
-    {
-        "id": 199,
-        "name": "Depot_199",
-        "latitude": 10.822926,
-        "longitude": 106.625535
-    },
-    {
-        "id": 200,
-        "name": "Depot_200",
-        "latitude": 10.740175,
-        "longitude": 106.788324
-    }
+  {
+    "id": "01",
+    "name": "Kho Quận 7 - 01",
+    "address": "666 Đường số 65, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.755896,
+    "longitude": 106.729358
+  },
+  {
+    "id": "02",
+    "name": "Kho Quận 7 - 02",
+    "address": "358 Nguyễn Thị Thập, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.746936,
+    "longitude": 106.693931
+  },
+  {
+    "id": "03",
+    "name": "Kho Quận 7 - 03",
+    "address": "47/16 Đường số 41, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.754682,
+    "longitude": 106.698041
+  },
+  {
+    "id": "04",
+    "name": "Kho Quận 7 - 04",
+    "address": "1177 Huỳnh Tấn Phát, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.733393,
+    "longitude": 106.758723
+  },
+  {
+    "id": "05",
+    "name": "Kho Quận 7 - 05",
+    "address": "1133 Nguyễn Lương Bằng, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.751074,
+    "longitude": 106.703795
+  },
+  {
+    "id": "06",
+    "name": "Kho Quận 7 - 06",
+    "address": "1140/35 Đường số 1, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.715945,
+    "longitude": 106.723297
+  },
+  {
+    "id": "07",
+    "name": "Kho Quận 7 - 07",
+    "address": "220 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.749391,
+    "longitude": 106.75548
+  },
+  {
+    "id": "08",
+    "name": "Kho Quận 7 - 08",
+    "address": "822 Nguyễn Hữu Thọ, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.747181,
+    "longitude": 106.743823
+  },
+  {
+    "id": "09",
+    "name": "Kho Quận 7 - 09",
+    "address": "350/30 Đường số 1, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.744613,
+    "longitude": 106.708668
+  },
+  {
+    "id": "10",
+    "name": "Kho Quận 7 - 10",
+    "address": "829/26 Đường số 15, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.713178,
+    "longitude": 106.704513
+  },
+  {
+    "id": "11",
+    "name": "Kho Quận 7 - 11",
+    "address": "962/49 Tôn Dật Tiên, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.755663,
+    "longitude": 106.753286
+  },
+  {
+    "id": "12",
+    "name": "Kho Quận 7 - 12",
+    "address": "115 Đường số 41, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.751202,
+    "longitude": 106.759388
+  },
+  {
+    "id": "13",
+    "name": "Kho Quận 7 - 13",
+    "address": "1156/20 Tôn Dật Tiên, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.725013,
+    "longitude": 106.754301
+  },
+  {
+    "id": "14",
+    "name": "Kho Quận 7 - 14",
+    "address": "460 Nguyễn Thị Thập, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.732528,
+    "longitude": 106.722174
+  },
+  {
+    "id": "15",
+    "name": "Kho Quận 7 - 15",
+    "address": "1151 Đường số 15, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.753995,
+    "longitude": 106.724873
+  },
+  {
+    "id": "16",
+    "name": "Kho Quận 7 - 16",
+    "address": "515/42 Đường số 65, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.718752,
+    "longitude": 106.753022
+  },
+  {
+    "id": "17",
+    "name": "Kho Quận 7 - 17",
+    "address": "401/5 Mai Văn Vĩnh, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.724028,
+    "longitude": 106.722218
+  },
+  {
+    "id": "18",
+    "name": "Kho Quận 7 - 18",
+    "address": "1311 Tôn Dật Tiên, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.738235,
+    "longitude": 106.717895
+  },
+  {
+    "id": "19",
+    "name": "Kho Quận 7 - 19",
+    "address": "475/22 Đường số 41, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.753409,
+    "longitude": 106.732723
+  },
+  {
+    "id": "20",
+    "name": "Kho Quận 7 - 20",
+    "address": "1244/22 Đào Trí, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.725017,
+    "longitude": 106.690796
+  },
+  {
+    "id": "21",
+    "name": "Kho Quận 7 - 21",
+    "address": "786/19 Mai Văn Vĩnh, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.743367,
+    "longitude": 106.711328
+  },
+  {
+    "id": "22",
+    "name": "Kho Quận 7 - 22",
+    "address": "861/35 Đào Trí, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.732116,
+    "longitude": 106.733984
+  },
+  {
+    "id": "23",
+    "name": "Kho Quận 7 - 23",
+    "address": "1092 Trần Xuân Soạn, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.725872,
+    "longitude": 106.716398
+  },
+  {
+    "id": "24",
+    "name": "Kho Quận 7 - 24",
+    "address": "1086 Huỳnh Tấn Phát, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.757933,
+    "longitude": 106.744114
+  },
+  {
+    "id": "25",
+    "name": "Kho Quận 7 - 25",
+    "address": "1002/10 Đường số 65, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.717685,
+    "longitude": 106.708051
+  },
+  {
+    "id": "26",
+    "name": "Kho Quận 7 - 26",
+    "address": "174 Phạm Hữu Lầu, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.724364,
+    "longitude": 106.72215
+  },
+  {
+    "id": "27",
+    "name": "Kho Quận 7 - 27",
+    "address": "803 Nguyễn Thị Thập, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.752054,
+    "longitude": 106.719842
+  },
+  {
+    "id": "28",
+    "name": "Kho Quận 7 - 28",
+    "address": "1366 Đường số 1, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.746006,
+    "longitude": 106.719856
+  },
+  {
+    "id": "29",
+    "name": "Kho Quận 7 - 29",
+    "address": "685 Tôn Dật Tiên, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.729222,
+    "longitude": 106.734823
+  },
+  {
+    "id": "30",
+    "name": "Kho Quận 7 - 30",
+    "address": "212 Trần Xuân Soạn, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.753177,
+    "longitude": 106.707778
+  },
+  {
+    "id": "31",
+    "name": "Kho Quận 7 - 31",
+    "address": "1106 Lê Văn Lương, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.720496,
+    "longitude": 106.726445
+  },
+  {
+    "id": "32",
+    "name": "Kho Quận 7 - 32",
+    "address": "312/21 Đường số 1, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.722514,
+    "longitude": 106.748503
+  },
+  {
+    "id": "33",
+    "name": "Kho Quận 7 - 33",
+    "address": "593 Đường số 41, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.719601,
+    "longitude": 106.716209
+  },
+  {
+    "id": "34",
+    "name": "Kho Quận 7 - 34",
+    "address": "576 Nguyễn Thị Thập, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.734295,
+    "longitude": 106.745342
+  },
+  {
+    "id": "35",
+    "name": "Kho Quận 7 - 35",
+    "address": "26 Huỳnh Tấn Phát, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.730217,
+    "longitude": 106.71687
+  },
+  {
+    "id": "36",
+    "name": "Kho Quận 7 - 36",
+    "address": "395 Gò Ô Môi, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.750539,
+    "longitude": 106.712343
+  },
+  {
+    "id": "37",
+    "name": "Kho Quận 7 - 37",
+    "address": "612 Đường số 65, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.721955,
+    "longitude": 106.72821
+  },
+  {
+    "id": "38",
+    "name": "Kho Quận 7 - 38",
+    "address": "21/46 Huỳnh Tấn Phát, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.713254,
+    "longitude": 106.755049
+  },
+  {
+    "id": "39",
+    "name": "Kho Quận 7 - 39",
+    "address": "53/21 Huỳnh Tấn Phát, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.746319,
+    "longitude": 106.743688
+  },
+  {
+    "id": "40",
+    "name": "Kho Quận 7 - 40",
+    "address": "104 Phạm Hữu Lầu, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.754315,
+    "longitude": 106.75286
+  },
+  {
+    "id": "41",
+    "name": "Kho Quận 7 - 41",
+    "address": "1109 Đường số 65, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.748206,
+    "longitude": 106.701669
+  },
+  {
+    "id": "42",
+    "name": "Kho Quận 7 - 42",
+    "address": "583 Lê Văn Lương, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.712844,
+    "longitude": 106.741517
+  },
+  {
+    "id": "43",
+    "name": "Kho Quận 7 - 43",
+    "address": "871/48 Lâm Văn Bền, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.716587,
+    "longitude": 106.696189
+  },
+  {
+    "id": "44",
+    "name": "Kho Quận 7 - 44",
+    "address": "794 Đào Trí, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.715101,
+    "longitude": 106.71564
+  },
+  {
+    "id": "45",
+    "name": "Kho Quận 7 - 45",
+    "address": "1214 Tôn Dật Tiên, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.725173,
+    "longitude": 106.753335
+  },
+  {
+    "id": "46",
+    "name": "Kho Quận 7 - 46",
+    "address": "1155 Nguyễn Lương Bằng, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.742259,
+    "longitude": 106.756797
+  },
+  {
+    "id": "47",
+    "name": "Kho Quận 7 - 47",
+    "address": "1326 Đường số 1, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.758426,
+    "longitude": 106.724851
+  },
+  {
+    "id": "48",
+    "name": "Kho Quận 7 - 48",
+    "address": "1247/38 Lê Văn Lương, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.747341,
+    "longitude": 106.732789
+  },
+  {
+    "id": "49",
+    "name": "Kho Quận 7 - 49",
+    "address": "260/24 Tôn Dật Tiên, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.726827,
+    "longitude": 106.749592
+  },
+  {
+    "id": "50",
+    "name": "Kho Quận 7 - 50",
+    "address": "82 Tôn Dật Tiên, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.756112,
+    "longitude": 106.703657
+  },
+  {
+    "id": "51",
+    "name": "Kho Quận 7 - 51",
+    "address": "29 Tôn Dật Tiên, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.724351,
+    "longitude": 106.736109
+  },
+  {
+    "id": "52",
+    "name": "Kho Quận 7 - 52",
+    "address": "728 Đường số 41, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.752345,
+    "longitude": 106.730798
+  },
+  {
+    "id": "53",
+    "name": "Kho Quận 7 - 53",
+    "address": "186 Nguyễn Hữu Thọ, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.745188,
+    "longitude": 106.731837
+  },
+  {
+    "id": "54",
+    "name": "Kho Quận 7 - 54",
+    "address": "716 Tôn Dật Tiên, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.759939,
+    "longitude": 106.723422
+  },
+  {
+    "id": "55",
+    "name": "Kho Quận 7 - 55",
+    "address": "773 Mai Văn Vĩnh, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.713252,
+    "longitude": 106.742136
+  },
+  {
+    "id": "56",
+    "name": "Kho Quận 7 - 56",
+    "address": "751 Gò Ô Môi, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.712525,
+    "longitude": 106.74385
+  },
+  {
+    "id": "57",
+    "name": "Kho Quận 7 - 57",
+    "address": "423 Lê Văn Lương, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.734856,
+    "longitude": 106.695506
+  },
+  {
+    "id": "58",
+    "name": "Kho Quận 7 - 58",
+    "address": "829 Nguyễn Lương Bằng, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.721799,
+    "longitude": 106.725088
+  },
+  {
+    "id": "59",
+    "name": "Kho Quận 7 - 59",
+    "address": "40 Nguyễn Hữu Thọ, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.757361,
+    "longitude": 106.708226
+  },
+  {
+    "id": "60",
+    "name": "Kho Quận 7 - 60",
+    "address": "1395 Tôn Dật Tiên, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.731102,
+    "longitude": 106.713624
+  },
+  {
+    "id": "61",
+    "name": "Kho Quận 7 - 61",
+    "address": "654 Tôn Dật Tiên, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.738352,
+    "longitude": 106.72645
+  },
+  {
+    "id": "62",
+    "name": "Kho Quận 7 - 62",
+    "address": "204/39 Tôn Dật Tiên, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.756198,
+    "longitude": 106.708089
+  },
+  {
+    "id": "63",
+    "name": "Kho Quận 7 - 63",
+    "address": "151 Nguyễn Lương Bằng, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.748032,
+    "longitude": 106.717503
+  },
+  {
+    "id": "64",
+    "name": "Kho Quận 7 - 64",
+    "address": "297 Phạm Hữu Lầu, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.744905,
+    "longitude": 106.737049
+  },
+  {
+    "id": "65",
+    "name": "Kho Quận 7 - 65",
+    "address": "1389/48 Gò Ô Môi, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.723007,
+    "longitude": 106.74827
+  },
+  {
+    "id": "66",
+    "name": "Kho Quận 7 - 66",
+    "address": "874 Mai Văn Vĩnh, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.756121,
+    "longitude": 106.756963
+  },
+  {
+    "id": "67",
+    "name": "Kho Quận 7 - 67",
+    "address": "818 Đào Trí, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.752301,
+    "longitude": 106.730226
+  },
+  {
+    "id": "68",
+    "name": "Kho Quận 7 - 68",
+    "address": "361 Tôn Dật Tiên, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.735147,
+    "longitude": 106.700329
+  },
+  {
+    "id": "69",
+    "name": "Kho Quận 7 - 69",
+    "address": "171/32 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.727028,
+    "longitude": 106.744014
+  },
+  {
+    "id": "70",
+    "name": "Kho Quận 7 - 70",
+    "address": "180/2 Mai Văn Vĩnh, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.757157,
+    "longitude": 106.720508
+  },
+  {
+    "id": "71",
+    "name": "Kho Quận 7 - 71",
+    "address": "186/14 Lê Văn Lương, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.716596,
+    "longitude": 106.72867
+  },
+  {
+    "id": "72",
+    "name": "Kho Quận 7 - 72",
+    "address": "99 Nguyễn Thị Thập, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.757009,
+    "longitude": 106.698004
+  },
+  {
+    "id": "73",
+    "name": "Kho Quận 7 - 73",
+    "address": "1323 Đường số 1, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.758201,
+    "longitude": 106.751759
+  },
+  {
+    "id": "74",
+    "name": "Kho Quận 7 - 74",
+    "address": "1471 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.757841,
+    "longitude": 106.726325
+  },
+  {
+    "id": "75",
+    "name": "Kho Quận 7 - 75",
+    "address": "449/26 Gò Ô Môi, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.739632,
+    "longitude": 106.708708
+  },
+  {
+    "id": "76",
+    "name": "Kho Quận 7 - 76",
+    "address": "630 Nguyễn Lương Bằng, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.748878,
+    "longitude": 106.704633
+  },
+  {
+    "id": "77",
+    "name": "Kho Quận 7 - 77",
+    "address": "861/38 Tôn Dật Tiên, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.733773,
+    "longitude": 106.729235
+  },
+  {
+    "id": "78",
+    "name": "Kho Quận 7 - 78",
+    "address": "349 Nguyễn Thị Thập, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.741325,
+    "longitude": 106.723718
+  },
+  {
+    "id": "79",
+    "name": "Kho Quận 7 - 79",
+    "address": "922 Nguyễn Lương Bằng, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.726955,
+    "longitude": 106.75727
+  },
+  {
+    "id": "80",
+    "name": "Kho Quận 7 - 80",
+    "address": "1038 Trần Xuân Soạn, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.714085,
+    "longitude": 106.708269
+  },
+  {
+    "id": "81",
+    "name": "Kho Quận 7 - 81",
+    "address": "1341/24 Gò Ô Môi, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.74834,
+    "longitude": 106.710933
+  },
+  {
+    "id": "82",
+    "name": "Kho Quận 7 - 82",
+    "address": "130 Đường số 41, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.739004,
+    "longitude": 106.710194
+  },
+  {
+    "id": "83",
+    "name": "Kho Quận 7 - 83",
+    "address": "612 Mai Văn Vĩnh, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.729837,
+    "longitude": 106.747983
+  },
+  {
+    "id": "84",
+    "name": "Kho Quận 7 - 84",
+    "address": "1337/19 Lâm Văn Bền, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.717432,
+    "longitude": 106.729387
+  },
+  {
+    "id": "85",
+    "name": "Kho Quận 7 - 85",
+    "address": "982 Nguyễn Hữu Thọ, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.751477,
+    "longitude": 106.708036
+  },
+  {
+    "id": "86",
+    "name": "Kho Quận 7 - 86",
+    "address": "191 Gò Ô Môi, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.734916,
+    "longitude": 106.692672
+  },
+  {
+    "id": "87",
+    "name": "Kho Quận 7 - 87",
+    "address": "293/3 Huỳnh Tấn Phát, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.711336,
+    "longitude": 106.690978
+  },
+  {
+    "id": "88",
+    "name": "Kho Quận 7 - 88",
+    "address": "1390 Đào Trí, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.740561,
+    "longitude": 106.725806
+  },
+  {
+    "id": "89",
+    "name": "Kho Quận 7 - 89",
+    "address": "1158/13 Đường số 41, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.728608,
+    "longitude": 106.73233
+  },
+  {
+    "id": "90",
+    "name": "Kho Quận 7 - 90",
+    "address": "579 Phạm Hữu Lầu, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.75697,
+    "longitude": 106.714849
+  },
+  {
+    "id": "91",
+    "name": "Kho Quận 7 - 91",
+    "address": "1085/9 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.729323,
+    "longitude": 106.729264
+  },
+  {
+    "id": "92",
+    "name": "Kho Quận 7 - 92",
+    "address": "32 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.756657,
+    "longitude": 106.747894
+  },
+  {
+    "id": "93",
+    "name": "Kho Quận 7 - 93",
+    "address": "362 Huỳnh Tấn Phát, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.737013,
+    "longitude": 106.730018
+  },
+  {
+    "id": "94",
+    "name": "Kho Quận 7 - 94",
+    "address": "551 Lâm Văn Bền, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.723539,
+    "longitude": 106.7048
+  },
+  {
+    "id": "95",
+    "name": "Kho Quận 7 - 95",
+    "address": "1068/22 Đường số 65, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.715282,
+    "longitude": 106.755836
+  },
+  {
+    "id": "96",
+    "name": "Kho Quận 7 - 96",
+    "address": "1063 Đường số 41, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.747919,
+    "longitude": 106.718693
+  },
+  {
+    "id": "97",
+    "name": "Kho Quận 7 - 97",
+    "address": "296 Nguyễn Thị Thập, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.73195,
+    "longitude": 106.700028
+  },
+  {
+    "id": "98",
+    "name": "Kho Quận 7 - 98",
+    "address": "277 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.743042,
+    "longitude": 106.757798
+  },
+  {
+    "id": "99",
+    "name": "Kho Quận 7 - 99",
+    "address": "330 Đường số 65, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.7584,
+    "longitude": 106.759535
+  },
+  {
+    "id": "100",
+    "name": "Kho Quận 7 - 100",
+    "address": "1061 Đường số 1, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.739573,
+    "longitude": 106.749379
+  },
+  {
+    "id": "101",
+    "name": "Kho Quận 7 - 101",
+    "address": "396/10 Nguyễn Lương Bằng, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.716303,
+    "longitude": 106.755059
+  },
+  {
+    "id": "102",
+    "name": "Kho Quận 7 - 102",
+    "address": "1062/26 Mai Văn Vĩnh, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.717907,
+    "longitude": 106.745492
+  },
+  {
+    "id": "103",
+    "name": "Kho Quận 7 - 103",
+    "address": "435 Lê Văn Lương, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.7226,
+    "longitude": 106.701156
+  },
+  {
+    "id": "104",
+    "name": "Kho Quận 7 - 104",
+    "address": "90 Đường số 65, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.753951,
+    "longitude": 106.70213
+  },
+  {
+    "id": "105",
+    "name": "Kho Quận 7 - 105",
+    "address": "831 Đường số 65, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.727671,
+    "longitude": 106.739687
+  },
+  {
+    "id": "106",
+    "name": "Kho Quận 7 - 106",
+    "address": "1355/43 Đào Trí, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.744224,
+    "longitude": 106.714762
+  },
+  {
+    "id": "107",
+    "name": "Kho Quận 7 - 107",
+    "address": "46 Đường số 15, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.710388,
+    "longitude": 106.690501
+  },
+  {
+    "id": "108",
+    "name": "Kho Quận 7 - 108",
+    "address": "60 Nguyễn Thị Thập, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.746748,
+    "longitude": 106.73815
+  },
+  {
+    "id": "109",
+    "name": "Kho Quận 7 - 109",
+    "address": "4 Lê Văn Lương, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.712106,
+    "longitude": 106.696211
+  },
+  {
+    "id": "110",
+    "name": "Kho Quận 7 - 110",
+    "address": "551 Tôn Dật Tiên, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.749428,
+    "longitude": 106.702969
+  },
+  {
+    "id": "111",
+    "name": "Kho Quận 7 - 111",
+    "address": "168 Đường số 1, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.740999,
+    "longitude": 106.710572
+  },
+  {
+    "id": "112",
+    "name": "Kho Quận 7 - 112",
+    "address": "1428 Gò Ô Môi, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.71928,
+    "longitude": 106.722774
+  },
+  {
+    "id": "113",
+    "name": "Kho Quận 7 - 113",
+    "address": "1449/6 Mai Văn Vĩnh, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.757181,
+    "longitude": 106.697059
+  },
+  {
+    "id": "114",
+    "name": "Kho Quận 7 - 114",
+    "address": "696 Đường số 65, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.710294,
+    "longitude": 106.748427
+  },
+  {
+    "id": "115",
+    "name": "Kho Quận 7 - 115",
+    "address": "342 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.757221,
+    "longitude": 106.739861
+  },
+  {
+    "id": "116",
+    "name": "Kho Quận 7 - 116",
+    "address": "544/27 Nguyễn Hữu Thọ, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.711099,
+    "longitude": 106.749162
+  },
+  {
+    "id": "117",
+    "name": "Kho Quận 7 - 117",
+    "address": "235/10 Đường số 65, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.746621,
+    "longitude": 106.729026
+  },
+  {
+    "id": "118",
+    "name": "Kho Quận 7 - 118",
+    "address": "152 Đường số 41, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.742111,
+    "longitude": 106.728914
+  },
+  {
+    "id": "119",
+    "name": "Kho Quận 7 - 119",
+    "address": "1060 Nguyễn Hữu Thọ, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.736829,
+    "longitude": 106.702083
+  },
+  {
+    "id": "120",
+    "name": "Kho Quận 7 - 120",
+    "address": "942/23 Nguyễn Lương Bằng, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.750894,
+    "longitude": 106.699071
+  },
+  {
+    "id": "121",
+    "name": "Kho Quận 7 - 121",
+    "address": "278 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.746003,
+    "longitude": 106.704716
+  },
+  {
+    "id": "122",
+    "name": "Kho Quận 7 - 122",
+    "address": "426/49 Đường số 65, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.73131,
+    "longitude": 106.746495
+  },
+  {
+    "id": "123",
+    "name": "Kho Quận 7 - 123",
+    "address": "1234 Đào Trí, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.730493,
+    "longitude": 106.754279
+  },
+  {
+    "id": "124",
+    "name": "Kho Quận 7 - 124",
+    "address": "1000 Đường số 65, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.719407,
+    "longitude": 106.73294
+  },
+  {
+    "id": "125",
+    "name": "Kho Quận 7 - 125",
+    "address": "799 Đường số 1, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.759211,
+    "longitude": 106.732882
+  },
+  {
+    "id": "126",
+    "name": "Kho Quận 7 - 126",
+    "address": "1020 Đào Trí, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.751465,
+    "longitude": 106.742381
+  },
+  {
+    "id": "127",
+    "name": "Kho Quận 7 - 127",
+    "address": "199/9 Đường số 15, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.753747,
+    "longitude": 106.705785
+  },
+  {
+    "id": "128",
+    "name": "Kho Quận 7 - 128",
+    "address": "214 Nguyễn Thị Thập, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.729556,
+    "longitude": 106.710946
+  },
+  {
+    "id": "129",
+    "name": "Kho Quận 7 - 129",
+    "address": "45 Đường số 15, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.714075,
+    "longitude": 106.733655
+  },
+  {
+    "id": "130",
+    "name": "Kho Quận 7 - 130",
+    "address": "717/38 Nguyễn Lương Bằng, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.745412,
+    "longitude": 106.740651
+  },
+  {
+    "id": "131",
+    "name": "Kho Quận 7 - 131",
+    "address": "271 Nguyễn Hữu Thọ, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.717188,
+    "longitude": 106.692895
+  },
+  {
+    "id": "132",
+    "name": "Kho Quận 7 - 132",
+    "address": "182 Trần Xuân Soạn, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.720113,
+    "longitude": 106.723475
+  },
+  {
+    "id": "133",
+    "name": "Kho Quận 7 - 133",
+    "address": "787 Nguyễn Lương Bằng, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.74695,
+    "longitude": 106.708527
+  },
+  {
+    "id": "134",
+    "name": "Kho Quận 7 - 134",
+    "address": "581 Tôn Dật Tiên, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.720082,
+    "longitude": 106.739127
+  },
+  {
+    "id": "135",
+    "name": "Kho Quận 7 - 135",
+    "address": "997 Trần Xuân Soạn, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.728748,
+    "longitude": 106.757567
+  },
+  {
+    "id": "136",
+    "name": "Kho Quận 7 - 136",
+    "address": "891/22 Đường số 41, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.737378,
+    "longitude": 106.695881
+  },
+  {
+    "id": "137",
+    "name": "Kho Quận 7 - 137",
+    "address": "657 Nguyễn Hữu Thọ, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.732554,
+    "longitude": 106.724985
+  },
+  {
+    "id": "138",
+    "name": "Kho Quận 7 - 138",
+    "address": "11 Nguyễn Lương Bằng, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.722545,
+    "longitude": 106.706537
+  },
+  {
+    "id": "139",
+    "name": "Kho Quận 7 - 139",
+    "address": "884 Phạm Hữu Lầu, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.718176,
+    "longitude": 106.728711
+  },
+  {
+    "id": "140",
+    "name": "Kho Quận 7 - 140",
+    "address": "1078 Nguyễn Hữu Thọ, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.7521,
+    "longitude": 106.735833
+  },
+  {
+    "id": "141",
+    "name": "Kho Quận 7 - 141",
+    "address": "54 Gò Ô Môi, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.745996,
+    "longitude": 106.719944
+  },
+  {
+    "id": "142",
+    "name": "Kho Quận 7 - 142",
+    "address": "201 Đường số 41, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.724154,
+    "longitude": 106.696669
+  },
+  {
+    "id": "143",
+    "name": "Kho Quận 7 - 143",
+    "address": "679 Đường số 15, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.759909,
+    "longitude": 106.753202
+  },
+  {
+    "id": "144",
+    "name": "Kho Quận 7 - 144",
+    "address": "1297 Đường số 41, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.725333,
+    "longitude": 106.751298
+  },
+  {
+    "id": "145",
+    "name": "Kho Quận 7 - 145",
+    "address": "925 Tôn Dật Tiên, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.741658,
+    "longitude": 106.721446
+  },
+  {
+    "id": "146",
+    "name": "Kho Quận 7 - 146",
+    "address": "1291 Đào Trí, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.721297,
+    "longitude": 106.691618
+  },
+  {
+    "id": "147",
+    "name": "Kho Quận 7 - 147",
+    "address": "180/45 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.729526,
+    "longitude": 106.759571
+  },
+  {
+    "id": "148",
+    "name": "Kho Quận 7 - 148",
+    "address": "529 Lê Văn Lương, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.741762,
+    "longitude": 106.696385
+  },
+  {
+    "id": "149",
+    "name": "Kho Quận 7 - 149",
+    "address": "1426 Đường số 15, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.714656,
+    "longitude": 106.725825
+  },
+  {
+    "id": "150",
+    "name": "Kho Quận 7 - 150",
+    "address": "406 Gò Ô Môi, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.73072,
+    "longitude": 106.732163
+  },
+  {
+    "id": "151",
+    "name": "Kho Quận 7 - 151",
+    "address": "1324/12 Đường số 1, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.748201,
+    "longitude": 106.73419
+  },
+  {
+    "id": "152",
+    "name": "Kho Quận 7 - 152",
+    "address": "1022 Tôn Dật Tiên, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.725442,
+    "longitude": 106.75331
+  },
+  {
+    "id": "153",
+    "name": "Kho Quận 7 - 153",
+    "address": "718 Nguyễn Lương Bằng, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.727414,
+    "longitude": 106.751231
+  },
+  {
+    "id": "154",
+    "name": "Kho Quận 7 - 154",
+    "address": "1061 Lâm Văn Bền, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.73453,
+    "longitude": 106.739626
+  },
+  {
+    "id": "155",
+    "name": "Kho Quận 7 - 155",
+    "address": "454 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.714278,
+    "longitude": 106.71303
+  },
+  {
+    "id": "156",
+    "name": "Kho Quận 7 - 156",
+    "address": "160 Đào Trí, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.749051,
+    "longitude": 106.738832
+  },
+  {
+    "id": "157",
+    "name": "Kho Quận 7 - 157",
+    "address": "893/26 Đào Trí, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.724946,
+    "longitude": 106.756523
+  },
+  {
+    "id": "158",
+    "name": "Kho Quận 7 - 158",
+    "address": "636/32 Đường số 15, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.758068,
+    "longitude": 106.693961
+  },
+  {
+    "id": "159",
+    "name": "Kho Quận 7 - 159",
+    "address": "426/44 Nguyễn Thị Thập, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.717403,
+    "longitude": 106.758228
+  },
+  {
+    "id": "160",
+    "name": "Kho Quận 7 - 160",
+    "address": "142 Lê Văn Lương, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.739509,
+    "longitude": 106.740702
+  },
+  {
+    "id": "161",
+    "name": "Kho Quận 7 - 161",
+    "address": "1197/11 Đường số 65, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.737174,
+    "longitude": 106.697088
+  },
+  {
+    "id": "162",
+    "name": "Kho Quận 7 - 162",
+    "address": "929 Huỳnh Tấn Phát, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.738529,
+    "longitude": 106.70929
+  },
+  {
+    "id": "163",
+    "name": "Kho Quận 7 - 163",
+    "address": "209 Đường số 15, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.712512,
+    "longitude": 106.696334
+  },
+  {
+    "id": "164",
+    "name": "Kho Quận 7 - 164",
+    "address": "1437 Trần Xuân Soạn, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.752865,
+    "longitude": 106.75968
+  },
+  {
+    "id": "165",
+    "name": "Kho Quận 7 - 165",
+    "address": "1235/23 Đường số 41, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.720187,
+    "longitude": 106.756505
+  },
+  {
+    "id": "166",
+    "name": "Kho Quận 7 - 166",
+    "address": "509 Nguyễn Lương Bằng, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.737097,
+    "longitude": 106.753759
+  },
+  {
+    "id": "167",
+    "name": "Kho Quận 7 - 167",
+    "address": "1440 Lâm Văn Bền, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.734105,
+    "longitude": 106.744336
+  },
+  {
+    "id": "168",
+    "name": "Kho Quận 7 - 168",
+    "address": "1322 Đường số 15, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.718318,
+    "longitude": 106.722672
+  },
+  {
+    "id": "169",
+    "name": "Kho Quận 7 - 169",
+    "address": "186 Lê Văn Lương, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.754816,
+    "longitude": 106.69324
+  },
+  {
+    "id": "170",
+    "name": "Kho Quận 7 - 170",
+    "address": "898/7 Tôn Dật Tiên, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.721482,
+    "longitude": 106.723587
+  },
+  {
+    "id": "171",
+    "name": "Kho Quận 7 - 171",
+    "address": "1309 Nguyễn Lương Bằng, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.729039,
+    "longitude": 106.723754
+  },
+  {
+    "id": "172",
+    "name": "Kho Quận 7 - 172",
+    "address": "1321 Phạm Hữu Lầu, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.743511,
+    "longitude": 106.692201
+  },
+  {
+    "id": "173",
+    "name": "Kho Quận 7 - 173",
+    "address": "1096 Gò Ô Môi, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.719114,
+    "longitude": 106.725242
+  },
+  {
+    "id": "174",
+    "name": "Kho Quận 7 - 174",
+    "address": "1150/35 Đường số 65, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.719118,
+    "longitude": 106.691275
+  },
+  {
+    "id": "175",
+    "name": "Kho Quận 7 - 175",
+    "address": "442 Đào Trí, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.744172,
+    "longitude": 106.711198
+  },
+  {
+    "id": "176",
+    "name": "Kho Quận 7 - 176",
+    "address": "1085 Nguyễn Thị Thập, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.724744,
+    "longitude": 106.719368
+  },
+  {
+    "id": "177",
+    "name": "Kho Quận 7 - 177",
+    "address": "238 Đường số 41, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.736279,
+    "longitude": 106.739947
+  },
+  {
+    "id": "178",
+    "name": "Kho Quận 7 - 178",
+    "address": "205 Đường số 1, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.72958,
+    "longitude": 106.722252
+  },
+  {
+    "id": "179",
+    "name": "Kho Quận 7 - 179",
+    "address": "855 Gò Ô Môi, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.75357,
+    "longitude": 106.691248
+  },
+  {
+    "id": "180",
+    "name": "Kho Quận 7 - 180",
+    "address": "1074/48 Lâm Văn Bền, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.728409,
+    "longitude": 106.717553
+  },
+  {
+    "id": "181",
+    "name": "Kho Quận 7 - 181",
+    "address": "699 Đường số 15, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.748933,
+    "longitude": 106.700659
+  },
+  {
+    "id": "182",
+    "name": "Kho Quận 7 - 182",
+    "address": "976 Lâm Văn Bền, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.720291,
+    "longitude": 106.692266
+  },
+  {
+    "id": "183",
+    "name": "Kho Quận 7 - 183",
+    "address": "1484/14 Phạm Hữu Lầu, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.725595,
+    "longitude": 106.750683
+  },
+  {
+    "id": "184",
+    "name": "Kho Quận 7 - 184",
+    "address": "690/46 Trần Xuân Soạn, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.725588,
+    "longitude": 106.736353
+  },
+  {
+    "id": "185",
+    "name": "Kho Quận 7 - 185",
+    "address": "367 Nguyễn Thị Thập, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.727274,
+    "longitude": 106.7543
+  },
+  {
+    "id": "186",
+    "name": "Kho Quận 7 - 186",
+    "address": "869 Đường số 65, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.759887,
+    "longitude": 106.738849
+  },
+  {
+    "id": "187",
+    "name": "Kho Quận 7 - 187",
+    "address": "818/24 Phạm Hữu Lầu, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.752111,
+    "longitude": 106.725154
+  },
+  {
+    "id": "188",
+    "name": "Kho Quận 7 - 188",
+    "address": "161 Gò Ô Môi, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.738065,
+    "longitude": 106.718496
+  },
+  {
+    "id": "189",
+    "name": "Kho Quận 7 - 189",
+    "address": "1397/19 Lê Văn Lương, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.7469,
+    "longitude": 106.738051
+  },
+  {
+    "id": "190",
+    "name": "Kho Quận 7 - 190",
+    "address": "1143 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.730503,
+    "longitude": 106.720894
+  },
+  {
+    "id": "191",
+    "name": "Kho Quận 7 - 191",
+    "address": "503/38 Đường số 41, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.72095,
+    "longitude": 106.757187
+  },
+  {
+    "id": "192",
+    "name": "Kho Quận 7 - 192",
+    "address": "1312 Lâm Văn Bền, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.737807,
+    "longitude": 106.74842
+  },
+  {
+    "id": "193",
+    "name": "Kho Quận 7 - 193",
+    "address": "709 Đào Trí, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.750265,
+    "longitude": 106.740306
+  },
+  {
+    "id": "194",
+    "name": "Kho Quận 7 - 194",
+    "address": "1469 Nguyễn Lương Bằng, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.717979,
+    "longitude": 106.742639
+  },
+  {
+    "id": "195",
+    "name": "Kho Quận 7 - 195",
+    "address": "80 Trần Xuân Soạn, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.745349,
+    "longitude": 106.720915
+  },
+  {
+    "id": "196",
+    "name": "Kho Quận 7 - 196",
+    "address": "1024 Tôn Dật Tiên, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.720744,
+    "longitude": 106.724418
+  },
+  {
+    "id": "197",
+    "name": "Kho Quận 7 - 197",
+    "address": "427 Nguyễn Thị Thập, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.728584,
+    "longitude": 106.746015
+  },
+  {
+    "id": "198",
+    "name": "Kho Quận 7 - 198",
+    "address": "340 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.742729,
+    "longitude": 106.728173
+  },
+  {
+    "id": "199",
+    "name": "Kho Quận 7 - 199",
+    "address": "1109/24 Phạm Hữu Lầu, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.717097,
+    "longitude": 106.749672
+  },
+  {
+    "id": "200",
+    "name": "Kho Quận 7 - 200",
+    "address": "1086 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.718318,
+    "longitude": 106.75874
+  },
+  {
+    "id": "201",
+    "name": "Kho Quận 7 - 201",
+    "address": "954/29 Đường số 1, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.749608,
+    "longitude": 106.691439
+  },
+  {
+    "id": "202",
+    "name": "Kho Quận 7 - 202",
+    "address": "997/12 Đường số 1, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.727448,
+    "longitude": 106.742181
+  },
+  {
+    "id": "203",
+    "name": "Kho Quận 7 - 203",
+    "address": "209/36 Lê Văn Lương, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.71868,
+    "longitude": 106.715437
+  },
+  {
+    "id": "204",
+    "name": "Kho Quận 7 - 204",
+    "address": "252/12 Đào Trí, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.718561,
+    "longitude": 106.736842
+  },
+  {
+    "id": "205",
+    "name": "Kho Quận 7 - 205",
+    "address": "1029/16 Đường số 1, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.72798,
+    "longitude": 106.749084
+  },
+  {
+    "id": "206",
+    "name": "Kho Quận 7 - 206",
+    "address": "847 Tôn Dật Tiên, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.744882,
+    "longitude": 106.712472
+  },
+  {
+    "id": "207",
+    "name": "Kho Quận 7 - 207",
+    "address": "1331 Nguyễn Hữu Thọ, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.730901,
+    "longitude": 106.734975
+  },
+  {
+    "id": "208",
+    "name": "Kho Quận 7 - 208",
+    "address": "753 Đường số 1, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.714424,
+    "longitude": 106.733841
+  },
+  {
+    "id": "209",
+    "name": "Kho Quận 7 - 209",
+    "address": "709 Tôn Dật Tiên, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.719254,
+    "longitude": 106.758806
+  },
+  {
+    "id": "210",
+    "name": "Kho Quận 7 - 210",
+    "address": "548/43 Gò Ô Môi, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.755715,
+    "longitude": 106.745788
+  },
+  {
+    "id": "211",
+    "name": "Kho Quận 7 - 211",
+    "address": "865/13 Lâm Văn Bền, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.740779,
+    "longitude": 106.705755
+  },
+  {
+    "id": "212",
+    "name": "Kho Quận 7 - 212",
+    "address": "1080/22 Tôn Dật Tiên, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.75864,
+    "longitude": 106.75651
+  },
+  {
+    "id": "213",
+    "name": "Kho Quận 7 - 213",
+    "address": "468 Đường số 1, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.718265,
+    "longitude": 106.717723
+  },
+  {
+    "id": "214",
+    "name": "Kho Quận 7 - 214",
+    "address": "464 Tôn Dật Tiên, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.742802,
+    "longitude": 106.730911
+  },
+  {
+    "id": "215",
+    "name": "Kho Quận 7 - 215",
+    "address": "132/6 Phạm Hữu Lầu, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.745892,
+    "longitude": 106.70149
+  },
+  {
+    "id": "216",
+    "name": "Kho Quận 7 - 216",
+    "address": "768/12 Nguyễn Thị Thập, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.748013,
+    "longitude": 106.736844
+  },
+  {
+    "id": "217",
+    "name": "Kho Quận 7 - 217",
+    "address": "1371 Phạm Hữu Lầu, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.746016,
+    "longitude": 106.755071
+  },
+  {
+    "id": "218",
+    "name": "Kho Quận 7 - 218",
+    "address": "712 Đường số 41, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.735749,
+    "longitude": 106.712684
+  },
+  {
+    "id": "219",
+    "name": "Kho Quận 7 - 219",
+    "address": "945 Phạm Hữu Lầu, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.74864,
+    "longitude": 106.739155
+  },
+  {
+    "id": "220",
+    "name": "Kho Quận 7 - 220",
+    "address": "873 Phạm Hữu Lầu, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.723755,
+    "longitude": 106.726507
+  },
+  {
+    "id": "221",
+    "name": "Kho Quận 7 - 221",
+    "address": "123 Mai Văn Vĩnh, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.755862,
+    "longitude": 106.733263
+  },
+  {
+    "id": "222",
+    "name": "Kho Quận 7 - 222",
+    "address": "1226/5 Gò Ô Môi, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.756246,
+    "longitude": 106.734077
+  },
+  {
+    "id": "223",
+    "name": "Kho Quận 7 - 223",
+    "address": "1458 Phạm Hữu Lầu, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.747435,
+    "longitude": 106.701436
+  },
+  {
+    "id": "224",
+    "name": "Kho Quận 7 - 224",
+    "address": "882/30 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.728311,
+    "longitude": 106.719495
+  },
+  {
+    "id": "225",
+    "name": "Kho Quận 7 - 225",
+    "address": "682 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.748009,
+    "longitude": 106.735302
+  },
+  {
+    "id": "226",
+    "name": "Kho Quận 7 - 226",
+    "address": "12 Đường số 41, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.741122,
+    "longitude": 106.73873
+  },
+  {
+    "id": "227",
+    "name": "Kho Quận 7 - 227",
+    "address": "1314/2 Lâm Văn Bền, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.759718,
+    "longitude": 106.718596
+  },
+  {
+    "id": "228",
+    "name": "Kho Quận 7 - 228",
+    "address": "1143/2 Phạm Hữu Lầu, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.714499,
+    "longitude": 106.722486
+  },
+  {
+    "id": "229",
+    "name": "Kho Quận 7 - 229",
+    "address": "774 Huỳnh Tấn Phát, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.717475,
+    "longitude": 106.718861
+  },
+  {
+    "id": "230",
+    "name": "Kho Quận 7 - 230",
+    "address": "394/47 Đường số 65, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.716396,
+    "longitude": 106.720998
+  },
+  {
+    "id": "231",
+    "name": "Kho Quận 7 - 231",
+    "address": "1370 Mai Văn Vĩnh, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.751096,
+    "longitude": 106.694868
+  },
+  {
+    "id": "232",
+    "name": "Kho Quận 7 - 232",
+    "address": "314 Đào Trí, P. Tân Thuận Đông, Quận 7, TP. HCM",
+    "latitude": 10.722587,
+    "longitude": 106.732946
+  },
+  {
+    "id": "233",
+    "name": "Kho Quận 7 - 233",
+    "address": "808 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.710661,
+    "longitude": 106.727049
+  },
+  {
+    "id": "234",
+    "name": "Kho Quận 7 - 234",
+    "address": "61/9 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.748979,
+    "longitude": 106.701226
+  },
+  {
+    "id": "235",
+    "name": "Kho Quận 7 - 235",
+    "address": "639/45 Nguyễn Thị Thập, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.716033,
+    "longitude": 106.757969
+  },
+  {
+    "id": "236",
+    "name": "Kho Quận 7 - 236",
+    "address": "1029 Đường số 15, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.722374,
+    "longitude": 106.737972
+  },
+  {
+    "id": "237",
+    "name": "Kho Quận 7 - 237",
+    "address": "1488 Huỳnh Tấn Phát, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.738726,
+    "longitude": 106.737381
+  },
+  {
+    "id": "238",
+    "name": "Kho Quận 7 - 238",
+    "address": "787/4 Đường số 15, P. Tân Phong, Quận 7, TP. HCM",
+    "latitude": 10.73461,
+    "longitude": 106.728099
+  },
+  {
+    "id": "239",
+    "name": "Kho Quận 7 - 239",
+    "address": "376 Đường số 41, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.717117,
+    "longitude": 106.709916
+  },
+  {
+    "id": "240",
+    "name": "Kho Quận 7 - 240",
+    "address": "37 Lê Văn Lương, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.743414,
+    "longitude": 106.735866
+  },
+  {
+    "id": "241",
+    "name": "Kho Quận 7 - 241",
+    "address": "843 Đường số 65, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.729731,
+    "longitude": 106.745403
+  },
+  {
+    "id": "242",
+    "name": "Kho Quận 7 - 242",
+    "address": "663 Lê Văn Lương, P. Bình Thuận, Quận 7, TP. HCM",
+    "latitude": 10.714099,
+    "longitude": 106.696602
+  },
+  {
+    "id": "243",
+    "name": "Kho Quận 7 - 243",
+    "address": "1495 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.737368,
+    "longitude": 106.721412
+  },
+  {
+    "id": "244",
+    "name": "Kho Quận 7 - 244",
+    "address": "360/36 Lâm Văn Bền, P. Tân Hưng, Quận 7, TP. HCM",
+    "latitude": 10.722575,
+    "longitude": 106.725086
+  },
+  {
+    "id": "245",
+    "name": "Kho Quận 7 - 245",
+    "address": "712 Gò Ô Môi, P. Tân Phú, Quận 7, TP. HCM",
+    "latitude": 10.73396,
+    "longitude": 106.704952
+  },
+  {
+    "id": "246",
+    "name": "Kho Quận 7 - 246",
+    "address": "1276 Đường số 15, P. Tân Quy, Quận 7, TP. HCM",
+    "latitude": 10.733233,
+    "longitude": 106.759144
+  },
+  {
+    "id": "247",
+    "name": "Kho Quận 7 - 247",
+    "address": "10 Lâm Văn Bền, P. Tân Thuận Tây, Quận 7, TP. HCM",
+    "latitude": 10.713626,
+    "longitude": 106.740164
+  },
+  {
+    "id": "248",
+    "name": "Kho Quận 7 - 248",
+    "address": "39 Huỳnh Tấn Phát, P. Phú Thuận, Quận 7, TP. HCM",
+    "latitude": 10.722485,
+    "longitude": 106.719293
+  },
+  {
+    "id": "249",
+    "name": "Kho Quận 7 - 249",
+    "address": "181 Gò Ô Môi, P. Phú Mỹ, Quận 7, TP. HCM",
+    "latitude": 10.720565,
+    "longitude": 106.694402
+  },
+  {
+    "id": "250",
+    "name": "Kho Quận 7 - 250",
+    "address": "26 Trần Xuân Soạn, P. Tân Kiểng, Quận 7, TP. HCM",
+    "latitude": 10.714467,
+    "longitude": 106.747756
+  }
 ]
