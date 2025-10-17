@@ -1,1752 +1,1752 @@
 [
   {
-    "id": "01",
-    "name": "Kho Quận 7 - 01",
-    "address": "666 Đường số 65, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.755896,
-    "longitude": 106.729358
+    "id": "001",
+    "name": "Kho Trung tâm - 001",
+    "address": "1191/33 Trần Hưng Đạo, Thị xã Kiến Tường, Long An",
+    "latitude": 10.429539,
+    "longitude": 106.62029
   },
   {
-    "id": "02",
-    "name": "Kho Quận 7 - 02",
-    "address": "358 Nguyễn Thị Thập, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.746936,
-    "longitude": 106.693931
+    "id": "002",
+    "name": "Kho Trung tâm - 002",
+    "address": "633 Phạm Văn Đồng, Huyện Châu Đức, Bà Rịa - Vũng Tàu",
+    "latitude": 10.692446,
+    "longitude": 108.066219
   },
   {
-    "id": "03",
-    "name": "Kho Quận 7 - 03",
-    "address": "47/16 Đường số 41, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.754682,
-    "longitude": 106.698041
+    "id": "003",
+    "name": "Kho Trung tâm - 003",
+    "address": "211 Hùng Vương, Huyện Dương Minh Châu, Tây Ninh",
+    "latitude": 11.923308,
+    "longitude": 106.734568
   },
   {
-    "id": "04",
-    "name": "Kho Quận 7 - 04",
-    "address": "1177 Huỳnh Tấn Phát, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.733393,
-    "longitude": 106.758723
+    "id": "004",
+    "name": "Kho Trung tâm - 004",
+    "address": "892 30/4, TP. Thủ Dầu Một, Bình Dương",
+    "latitude": 10.766442,
+    "longitude": 107.190063
   },
   {
-    "id": "05",
-    "name": "Kho Quận 7 - 05",
-    "address": "1133 Nguyễn Lương Bằng, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.751074,
-    "longitude": 106.703795
+    "id": "005",
+    "name": "Kho Trung tâm - 005",
+    "address": "686 Nguyễn Trãi, TP. Đà Lạt, Lâm Đồng",
+    "latitude": 10.784134,
+    "longitude": 105.505875
   },
   {
-    "id": "06",
-    "name": "Kho Quận 7 - 06",
-    "address": "1140/35 Đường số 1, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.715945,
-    "longitude": 106.723297
+    "id": "006",
+    "name": "Kho Trung tâm - 006",
+    "address": "370 Phạm Văn Đồng, TP. Thủ Đức, TP. Hồ Chí Minh",
+    "latitude": 11.207965,
+    "longitude": 106.944998
   },
   {
-    "id": "07",
-    "name": "Kho Quận 7 - 07",
-    "address": "220 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.749391,
-    "longitude": 106.75548
+    "id": "007",
+    "name": "Kho Trung tâm - 007",
+    "address": "1341 Cách Mạng Tháng Tám, Huyện Bù Đăng, Bình Phước",
+    "latitude": 10.686751,
+    "longitude": 107.263782
   },
   {
-    "id": "08",
-    "name": "Kho Quận 7 - 08",
-    "address": "822 Nguyễn Hữu Thọ, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.747181,
-    "longitude": 106.743823
+    "id": "008",
+    "name": "Kho Trung tâm - 008",
+    "address": "285 Phan Bội Châu, Huyện Đức Hòa, Long An",
+    "latitude": 10.216752,
+    "longitude": 105.71098
   },
   {
-    "id": "09",
-    "name": "Kho Quận 7 - 09",
-    "address": "350/30 Đường số 1, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.744613,
-    "longitude": 106.708668
+    "id": "009",
+    "name": "Kho Trung tâm - 009",
+    "address": "271 Võ Thị Sáu, Huyện Bình Chánh, TP. Hồ Chí Minh",
+    "latitude": 11.854887,
+    "longitude": 106.937709
   },
   {
-    "id": "10",
-    "name": "Kho Quận 7 - 10",
-    "address": "829/26 Đường số 15, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.713178,
-    "longitude": 106.704513
+    "id": "010",
+    "name": "Kho Trung tâm - 010",
+    "address": "558/16 Lý Thường Kiệt, TP. Vũng Tàu, Bà Rịa - Vũng Tàu",
+    "latitude": 11.971524,
+    "longitude": 107.127091
   },
   {
-    "id": "11",
-    "name": "Kho Quận 7 - 11",
-    "address": "962/49 Tôn Dật Tiên, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.755663,
-    "longitude": 106.753286
+    "id": "011",
+    "name": "Kho Trung tâm - 011",
+    "address": "896 Lê Duẩn, TP. Tân An, Long An",
+    "latitude": 12.078654,
+    "longitude": 108.838369
   },
   {
-    "id": "12",
-    "name": "Kho Quận 7 - 12",
-    "address": "115 Đường số 41, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.751202,
-    "longitude": 106.759388
+    "id": "012",
+    "name": "Kho Trung tâm - 012",
+    "address": "1454 30/4, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 11.633331,
+    "longitude": 106.453514
   },
   {
-    "id": "13",
-    "name": "Kho Quận 7 - 13",
-    "address": "1156/20 Tôn Dật Tiên, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.725013,
-    "longitude": 106.754301
+    "id": "013",
+    "name": "Kho Trung tâm - 013",
+    "address": "1429 Võ Thị Sáu, Huyện Trảng Bom, Đồng Nai",
+    "latitude": 12.133441,
+    "longitude": 108.150536
   },
   {
-    "id": "14",
-    "name": "Kho Quận 7 - 14",
-    "address": "460 Nguyễn Thị Thập, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.732528,
-    "longitude": 106.722174
+    "id": "014",
+    "name": "Kho Trung tâm - 014",
+    "address": "632/3 Nguyễn Trãi, Huyện Long Thành, Đồng Nai",
+    "latitude": 11.636355,
+    "longitude": 108.287599
   },
   {
-    "id": "15",
-    "name": "Kho Quận 7 - 15",
-    "address": "1151 Đường số 15, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.753995,
-    "longitude": 106.724873
+    "id": "015",
+    "name": "Kho Trung tâm - 015",
+    "address": "302/7 Lê Duẩn, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 10.423118,
+    "longitude": 107.829156
   },
   {
-    "id": "16",
-    "name": "Kho Quận 7 - 16",
-    "address": "515/42 Đường số 65, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.718752,
-    "longitude": 106.753022
+    "id": "016",
+    "name": "Kho Trung tâm - 016",
+    "address": "539 Quang Trung, Huyện Di Linh, Lâm Đồng",
+    "latitude": 10.745754,
+    "longitude": 108.221577
   },
   {
-    "id": "17",
-    "name": "Kho Quận 7 - 17",
-    "address": "401/5 Mai Văn Vĩnh, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.724028,
-    "longitude": 106.722218
+    "id": "017",
+    "name": "Kho Trung tâm - 017",
+    "address": "758 30/4, TP. Thủ Đức, TP. Hồ Chí Minh",
+    "latitude": 10.223081,
+    "longitude": 106.972189
   },
   {
-    "id": "18",
-    "name": "Kho Quận 7 - 18",
-    "address": "1311 Tôn Dật Tiên, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.738235,
-    "longitude": 106.717895
+    "id": "018",
+    "name": "Kho Trung tâm - 018",
+    "address": "446/46 Trần Hưng Đạo, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 11.258374,
+    "longitude": 106.110774
   },
   {
-    "id": "19",
-    "name": "Kho Quận 7 - 19",
-    "address": "475/22 Đường số 41, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.753409,
-    "longitude": 106.732723
+    "id": "019",
+    "name": "Kho Trung tâm - 019",
+    "address": "1355 Lý Thường Kiệt, TP. Vũng Tàu, Bà Rịa - Vũng Tàu",
+    "latitude": 10.721415,
+    "longitude": 105.999317
   },
   {
-    "id": "20",
-    "name": "Kho Quận 7 - 20",
-    "address": "1244/22 Đào Trí, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.725017,
-    "longitude": 106.690796
+    "id": "020",
+    "name": "Kho Trung tâm - 020",
+    "address": "1389 30/4, Huyện Long Thành, Đồng Nai",
+    "latitude": 11.273097,
+    "longitude": 105.79066
   },
   {
-    "id": "21",
-    "name": "Kho Quận 7 - 21",
-    "address": "786/19 Mai Văn Vĩnh, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.743367,
-    "longitude": 106.711328
+    "id": "021",
+    "name": "Kho Trung tâm - 021",
+    "address": "973/29 Phan Bội Châu, TP. Đồng Xoài, Bình Phước",
+    "latitude": 12.062406,
+    "longitude": 108.509602
   },
   {
-    "id": "22",
-    "name": "Kho Quận 7 - 22",
-    "address": "861/35 Đào Trí, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.732116,
-    "longitude": 106.733984
+    "id": "022",
+    "name": "Kho Trung tâm - 022",
+    "address": "148 Lê Duẩn, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 10.662128,
+    "longitude": 107.942902
   },
   {
-    "id": "23",
-    "name": "Kho Quận 7 - 23",
-    "address": "1092 Trần Xuân Soạn, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.725872,
-    "longitude": 106.716398
+    "id": "023",
+    "name": "Kho Trung tâm - 023",
+    "address": "1464/32 Hùng Vương, Thị xã Kiến Tường, Long An",
+    "latitude": 11.136986,
+    "longitude": 107.665025
   },
   {
-    "id": "24",
-    "name": "Kho Quận 7 - 24",
-    "address": "1086 Huỳnh Tấn Phát, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.757933,
-    "longitude": 106.744114
+    "id": "024",
+    "name": "Kho Trung tâm - 024",
+    "address": "680 Trần Phú, TP. Phan Thiết, Bình Thuận",
+    "latitude": 11.131761,
+    "longitude": 106.572987
   },
   {
-    "id": "25",
-    "name": "Kho Quận 7 - 25",
-    "address": "1002/10 Đường số 65, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.717685,
-    "longitude": 106.708051
+    "id": "025",
+    "name": "Kho Trung tâm - 025",
+    "address": "294 Lê Lợi, Huyện Bù Đăng, Bình Phước",
+    "latitude": 11.275808,
+    "longitude": 105.780799
   },
   {
-    "id": "26",
-    "name": "Kho Quận 7 - 26",
-    "address": "174 Phạm Hữu Lầu, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.724364,
-    "longitude": 106.72215
+    "id": "026",
+    "name": "Kho Trung tâm - 026",
+    "address": "862 Điện Biên Phủ, Huyện Bắc Bình, Bình Thuận",
+    "latitude": 11.076794,
+    "longitude": 105.673846
   },
   {
-    "id": "27",
-    "name": "Kho Quận 7 - 27",
-    "address": "803 Nguyễn Thị Thập, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.752054,
-    "longitude": 106.719842
+    "id": "027",
+    "name": "Kho Trung tâm - 027",
+    "address": "296 Lý Thường Kiệt, Huyện Hàm Thuận Bắc, Bình Thuận",
+    "latitude": 12.292172,
+    "longitude": 106.849637
   },
   {
-    "id": "28",
-    "name": "Kho Quận 7 - 28",
-    "address": "1366 Đường số 1, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.746006,
-    "longitude": 106.719856
+    "id": "028",
+    "name": "Kho Trung tâm - 028",
+    "address": "353 Phạm Văn Đồng, Huyện Tuy Phong, Bình Thuận",
+    "latitude": 12.050247,
+    "longitude": 106.052208
   },
   {
-    "id": "29",
-    "name": "Kho Quận 7 - 29",
-    "address": "685 Tôn Dật Tiên, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.729222,
-    "longitude": 106.734823
+    "id": "029",
+    "name": "Kho Trung tâm - 029",
+    "address": "967 Phạm Văn Đồng, Huyện Châu Đức, Bà Rịa - Vũng Tàu",
+    "latitude": 12.11245,
+    "longitude": 105.886345
   },
   {
-    "id": "30",
-    "name": "Kho Quận 7 - 30",
-    "address": "212 Trần Xuân Soạn, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.753177,
-    "longitude": 106.707778
+    "id": "030",
+    "name": "Kho Trung tâm - 030",
+    "address": "1443/24 30/4, TP. Tân An, Long An",
+    "latitude": 11.398016,
+    "longitude": 105.611943
   },
   {
-    "id": "31",
-    "name": "Kho Quận 7 - 31",
-    "address": "1106 Lê Văn Lương, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.720496,
-    "longitude": 106.726445
+    "id": "031",
+    "name": "Kho Trung tâm - 031",
+    "address": "797 Phạm Văn Đồng, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 11.204899,
+    "longitude": 105.713966
   },
   {
-    "id": "32",
-    "name": "Kho Quận 7 - 32",
-    "address": "312/21 Đường số 1, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.722514,
-    "longitude": 106.748503
+    "id": "032",
+    "name": "Kho Trung tâm - 032",
+    "address": "1015 Nguyễn Trãi, Huyện Bến Lức, Long An",
+    "latitude": 11.609706,
+    "longitude": 106.685455
   },
   {
-    "id": "33",
-    "name": "Kho Quận 7 - 33",
-    "address": "593 Đường số 41, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.719601,
-    "longitude": 106.716209
+    "id": "033",
+    "name": "Kho Trung tâm - 033",
+    "address": "1471 Nguyễn Huệ, Huyện Châu Đức, Bà Rịa - Vũng Tàu",
+    "latitude": 11.285601,
+    "longitude": 106.19645
   },
   {
-    "id": "34",
-    "name": "Kho Quận 7 - 34",
-    "address": "576 Nguyễn Thị Thập, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.734295,
-    "longitude": 106.745342
+    "id": "034",
+    "name": "Kho Trung tâm - 034",
+    "address": "1261/3 Trần Phú, Huyện Di Linh, Lâm Đồng",
+    "latitude": 10.597878,
+    "longitude": 108.053139
   },
   {
-    "id": "35",
-    "name": "Kho Quận 7 - 35",
-    "address": "26 Huỳnh Tấn Phát, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.730217,
-    "longitude": 106.71687
+    "id": "035",
+    "name": "Kho Trung tâm - 035",
+    "address": "707 Cách Mạng Tháng Tám, Huyện Cần Giuộc, Long An",
+    "latitude": 10.449866,
+    "longitude": 108.020815
   },
   {
-    "id": "36",
-    "name": "Kho Quận 7 - 36",
-    "address": "395 Gò Ô Môi, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.750539,
-    "longitude": 106.712343
+    "id": "036",
+    "name": "Kho Trung tâm - 036",
+    "address": "1028 Quang Trung, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 11.111778,
+    "longitude": 106.804475
   },
   {
-    "id": "37",
-    "name": "Kho Quận 7 - 37",
-    "address": "612 Đường số 65, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.721955,
-    "longitude": 106.72821
+    "id": "037",
+    "name": "Kho Trung tâm - 037",
+    "address": "1151 Lý Thường Kiệt, Huyện Tuy Phong, Bình Thuận",
+    "latitude": 11.37089,
+    "longitude": 106.616981
   },
   {
-    "id": "38",
-    "name": "Kho Quận 7 - 38",
-    "address": "21/46 Huỳnh Tấn Phát, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.713254,
-    "longitude": 106.755049
+    "id": "038",
+    "name": "Kho Trung tâm - 038",
+    "address": "532 Hùng Vương, TP. Thủ Đức, TP. Hồ Chí Minh",
+    "latitude": 11.69813,
+    "longitude": 108.763691
   },
   {
-    "id": "39",
-    "name": "Kho Quận 7 - 39",
-    "address": "53/21 Huỳnh Tấn Phát, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.746319,
-    "longitude": 106.743688
+    "id": "039",
+    "name": "Kho Trung tâm - 039",
+    "address": "1056 Cách Mạng Tháng Tám, Huyện Bình Chánh, TP. Hồ Chí Minh",
+    "latitude": 11.423835,
+    "longitude": 108.703801
   },
   {
-    "id": "40",
-    "name": "Kho Quận 7 - 40",
-    "address": "104 Phạm Hữu Lầu, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.754315,
-    "longitude": 106.75286
+    "id": "040",
+    "name": "Kho Trung tâm - 040",
+    "address": "75 30/4, Thị xã Kiến Tường, Long An",
+    "latitude": 10.356771,
+    "longitude": 107.280441
   },
   {
-    "id": "41",
-    "name": "Kho Quận 7 - 41",
-    "address": "1109 Đường số 65, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.748206,
-    "longitude": 106.701669
+    "id": "041",
+    "name": "Kho Trung tâm - 041",
+    "address": "70 Nguyễn Huệ, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 11.254771,
+    "longitude": 108.193496
   },
   {
-    "id": "42",
-    "name": "Kho Quận 7 - 42",
-    "address": "583 Lê Văn Lương, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.712844,
-    "longitude": 106.741517
+    "id": "042",
+    "name": "Kho Trung tâm - 042",
+    "address": "472/48 30/4, Thị xã Bình Long, Bình Phước",
+    "latitude": 11.653026,
+    "longitude": 106.632031
   },
   {
-    "id": "43",
-    "name": "Kho Quận 7 - 43",
-    "address": "871/48 Lâm Văn Bền, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.716587,
-    "longitude": 106.696189
+    "id": "043",
+    "name": "Kho Trung tâm - 043",
+    "address": "61 Lê Lợi, Huyện Cần Giuộc, Long An",
+    "latitude": 12.311134,
+    "longitude": 108.765989
   },
   {
-    "id": "44",
-    "name": "Kho Quận 7 - 44",
-    "address": "794 Đào Trí, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.715101,
-    "longitude": 106.71564
+    "id": "044",
+    "name": "Kho Trung tâm - 044",
+    "address": "1214 Trần Phú, TP. Thủ Dầu Một, Bình Dương",
+    "latitude": 10.367583,
+    "longitude": 107.637267
   },
   {
-    "id": "45",
-    "name": "Kho Quận 7 - 45",
-    "address": "1214 Tôn Dật Tiên, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.725173,
-    "longitude": 106.753335
+    "id": "045",
+    "name": "Kho Trung tâm - 045",
+    "address": "421/36 Trần Hưng Đạo, Huyện Dương Minh Châu, Tây Ninh",
+    "latitude": 10.203297,
+    "longitude": 106.133827
   },
   {
-    "id": "46",
-    "name": "Kho Quận 7 - 46",
-    "address": "1155 Nguyễn Lương Bằng, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.742259,
-    "longitude": 106.756797
+    "id": "046",
+    "name": "Kho Trung tâm - 046",
+    "address": "323 Nguyễn Trãi, Huyện Bắc Bình, Bình Thuận",
+    "latitude": 11.505836,
+    "longitude": 106.277322
   },
   {
-    "id": "47",
-    "name": "Kho Quận 7 - 47",
-    "address": "1326 Đường số 1, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.758426,
-    "longitude": 106.724851
+    "id": "047",
+    "name": "Kho Trung tâm - 047",
+    "address": "1477 Trần Hưng Đạo, Huyện Hàm Thuận Bắc, Bình Thuận",
+    "latitude": 10.68195,
+    "longitude": 107.262074
   },
   {
-    "id": "48",
-    "name": "Kho Quận 7 - 48",
-    "address": "1247/38 Lê Văn Lương, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.747341,
-    "longitude": 106.732789
+    "id": "048",
+    "name": "Kho Trung tâm - 048",
+    "address": "202 Cách Mạng Tháng Tám, Huyện Bắc Bình, Bình Thuận",
+    "latitude": 10.366016,
+    "longitude": 106.691155
   },
   {
-    "id": "49",
-    "name": "Kho Quận 7 - 49",
-    "address": "260/24 Tôn Dật Tiên, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.726827,
-    "longitude": 106.749592
+    "id": "049",
+    "name": "Kho Trung tâm - 049",
+    "address": "1032 Trần Phú, TP. Thuận An, Bình Dương",
+    "latitude": 10.741106,
+    "longitude": 108.117755
   },
   {
-    "id": "50",
-    "name": "Kho Quận 7 - 50",
-    "address": "82 Tôn Dật Tiên, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.756112,
-    "longitude": 106.703657
+    "id": "050",
+    "name": "Kho Trung tâm - 050",
+    "address": "1063 Điện Biên Phủ, TP. Thuận An, Bình Dương",
+    "latitude": 10.964605,
+    "longitude": 106.730765
   },
   {
-    "id": "51",
-    "name": "Kho Quận 7 - 51",
-    "address": "29 Tôn Dật Tiên, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.724351,
-    "longitude": 106.736109
+    "id": "051",
+    "name": "Kho Trung tâm - 051",
+    "address": "197 Nguyễn Huệ, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 11.081835,
+    "longitude": 108.698743
   },
   {
-    "id": "52",
-    "name": "Kho Quận 7 - 52",
-    "address": "728 Đường số 41, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.752345,
-    "longitude": 106.730798
+    "id": "052",
+    "name": "Kho Trung tâm - 052",
+    "address": "864/47 Phan Bội Châu, Huyện Di Linh, Lâm Đồng",
+    "latitude": 10.756687,
+    "longitude": 106.54433
   },
   {
-    "id": "53",
-    "name": "Kho Quận 7 - 53",
-    "address": "186 Nguyễn Hữu Thọ, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.745188,
-    "longitude": 106.731837
+    "id": "053",
+    "name": "Kho Trung tâm - 053",
+    "address": "1359 Nguyễn Huệ, TP. Dĩ An, Bình Dương",
+    "latitude": 11.331312,
+    "longitude": 107.752085
   },
   {
-    "id": "54",
-    "name": "Kho Quận 7 - 54",
-    "address": "716 Tôn Dật Tiên, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.759939,
-    "longitude": 106.723422
+    "id": "054",
+    "name": "Kho Trung tâm - 054",
+    "address": "517/20 Nguyễn Huệ, Huyện Bến Lức, Long An",
+    "latitude": 10.86128,
+    "longitude": 108.53518
   },
   {
-    "id": "55",
-    "name": "Kho Quận 7 - 55",
-    "address": "773 Mai Văn Vĩnh, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.713252,
-    "longitude": 106.742136
+    "id": "055",
+    "name": "Kho Trung tâm - 055",
+    "address": "1235 Điện Biên Phủ, TP. Biên Hòa, Đồng Nai",
+    "latitude": 11.941051,
+    "longitude": 107.381551
   },
   {
-    "id": "56",
-    "name": "Kho Quận 7 - 56",
-    "address": "751 Gò Ô Môi, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.712525,
-    "longitude": 106.74385
+    "id": "056",
+    "name": "Kho Trung tâm - 056",
+    "address": "1476 Trần Phú, TP. Bảo Lộc, Lâm Đồng",
+    "latitude": 11.576687,
+    "longitude": 106.573399
   },
   {
-    "id": "57",
-    "name": "Kho Quận 7 - 57",
-    "address": "423 Lê Văn Lương, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.734856,
-    "longitude": 106.695506
+    "id": "057",
+    "name": "Kho Trung tâm - 057",
+    "address": "767/45 Hùng Vương, Huyện Đức Hòa, Long An",
+    "latitude": 11.585723,
+    "longitude": 107.558666
   },
   {
-    "id": "58",
-    "name": "Kho Quận 7 - 58",
-    "address": "829 Nguyễn Lương Bằng, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.721799,
-    "longitude": 106.725088
+    "id": "058",
+    "name": "Kho Trung tâm - 058",
+    "address": "226 Nguyễn Trãi, Thị xã Phước Long, Bình Phước",
+    "latitude": 12.368925,
+    "longitude": 106.636352
   },
   {
-    "id": "59",
-    "name": "Kho Quận 7 - 59",
-    "address": "40 Nguyễn Hữu Thọ, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.757361,
-    "longitude": 106.708226
+    "id": "059",
+    "name": "Kho Trung tâm - 059",
+    "address": "209/6 Điện Biên Phủ, Thị xã Phước Long, Bình Phước",
+    "latitude": 11.145283,
+    "longitude": 105.957486
   },
   {
-    "id": "60",
-    "name": "Kho Quận 7 - 60",
-    "address": "1395 Tôn Dật Tiên, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.731102,
-    "longitude": 106.713624
+    "id": "060",
+    "name": "Kho Trung tâm - 060",
+    "address": "135 Phạm Văn Đồng, Huyện Xuyên Mộc, Bà Rịa - Vũng Tàu",
+    "latitude": 11.321831,
+    "longitude": 107.33426
   },
   {
-    "id": "61",
-    "name": "Kho Quận 7 - 61",
-    "address": "654 Tôn Dật Tiên, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.738352,
-    "longitude": 106.72645
+    "id": "061",
+    "name": "Kho Trung tâm - 061",
+    "address": "195 Cách Mạng Tháng Tám, Huyện Củ Chi, TP. Hồ Chí Minh",
+    "latitude": 12.260842,
+    "longitude": 107.885848
   },
   {
-    "id": "62",
-    "name": "Kho Quận 7 - 62",
-    "address": "204/39 Tôn Dật Tiên, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.756198,
-    "longitude": 106.708089
+    "id": "062",
+    "name": "Kho Trung tâm - 062",
+    "address": "1034 Phạm Văn Đồng, TP. Long Khánh, Đồng Nai",
+    "latitude": 11.530093,
+    "longitude": 107.36497
   },
   {
-    "id": "63",
-    "name": "Kho Quận 7 - 63",
-    "address": "151 Nguyễn Lương Bằng, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.748032,
-    "longitude": 106.717503
+    "id": "063",
+    "name": "Kho Trung tâm - 063",
+    "address": "233 30/4, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 12.192743,
+    "longitude": 106.285669
   },
   {
-    "id": "64",
-    "name": "Kho Quận 7 - 64",
-    "address": "297 Phạm Hữu Lầu, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.744905,
-    "longitude": 106.737049
+    "id": "064",
+    "name": "Kho Trung tâm - 064",
+    "address": "319 Hùng Vương, Thị xã Bình Long, Bình Phước",
+    "latitude": 10.679461,
+    "longitude": 107.75786
   },
   {
-    "id": "65",
-    "name": "Kho Quận 7 - 65",
-    "address": "1389/48 Gò Ô Môi, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.723007,
-    "longitude": 106.74827
+    "id": "065",
+    "name": "Kho Trung tâm - 065",
+    "address": "509 Phan Bội Châu, Thị xã Phước Long, Bình Phước",
+    "latitude": 11.745224,
+    "longitude": 108.589613
   },
   {
-    "id": "66",
-    "name": "Kho Quận 7 - 66",
-    "address": "874 Mai Văn Vĩnh, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.756121,
-    "longitude": 106.756963
+    "id": "066",
+    "name": "Kho Trung tâm - 066",
+    "address": "1044/25 Quang Trung, TP. Thuận An, Bình Dương",
+    "latitude": 12.334312,
+    "longitude": 106.061082
   },
   {
-    "id": "67",
-    "name": "Kho Quận 7 - 67",
-    "address": "818 Đào Trí, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.752301,
-    "longitude": 106.730226
+    "id": "067",
+    "name": "Kho Trung tâm - 067",
+    "address": "1312/50 Lê Duẩn, Huyện Dầu Tiếng, Bình Dương",
+    "latitude": 10.975352,
+    "longitude": 106.660072
   },
   {
-    "id": "68",
-    "name": "Kho Quận 7 - 68",
-    "address": "361 Tôn Dật Tiên, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.735147,
-    "longitude": 106.700329
+    "id": "068",
+    "name": "Kho Trung tâm - 068",
+    "address": "108 Trần Hưng Đạo, TP. Tây Ninh, Tây Ninh",
+    "latitude": 10.483896,
+    "longitude": 106.483429
   },
   {
-    "id": "69",
-    "name": "Kho Quận 7 - 69",
-    "address": "171/32 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.727028,
-    "longitude": 106.744014
+    "id": "069",
+    "name": "Kho Trung tâm - 069",
+    "address": "302 Lê Lợi, Huyện Dương Minh Châu, Tây Ninh",
+    "latitude": 11.707729,
+    "longitude": 108.728263
   },
   {
-    "id": "70",
-    "name": "Kho Quận 7 - 70",
-    "address": "180/2 Mai Văn Vĩnh, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.757157,
-    "longitude": 106.720508
+    "id": "070",
+    "name": "Kho Trung tâm - 070",
+    "address": "488 30/4, TP. Thủ Đức, TP. Hồ Chí Minh",
+    "latitude": 10.533218,
+    "longitude": 106.938687
   },
   {
-    "id": "71",
-    "name": "Kho Quận 7 - 71",
-    "address": "186/14 Lê Văn Lương, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.716596,
-    "longitude": 106.72867
+    "id": "071",
+    "name": "Kho Trung tâm - 071",
+    "address": "679 Điện Biên Phủ, Huyện Dương Minh Châu, Tây Ninh",
+    "latitude": 10.520789,
+    "longitude": 105.61678
   },
   {
-    "id": "72",
-    "name": "Kho Quận 7 - 72",
-    "address": "99 Nguyễn Thị Thập, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.757009,
-    "longitude": 106.698004
+    "id": "072",
+    "name": "Kho Trung tâm - 072",
+    "address": "10 Lý Thường Kiệt, Huyện Lâm Hà, Lâm Đồng",
+    "latitude": 12.201234,
+    "longitude": 108.239102
   },
   {
-    "id": "73",
-    "name": "Kho Quận 7 - 73",
-    "address": "1323 Đường số 1, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.758201,
-    "longitude": 106.751759
+    "id": "073",
+    "name": "Kho Trung tâm - 073",
+    "address": "603 Lê Duẩn, Huyện Bến Lức, Long An",
+    "latitude": 11.213912,
+    "longitude": 107.696439
   },
   {
-    "id": "74",
-    "name": "Kho Quận 7 - 74",
-    "address": "1471 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.757841,
-    "longitude": 106.726325
+    "id": "074",
+    "name": "Kho Trung tâm - 074",
+    "address": "1092 Lê Duẩn, Huyện Di Linh, Lâm Đồng",
+    "latitude": 12.148455,
+    "longitude": 106.65994
   },
   {
-    "id": "75",
-    "name": "Kho Quận 7 - 75",
-    "address": "449/26 Gò Ô Môi, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.739632,
-    "longitude": 106.708708
+    "id": "075",
+    "name": "Kho Trung tâm - 075",
+    "address": "159 Nguyễn Huệ, Thị xã Kiến Tường, Long An",
+    "latitude": 10.633474,
+    "longitude": 108.847434
   },
   {
-    "id": "76",
-    "name": "Kho Quận 7 - 76",
-    "address": "630 Nguyễn Lương Bằng, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.748878,
-    "longitude": 106.704633
+    "id": "076",
+    "name": "Kho Trung tâm - 076",
+    "address": "1172/38 Cách Mạng Tháng Tám, Huyện Lâm Hà, Lâm Đồng",
+    "latitude": 12.175702,
+    "longitude": 107.886243
   },
   {
-    "id": "77",
-    "name": "Kho Quận 7 - 77",
-    "address": "861/38 Tôn Dật Tiên, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.733773,
-    "longitude": 106.729235
+    "id": "077",
+    "name": "Kho Trung tâm - 077",
+    "address": "1441 Cách Mạng Tháng Tám, Huyện Xuyên Mộc, Bà Rịa - Vũng Tàu",
+    "latitude": 12.217127,
+    "longitude": 107.347839
   },
   {
-    "id": "78",
-    "name": "Kho Quận 7 - 78",
-    "address": "349 Nguyễn Thị Thập, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.741325,
-    "longitude": 106.723718
+    "id": "078",
+    "name": "Kho Trung tâm - 078",
+    "address": "189 Lý Thường Kiệt, TP. Bảo Lộc, Lâm Đồng",
+    "latitude": 10.354361,
+    "longitude": 106.23059
   },
   {
-    "id": "79",
-    "name": "Kho Quận 7 - 79",
-    "address": "922 Nguyễn Lương Bằng, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.726955,
-    "longitude": 106.75727
+    "id": "079",
+    "name": "Kho Trung tâm - 079",
+    "address": "250 Phạm Văn Đồng, Thị xã Kiến Tường, Long An",
+    "latitude": 12.097867,
+    "longitude": 108.053263
   },
   {
-    "id": "80",
-    "name": "Kho Quận 7 - 80",
-    "address": "1038 Trần Xuân Soạn, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.714085,
-    "longitude": 106.708269
+    "id": "080",
+    "name": "Kho Trung tâm - 080",
+    "address": "1401 Võ Thị Sáu, Huyện Bình Chánh, TP. Hồ Chí Minh",
+    "latitude": 11.770151,
+    "longitude": 107.411781
   },
   {
-    "id": "81",
-    "name": "Kho Quận 7 - 81",
-    "address": "1341/24 Gò Ô Môi, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.74834,
-    "longitude": 106.710933
+    "id": "081",
+    "name": "Kho Trung tâm - 081",
+    "address": "1407/21 Điện Biên Phủ, Quận Gò Vấp, TP. Hồ Chí Minh",
+    "latitude": 10.919502,
+    "longitude": 106.04976
   },
   {
-    "id": "82",
-    "name": "Kho Quận 7 - 82",
-    "address": "130 Đường số 41, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.739004,
-    "longitude": 106.710194
+    "id": "082",
+    "name": "Kho Trung tâm - 082",
+    "address": "900/20 30/4, TP. Dĩ An, Bình Dương",
+    "latitude": 12.160377,
+    "longitude": 106.826522
   },
   {
-    "id": "83",
-    "name": "Kho Quận 7 - 83",
-    "address": "612 Mai Văn Vĩnh, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.729837,
-    "longitude": 106.747983
+    "id": "083",
+    "name": "Kho Trung tâm - 083",
+    "address": "509 Trần Hưng Đạo, Huyện Châu Đức, Bà Rịa - Vũng Tàu",
+    "latitude": 11.247386,
+    "longitude": 106.092478
   },
   {
-    "id": "84",
-    "name": "Kho Quận 7 - 84",
-    "address": "1337/19 Lâm Văn Bền, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.717432,
-    "longitude": 106.729387
+    "id": "084",
+    "name": "Kho Trung tâm - 084",
+    "address": "847 Hùng Vương, Huyện Dầu Tiếng, Bình Dương",
+    "latitude": 11.887625,
+    "longitude": 107.751919
   },
   {
-    "id": "85",
-    "name": "Kho Quận 7 - 85",
-    "address": "982 Nguyễn Hữu Thọ, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.751477,
-    "longitude": 106.708036
+    "id": "085",
+    "name": "Kho Trung tâm - 085",
+    "address": "940 Phan Bội Châu, TP. Đà Lạt, Lâm Đồng",
+    "latitude": 11.032838,
+    "longitude": 105.899569
   },
   {
-    "id": "86",
-    "name": "Kho Quận 7 - 86",
-    "address": "191 Gò Ô Môi, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.734916,
-    "longitude": 106.692672
+    "id": "086",
+    "name": "Kho Trung tâm - 086",
+    "address": "190/7 30/4, TP. Đà Lạt, Lâm Đồng",
+    "latitude": 12.012136,
+    "longitude": 106.875384
   },
   {
-    "id": "87",
-    "name": "Kho Quận 7 - 87",
-    "address": "293/3 Huỳnh Tấn Phát, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.711336,
-    "longitude": 106.690978
+    "id": "087",
+    "name": "Kho Trung tâm - 087",
+    "address": "195 Phan Bội Châu, TP. Tân An, Long An",
+    "latitude": 11.717563,
+    "longitude": 105.587292
   },
   {
-    "id": "88",
-    "name": "Kho Quận 7 - 88",
-    "address": "1390 Đào Trí, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.740561,
-    "longitude": 106.725806
+    "id": "088",
+    "name": "Kho Trung tâm - 088",
+    "address": "965 Điện Biên Phủ, Huyện Xuyên Mộc, Bà Rịa - Vũng Tàu",
+    "latitude": 11.364177,
+    "longitude": 108.792802
   },
   {
-    "id": "89",
-    "name": "Kho Quận 7 - 89",
-    "address": "1158/13 Đường số 41, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.728608,
-    "longitude": 106.73233
+    "id": "089",
+    "name": "Kho Trung tâm - 089",
+    "address": "1414 Hùng Vương, Huyện Cần Giuộc, Long An",
+    "latitude": 12.21204,
+    "longitude": 106.538854
   },
   {
-    "id": "90",
-    "name": "Kho Quận 7 - 90",
-    "address": "579 Phạm Hữu Lầu, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.75697,
-    "longitude": 106.714849
+    "id": "090",
+    "name": "Kho Trung tâm - 090",
+    "address": "1422/40 Điện Biên Phủ, Huyện Lâm Hà, Lâm Đồng",
+    "latitude": 12.250093,
+    "longitude": 107.60136
   },
   {
-    "id": "91",
-    "name": "Kho Quận 7 - 91",
-    "address": "1085/9 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.729323,
-    "longitude": 106.729264
+    "id": "091",
+    "name": "Kho Trung tâm - 091",
+    "address": "218/37 Hùng Vương, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 11.069523,
+    "longitude": 106.151934
   },
   {
-    "id": "92",
-    "name": "Kho Quận 7 - 92",
-    "address": "32 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.756657,
-    "longitude": 106.747894
+    "id": "092",
+    "name": "Kho Trung tâm - 092",
+    "address": "497 Nguyễn Huệ, Huyện Chơn Thành, Bình Phước",
+    "latitude": 11.783409,
+    "longitude": 106.183067
   },
   {
-    "id": "93",
-    "name": "Kho Quận 7 - 93",
-    "address": "362 Huỳnh Tấn Phát, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.737013,
-    "longitude": 106.730018
+    "id": "093",
+    "name": "Kho Trung tâm - 093",
+    "address": "1435/31 Trần Phú, Huyện Đức Trọng, Lâm Đồng",
+    "latitude": 11.930767,
+    "longitude": 108.164364
   },
   {
-    "id": "94",
-    "name": "Kho Quận 7 - 94",
-    "address": "551 Lâm Văn Bền, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.723539,
-    "longitude": 106.7048
+    "id": "094",
+    "name": "Kho Trung tâm - 094",
+    "address": "171/41 Phạm Văn Đồng, TP. Thuận An, Bình Dương",
+    "latitude": 11.296574,
+    "longitude": 105.954481
   },
   {
-    "id": "95",
-    "name": "Kho Quận 7 - 95",
-    "address": "1068/22 Đường số 65, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.715282,
-    "longitude": 106.755836
+    "id": "095",
+    "name": "Kho Trung tâm - 095",
+    "address": "1340/16 Nguyễn Huệ, TP. Biên Hòa, Đồng Nai",
+    "latitude": 11.489579,
+    "longitude": 108.784025
   },
   {
-    "id": "96",
-    "name": "Kho Quận 7 - 96",
-    "address": "1063 Đường số 41, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.747919,
-    "longitude": 106.718693
+    "id": "096",
+    "name": "Kho Trung tâm - 096",
+    "address": "1294/37 Võ Thị Sáu, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 11.696592,
+    "longitude": 107.754549
   },
   {
-    "id": "97",
-    "name": "Kho Quận 7 - 97",
-    "address": "296 Nguyễn Thị Thập, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.73195,
-    "longitude": 106.700028
+    "id": "097",
+    "name": "Kho Trung tâm - 097",
+    "address": "31 Lê Duẩn, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 10.615195,
+    "longitude": 108.712724
   },
   {
-    "id": "98",
-    "name": "Kho Quận 7 - 98",
-    "address": "277 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.743042,
-    "longitude": 106.757798
+    "id": "098",
+    "name": "Kho Trung tâm - 098",
+    "address": "164 Cách Mạng Tháng Tám, Thị xã Phước Long, Bình Phước",
+    "latitude": 11.28224,
+    "longitude": 105.751851
   },
   {
-    "id": "99",
-    "name": "Kho Quận 7 - 99",
-    "address": "330 Đường số 65, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.7584,
-    "longitude": 106.759535
+    "id": "099",
+    "name": "Kho Trung tâm - 099",
+    "address": "1193 Nguyễn Trãi, Huyện Đức Hòa, Long An",
+    "latitude": 11.162222,
+    "longitude": 108.315391
   },
   {
     "id": "100",
-    "name": "Kho Quận 7 - 100",
-    "address": "1061 Đường số 1, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.739573,
-    "longitude": 106.749379
+    "name": "Kho Trung tâm - 100",
+    "address": "1484/47 Quang Trung, Thị xã Kiến Tường, Long An",
+    "latitude": 12.130041,
+    "longitude": 106.534992
   },
   {
     "id": "101",
-    "name": "Kho Quận 7 - 101",
-    "address": "396/10 Nguyễn Lương Bằng, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.716303,
-    "longitude": 106.755059
+    "name": "Kho Trung tâm - 101",
+    "address": "228 Nguyễn Trãi, Huyện Nhơn Trạch, Đồng Nai",
+    "latitude": 11.318048,
+    "longitude": 107.014298
   },
   {
     "id": "102",
-    "name": "Kho Quận 7 - 102",
-    "address": "1062/26 Mai Văn Vĩnh, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.717907,
-    "longitude": 106.745492
+    "name": "Kho Trung tâm - 102",
+    "address": "261 Lý Thường Kiệt, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 11.920465,
+    "longitude": 108.188427
   },
   {
     "id": "103",
-    "name": "Kho Quận 7 - 103",
-    "address": "435 Lê Văn Lương, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.7226,
-    "longitude": 106.701156
+    "name": "Kho Trung tâm - 103",
+    "address": "1292 Nguyễn Huệ, TP. Thủ Dầu Một, Bình Dương",
+    "latitude": 10.522179,
+    "longitude": 108.76082
   },
   {
     "id": "104",
-    "name": "Kho Quận 7 - 104",
-    "address": "90 Đường số 65, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.753951,
-    "longitude": 106.70213
+    "name": "Kho Trung tâm - 104",
+    "address": "1284/36 Cách Mạng Tháng Tám, Thị xã La Gi, Bình Thuận",
+    "latitude": 11.332242,
+    "longitude": 108.236402
   },
   {
     "id": "105",
-    "name": "Kho Quận 7 - 105",
-    "address": "831 Đường số 65, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.727671,
-    "longitude": 106.739687
+    "name": "Kho Trung tâm - 105",
+    "address": "1076 30/4, Huyện Dầu Tiếng, Bình Dương",
+    "latitude": 10.521495,
+    "longitude": 107.477911
   },
   {
     "id": "106",
-    "name": "Kho Quận 7 - 106",
-    "address": "1355/43 Đào Trí, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.744224,
-    "longitude": 106.714762
+    "name": "Kho Trung tâm - 106",
+    "address": "251 30/4, Thị xã Bến Cát, Bình Dương",
+    "latitude": 12.35932,
+    "longitude": 108.448889
   },
   {
     "id": "107",
-    "name": "Kho Quận 7 - 107",
-    "address": "46 Đường số 15, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.710388,
-    "longitude": 106.690501
+    "name": "Kho Trung tâm - 107",
+    "address": "1459/40 Trần Hưng Đạo, Huyện Đức Trọng, Lâm Đồng",
+    "latitude": 10.466748,
+    "longitude": 107.291964
   },
   {
     "id": "108",
-    "name": "Kho Quận 7 - 108",
-    "address": "60 Nguyễn Thị Thập, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.746748,
-    "longitude": 106.73815
+    "name": "Kho Trung tâm - 108",
+    "address": "928 Lê Duẩn, Huyện Nhơn Trạch, Đồng Nai",
+    "latitude": 11.614265,
+    "longitude": 106.017343
   },
   {
     "id": "109",
-    "name": "Kho Quận 7 - 109",
-    "address": "4 Lê Văn Lương, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.712106,
-    "longitude": 106.696211
+    "name": "Kho Trung tâm - 109",
+    "address": "1354 Nguyễn Huệ, Huyện Hàm Thuận Bắc, Bình Thuận",
+    "latitude": 12.185777,
+    "longitude": 107.181407
   },
   {
     "id": "110",
-    "name": "Kho Quận 7 - 110",
-    "address": "551 Tôn Dật Tiên, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.749428,
-    "longitude": 106.702969
+    "name": "Kho Trung tâm - 110",
+    "address": "1367/13 30/4, Huyện Xuyên Mộc, Bà Rịa - Vũng Tàu",
+    "latitude": 10.377231,
+    "longitude": 106.936961
   },
   {
     "id": "111",
-    "name": "Kho Quận 7 - 111",
-    "address": "168 Đường số 1, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.740999,
-    "longitude": 106.710572
+    "name": "Kho Trung tâm - 111",
+    "address": "57/40 Quang Trung, Huyện Củ Chi, TP. Hồ Chí Minh",
+    "latitude": 12.305559,
+    "longitude": 107.972699
   },
   {
     "id": "112",
-    "name": "Kho Quận 7 - 112",
-    "address": "1428 Gò Ô Môi, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.71928,
-    "longitude": 106.722774
+    "name": "Kho Trung tâm - 112",
+    "address": "1437 Phạm Văn Đồng, Huyện Cần Giuộc, Long An",
+    "latitude": 10.995084,
+    "longitude": 107.807448
   },
   {
     "id": "113",
-    "name": "Kho Quận 7 - 113",
-    "address": "1449/6 Mai Văn Vĩnh, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.757181,
-    "longitude": 106.697059
+    "name": "Kho Trung tâm - 113",
+    "address": "1342 Võ Thị Sáu, Huyện Bình Chánh, TP. Hồ Chí Minh",
+    "latitude": 10.228576,
+    "longitude": 106.119676
   },
   {
     "id": "114",
-    "name": "Kho Quận 7 - 114",
-    "address": "696 Đường số 65, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.710294,
-    "longitude": 106.748427
+    "name": "Kho Trung tâm - 114",
+    "address": "1233 Lý Thường Kiệt, TP. Biên Hòa, Đồng Nai",
+    "latitude": 12.127707,
+    "longitude": 107.172378
   },
   {
     "id": "115",
-    "name": "Kho Quận 7 - 115",
-    "address": "342 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.757221,
-    "longitude": 106.739861
+    "name": "Kho Trung tâm - 115",
+    "address": "512/29 Nguyễn Trãi, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 10.378828,
+    "longitude": 107.557395
   },
   {
     "id": "116",
-    "name": "Kho Quận 7 - 116",
-    "address": "544/27 Nguyễn Hữu Thọ, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.711099,
-    "longitude": 106.749162
+    "name": "Kho Trung tâm - 116",
+    "address": "1316 Nguyễn Huệ, Quận 1, TP. Hồ Chí Minh",
+    "latitude": 11.060347,
+    "longitude": 107.670604
   },
   {
     "id": "117",
-    "name": "Kho Quận 7 - 117",
-    "address": "235/10 Đường số 65, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.746621,
-    "longitude": 106.729026
+    "name": "Kho Trung tâm - 117",
+    "address": "656 30/4, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 11.384179,
+    "longitude": 107.237755
   },
   {
     "id": "118",
-    "name": "Kho Quận 7 - 118",
-    "address": "152 Đường số 41, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.742111,
-    "longitude": 106.728914
+    "name": "Kho Trung tâm - 118",
+    "address": "169 Lê Duẩn, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 10.44536,
+    "longitude": 108.772847
   },
   {
     "id": "119",
-    "name": "Kho Quận 7 - 119",
-    "address": "1060 Nguyễn Hữu Thọ, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.736829,
-    "longitude": 106.702083
+    "name": "Kho Trung tâm - 119",
+    "address": "773/49 Nguyễn Huệ, TP. Dĩ An, Bình Dương",
+    "latitude": 10.413549,
+    "longitude": 106.739752
   },
   {
     "id": "120",
-    "name": "Kho Quận 7 - 120",
-    "address": "942/23 Nguyễn Lương Bằng, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.750894,
-    "longitude": 106.699071
+    "name": "Kho Trung tâm - 120",
+    "address": "123 Võ Thị Sáu, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 11.311783,
+    "longitude": 105.851977
   },
   {
     "id": "121",
-    "name": "Kho Quận 7 - 121",
-    "address": "278 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.746003,
-    "longitude": 106.704716
+    "name": "Kho Trung tâm - 121",
+    "address": "550/41 Võ Thị Sáu, Thị xã Bến Cát, Bình Dương",
+    "latitude": 11.279586,
+    "longitude": 107.470637
   },
   {
     "id": "122",
-    "name": "Kho Quận 7 - 122",
-    "address": "426/49 Đường số 65, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.73131,
-    "longitude": 106.746495
+    "name": "Kho Trung tâm - 122",
+    "address": "703/37 30/4, Thị xã Hòa Thành, Tây Ninh",
+    "latitude": 11.411756,
+    "longitude": 108.244553
   },
   {
     "id": "123",
-    "name": "Kho Quận 7 - 123",
-    "address": "1234 Đào Trí, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.730493,
-    "longitude": 106.754279
+    "name": "Kho Trung tâm - 123",
+    "address": "1434 Quang Trung, TP. Long Khánh, Đồng Nai",
+    "latitude": 10.956169,
+    "longitude": 106.033757
   },
   {
     "id": "124",
-    "name": "Kho Quận 7 - 124",
-    "address": "1000 Đường số 65, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.719407,
-    "longitude": 106.73294
+    "name": "Kho Trung tâm - 124",
+    "address": "1387 Trần Phú, Thị xã Hòa Thành, Tây Ninh",
+    "latitude": 10.260636,
+    "longitude": 108.259459
   },
   {
     "id": "125",
-    "name": "Kho Quận 7 - 125",
-    "address": "799 Đường số 1, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.759211,
-    "longitude": 106.732882
+    "name": "Kho Trung tâm - 125",
+    "address": "1110 Cách Mạng Tháng Tám, Quận 1, TP. Hồ Chí Minh",
+    "latitude": 10.638156,
+    "longitude": 108.293118
   },
   {
     "id": "126",
-    "name": "Kho Quận 7 - 126",
-    "address": "1020 Đào Trí, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.751465,
-    "longitude": 106.742381
+    "name": "Kho Trung tâm - 126",
+    "address": "627/47 Hùng Vương, TP. Phan Thiết, Bình Thuận",
+    "latitude": 11.281775,
+    "longitude": 108.387949
   },
   {
     "id": "127",
-    "name": "Kho Quận 7 - 127",
-    "address": "199/9 Đường số 15, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.753747,
-    "longitude": 106.705785
+    "name": "Kho Trung tâm - 127",
+    "address": "309 Quang Trung, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 12.094527,
+    "longitude": 106.668989
   },
   {
     "id": "128",
-    "name": "Kho Quận 7 - 128",
-    "address": "214 Nguyễn Thị Thập, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.729556,
-    "longitude": 106.710946
+    "name": "Kho Trung tâm - 128",
+    "address": "25 Trần Phú, Huyện Chơn Thành, Bình Phước",
+    "latitude": 12.212925,
+    "longitude": 108.239745
   },
   {
     "id": "129",
-    "name": "Kho Quận 7 - 129",
-    "address": "45 Đường số 15, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.714075,
-    "longitude": 106.733655
+    "name": "Kho Trung tâm - 129",
+    "address": "205 Trần Phú, Thị xã La Gi, Bình Thuận",
+    "latitude": 12.328216,
+    "longitude": 105.729644
   },
   {
     "id": "130",
-    "name": "Kho Quận 7 - 130",
-    "address": "717/38 Nguyễn Lương Bằng, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.745412,
-    "longitude": 106.740651
+    "name": "Kho Trung tâm - 130",
+    "address": "608 30/4, Huyện Nhơn Trạch, Đồng Nai",
+    "latitude": 10.932956,
+    "longitude": 107.366472
   },
   {
     "id": "131",
-    "name": "Kho Quận 7 - 131",
-    "address": "271 Nguyễn Hữu Thọ, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.717188,
-    "longitude": 106.692895
+    "name": "Kho Trung tâm - 131",
+    "address": "714 Võ Thị Sáu, TP. Đồng Xoài, Bình Phước",
+    "latitude": 10.372512,
+    "longitude": 108.417652
   },
   {
     "id": "132",
-    "name": "Kho Quận 7 - 132",
-    "address": "182 Trần Xuân Soạn, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.720113,
-    "longitude": 106.723475
+    "name": "Kho Trung tâm - 132",
+    "address": "1011/14 Phan Bội Châu, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 11.955483,
+    "longitude": 108.410521
   },
   {
     "id": "133",
-    "name": "Kho Quận 7 - 133",
-    "address": "787 Nguyễn Lương Bằng, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.74695,
-    "longitude": 106.708527
+    "name": "Kho Trung tâm - 133",
+    "address": "559 Nguyễn Trãi, Thị xã Bến Cát, Bình Dương",
+    "latitude": 10.480664,
+    "longitude": 105.560863
   },
   {
     "id": "134",
-    "name": "Kho Quận 7 - 134",
-    "address": "581 Tôn Dật Tiên, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.720082,
-    "longitude": 106.739127
+    "name": "Kho Trung tâm - 134",
+    "address": "395 Quang Trung, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 11.291907,
+    "longitude": 107.523056
   },
   {
     "id": "135",
-    "name": "Kho Quận 7 - 135",
-    "address": "997 Trần Xuân Soạn, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.728748,
-    "longitude": 106.757567
+    "name": "Kho Trung tâm - 135",
+    "address": "970/41 30/4, TP. Long Khánh, Đồng Nai",
+    "latitude": 10.456923,
+    "longitude": 106.162004
   },
   {
     "id": "136",
-    "name": "Kho Quận 7 - 136",
-    "address": "891/22 Đường số 41, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.737378,
-    "longitude": 106.695881
+    "name": "Kho Trung tâm - 136",
+    "address": "585 Hùng Vương, TP. Đồng Xoài, Bình Phước",
+    "latitude": 11.40716,
+    "longitude": 108.116323
   },
   {
     "id": "137",
-    "name": "Kho Quận 7 - 137",
-    "address": "657 Nguyễn Hữu Thọ, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.732554,
-    "longitude": 106.724985
+    "name": "Kho Trung tâm - 137",
+    "address": "1330 Trần Phú, Thị xã La Gi, Bình Thuận",
+    "latitude": 10.887387,
+    "longitude": 105.851048
   },
   {
     "id": "138",
-    "name": "Kho Quận 7 - 138",
-    "address": "11 Nguyễn Lương Bằng, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.722545,
-    "longitude": 106.706537
+    "name": "Kho Trung tâm - 138",
+    "address": "1392 Trần Phú, Thị xã Hòa Thành, Tây Ninh",
+    "latitude": 12.055484,
+    "longitude": 106.570342
   },
   {
     "id": "139",
-    "name": "Kho Quận 7 - 139",
-    "address": "884 Phạm Hữu Lầu, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.718176,
-    "longitude": 106.728711
+    "name": "Kho Trung tâm - 139",
+    "address": "51/28 Lý Thường Kiệt, Thị xã Hòa Thành, Tây Ninh",
+    "latitude": 12.218208,
+    "longitude": 106.08454
   },
   {
     "id": "140",
-    "name": "Kho Quận 7 - 140",
-    "address": "1078 Nguyễn Hữu Thọ, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.7521,
-    "longitude": 106.735833
+    "name": "Kho Trung tâm - 140",
+    "address": "340/30 Phan Bội Châu, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 10.66271,
+    "longitude": 106.874953
   },
   {
     "id": "141",
-    "name": "Kho Quận 7 - 141",
-    "address": "54 Gò Ô Môi, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.745996,
-    "longitude": 106.719944
+    "name": "Kho Trung tâm - 141",
+    "address": "656 Lê Lợi, Huyện Chơn Thành, Bình Phước",
+    "latitude": 11.492935,
+    "longitude": 108.235074
   },
   {
     "id": "142",
-    "name": "Kho Quận 7 - 142",
-    "address": "201 Đường số 41, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.724154,
-    "longitude": 106.696669
+    "name": "Kho Trung tâm - 142",
+    "address": "528/50 Trần Hưng Đạo, Huyện Chơn Thành, Bình Phước",
+    "latitude": 10.740379,
+    "longitude": 106.763899
   },
   {
     "id": "143",
-    "name": "Kho Quận 7 - 143",
-    "address": "679 Đường số 15, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.759909,
-    "longitude": 106.753202
+    "name": "Kho Trung tâm - 143",
+    "address": "1172/3 Điện Biên Phủ, TP. Tân An, Long An",
+    "latitude": 11.148979,
+    "longitude": 107.064878
   },
   {
     "id": "144",
-    "name": "Kho Quận 7 - 144",
-    "address": "1297 Đường số 41, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.725333,
-    "longitude": 106.751298
+    "name": "Kho Trung tâm - 144",
+    "address": "202 Cách Mạng Tháng Tám, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 11.683798,
+    "longitude": 107.601785
   },
   {
     "id": "145",
-    "name": "Kho Quận 7 - 145",
-    "address": "925 Tôn Dật Tiên, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.741658,
-    "longitude": 106.721446
+    "name": "Kho Trung tâm - 145",
+    "address": "669 Hùng Vương, Thị xã Hòa Thành, Tây Ninh",
+    "latitude": 11.835939,
+    "longitude": 107.847531
   },
   {
     "id": "146",
-    "name": "Kho Quận 7 - 146",
-    "address": "1291 Đào Trí, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.721297,
-    "longitude": 106.691618
+    "name": "Kho Trung tâm - 146",
+    "address": "1263 Điện Biên Phủ, TP. Thủ Đức, TP. Hồ Chí Minh",
+    "latitude": 10.629564,
+    "longitude": 106.257674
   },
   {
     "id": "147",
-    "name": "Kho Quận 7 - 147",
-    "address": "180/45 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.729526,
-    "longitude": 106.759571
+    "name": "Kho Trung tâm - 147",
+    "address": "805 30/4, Huyện Củ Chi, TP. Hồ Chí Minh",
+    "latitude": 11.66391,
+    "longitude": 105.892986
   },
   {
     "id": "148",
-    "name": "Kho Quận 7 - 148",
-    "address": "529 Lê Văn Lương, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.741762,
-    "longitude": 106.696385
+    "name": "Kho Trung tâm - 148",
+    "address": "325/28 Hùng Vương, TP. Thủ Dầu Một, Bình Dương",
+    "latitude": 11.989995,
+    "longitude": 108.830481
   },
   {
     "id": "149",
-    "name": "Kho Quận 7 - 149",
-    "address": "1426 Đường số 15, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.714656,
-    "longitude": 106.725825
+    "name": "Kho Trung tâm - 149",
+    "address": "1099 Cách Mạng Tháng Tám, Huyện Đức Hòa, Long An",
+    "latitude": 12.126045,
+    "longitude": 106.432028
   },
   {
     "id": "150",
-    "name": "Kho Quận 7 - 150",
-    "address": "406 Gò Ô Môi, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.73072,
-    "longitude": 106.732163
+    "name": "Kho Trung tâm - 150",
+    "address": "496 Trần Hưng Đạo, Quận Gò Vấp, TP. Hồ Chí Minh",
+    "latitude": 10.656457,
+    "longitude": 106.682314
   },
   {
     "id": "151",
-    "name": "Kho Quận 7 - 151",
-    "address": "1324/12 Đường số 1, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.748201,
-    "longitude": 106.73419
+    "name": "Kho Trung tâm - 151",
+    "address": "546 Điện Biên Phủ, Huyện Đức Trọng, Lâm Đồng",
+    "latitude": 10.98713,
+    "longitude": 106.037402
   },
   {
     "id": "152",
-    "name": "Kho Quận 7 - 152",
-    "address": "1022 Tôn Dật Tiên, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.725442,
-    "longitude": 106.75331
+    "name": "Kho Trung tâm - 152",
+    "address": "149/11 Nguyễn Trãi, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 11.399963,
+    "longitude": 107.560875
   },
   {
     "id": "153",
-    "name": "Kho Quận 7 - 153",
-    "address": "718 Nguyễn Lương Bằng, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.727414,
-    "longitude": 106.751231
+    "name": "Kho Trung tâm - 153",
+    "address": "1023 Trần Phú, Thị xã Bến Cát, Bình Dương",
+    "latitude": 11.475068,
+    "longitude": 107.896925
   },
   {
     "id": "154",
-    "name": "Kho Quận 7 - 154",
-    "address": "1061 Lâm Văn Bền, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.73453,
-    "longitude": 106.739626
+    "name": "Kho Trung tâm - 154",
+    "address": "1075/7 Cách Mạng Tháng Tám, Huyện Bến Lức, Long An",
+    "latitude": 10.806003,
+    "longitude": 105.716657
   },
   {
     "id": "155",
-    "name": "Kho Quận 7 - 155",
-    "address": "454 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.714278,
-    "longitude": 106.71303
+    "name": "Kho Trung tâm - 155",
+    "address": "1307/48 Trần Hưng Đạo, Huyện Củ Chi, TP. Hồ Chí Minh",
+    "latitude": 10.34717,
+    "longitude": 106.907188
   },
   {
     "id": "156",
-    "name": "Kho Quận 7 - 156",
-    "address": "160 Đào Trí, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.749051,
-    "longitude": 106.738832
+    "name": "Kho Trung tâm - 156",
+    "address": "708 Phạm Văn Đồng, Thị xã La Gi, Bình Thuận",
+    "latitude": 10.616404,
+    "longitude": 107.626012
   },
   {
     "id": "157",
-    "name": "Kho Quận 7 - 157",
-    "address": "893/26 Đào Trí, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.724946,
-    "longitude": 106.756523
+    "name": "Kho Trung tâm - 157",
+    "address": "885/3 Trần Phú, TP. Tây Ninh, Tây Ninh",
+    "latitude": 12.174685,
+    "longitude": 108.751715
   },
   {
     "id": "158",
-    "name": "Kho Quận 7 - 158",
-    "address": "636/32 Đường số 15, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.758068,
-    "longitude": 106.693961
+    "name": "Kho Trung tâm - 158",
+    "address": "56 Trần Phú, TP. Long Khánh, Đồng Nai",
+    "latitude": 11.336688,
+    "longitude": 108.377816
   },
   {
     "id": "159",
-    "name": "Kho Quận 7 - 159",
-    "address": "426/44 Nguyễn Thị Thập, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.717403,
-    "longitude": 106.758228
+    "name": "Kho Trung tâm - 159",
+    "address": "901/6 Trần Phú, TP. Thuận An, Bình Dương",
+    "latitude": 10.981457,
+    "longitude": 106.904497
   },
   {
     "id": "160",
-    "name": "Kho Quận 7 - 160",
-    "address": "142 Lê Văn Lương, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.739509,
-    "longitude": 106.740702
+    "name": "Kho Trung tâm - 160",
+    "address": "745 30/4, Thị xã Phước Long, Bình Phước",
+    "latitude": 11.335473,
+    "longitude": 107.454915
   },
   {
     "id": "161",
-    "name": "Kho Quận 7 - 161",
-    "address": "1197/11 Đường số 65, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.737174,
-    "longitude": 106.697088
+    "name": "Kho Trung tâm - 161",
+    "address": "739/20 Quang Trung, Huyện Long Thành, Đồng Nai",
+    "latitude": 10.903549,
+    "longitude": 106.484803
   },
   {
     "id": "162",
-    "name": "Kho Quận 7 - 162",
-    "address": "929 Huỳnh Tấn Phát, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.738529,
-    "longitude": 106.70929
+    "name": "Kho Trung tâm - 162",
+    "address": "1150 Võ Thị Sáu, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 12.314353,
+    "longitude": 105.925628
   },
   {
     "id": "163",
-    "name": "Kho Quận 7 - 163",
-    "address": "209 Đường số 15, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.712512,
-    "longitude": 106.696334
+    "name": "Kho Trung tâm - 163",
+    "address": "148 Điện Biên Phủ, Thị xã Kiến Tường, Long An",
+    "latitude": 10.760087,
+    "longitude": 107.521094
   },
   {
     "id": "164",
-    "name": "Kho Quận 7 - 164",
-    "address": "1437 Trần Xuân Soạn, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.752865,
-    "longitude": 106.75968
+    "name": "Kho Trung tâm - 164",
+    "address": "1244/14 30/4, Huyện Đức Trọng, Lâm Đồng",
+    "latitude": 12.355702,
+    "longitude": 105.717118
   },
   {
     "id": "165",
-    "name": "Kho Quận 7 - 165",
-    "address": "1235/23 Đường số 41, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.720187,
-    "longitude": 106.756505
+    "name": "Kho Trung tâm - 165",
+    "address": "1358 Lê Duẩn, Thị xã Bình Long, Bình Phước",
+    "latitude": 10.212924,
+    "longitude": 107.164997
   },
   {
     "id": "166",
-    "name": "Kho Quận 7 - 166",
-    "address": "509 Nguyễn Lương Bằng, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.737097,
-    "longitude": 106.753759
+    "name": "Kho Trung tâm - 166",
+    "address": "1100/13 Cách Mạng Tháng Tám, Huyện Hàm Thuận Bắc, Bình Thuận",
+    "latitude": 11.657697,
+    "longitude": 105.6259
   },
   {
     "id": "167",
-    "name": "Kho Quận 7 - 167",
-    "address": "1440 Lâm Văn Bền, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.734105,
-    "longitude": 106.744336
+    "name": "Kho Trung tâm - 167",
+    "address": "1057 Trần Phú, TP. Tây Ninh, Tây Ninh",
+    "latitude": 10.275236,
+    "longitude": 105.740787
   },
   {
     "id": "168",
-    "name": "Kho Quận 7 - 168",
-    "address": "1322 Đường số 15, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.718318,
-    "longitude": 106.722672
+    "name": "Kho Trung tâm - 168",
+    "address": "31 Lê Lợi, Thị xã Bình Long, Bình Phước",
+    "latitude": 11.40493,
+    "longitude": 108.319565
   },
   {
     "id": "169",
-    "name": "Kho Quận 7 - 169",
-    "address": "186 Lê Văn Lương, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.754816,
-    "longitude": 106.69324
+    "name": "Kho Trung tâm - 169",
+    "address": "52 Lê Duẩn, TP. Đồng Xoài, Bình Phước",
+    "latitude": 11.754078,
+    "longitude": 107.559295
   },
   {
     "id": "170",
-    "name": "Kho Quận 7 - 170",
-    "address": "898/7 Tôn Dật Tiên, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.721482,
-    "longitude": 106.723587
+    "name": "Kho Trung tâm - 170",
+    "address": "90 30/4, Huyện Củ Chi, TP. Hồ Chí Minh",
+    "latitude": 12.025789,
+    "longitude": 108.192043
   },
   {
     "id": "171",
-    "name": "Kho Quận 7 - 171",
-    "address": "1309 Nguyễn Lương Bằng, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.729039,
-    "longitude": 106.723754
+    "name": "Kho Trung tâm - 171",
+    "address": "814 Điện Biên Phủ, Quận 3, TP. Hồ Chí Minh",
+    "latitude": 10.404461,
+    "longitude": 105.664123
   },
   {
     "id": "172",
-    "name": "Kho Quận 7 - 172",
-    "address": "1321 Phạm Hữu Lầu, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.743511,
-    "longitude": 106.692201
+    "name": "Kho Trung tâm - 172",
+    "address": "999 Phạm Văn Đồng, TP. Thủ Dầu Một, Bình Dương",
+    "latitude": 12.249458,
+    "longitude": 108.72574
   },
   {
     "id": "173",
-    "name": "Kho Quận 7 - 173",
-    "address": "1096 Gò Ô Môi, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.719114,
-    "longitude": 106.725242
+    "name": "Kho Trung tâm - 173",
+    "address": "985 Hùng Vương, TP. Đà Lạt, Lâm Đồng",
+    "latitude": 11.533942,
+    "longitude": 106.011198
   },
   {
     "id": "174",
-    "name": "Kho Quận 7 - 174",
-    "address": "1150/35 Đường số 65, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.719118,
-    "longitude": 106.691275
+    "name": "Kho Trung tâm - 174",
+    "address": "1344/30 Lê Duẩn, Huyện Dương Minh Châu, Tây Ninh",
+    "latitude": 11.243072,
+    "longitude": 106.26368
   },
   {
     "id": "175",
-    "name": "Kho Quận 7 - 175",
-    "address": "442 Đào Trí, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.744172,
-    "longitude": 106.711198
+    "name": "Kho Trung tâm - 175",
+    "address": "1431 30/4, Huyện Nhơn Trạch, Đồng Nai",
+    "latitude": 10.271474,
+    "longitude": 108.765526
   },
   {
     "id": "176",
-    "name": "Kho Quận 7 - 176",
-    "address": "1085 Nguyễn Thị Thập, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.724744,
-    "longitude": 106.719368
+    "name": "Kho Trung tâm - 176",
+    "address": "1100/1 Cách Mạng Tháng Tám, Thị xã Hòa Thành, Tây Ninh",
+    "latitude": 11.35637,
+    "longitude": 107.873707
   },
   {
     "id": "177",
-    "name": "Kho Quận 7 - 177",
-    "address": "238 Đường số 41, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.736279,
-    "longitude": 106.739947
+    "name": "Kho Trung tâm - 177",
+    "address": "423 Lê Lợi, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 10.468426,
+    "longitude": 105.596332
   },
   {
     "id": "178",
-    "name": "Kho Quận 7 - 178",
-    "address": "205 Đường số 1, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.72958,
-    "longitude": 106.722252
+    "name": "Kho Trung tâm - 178",
+    "address": "1293/22 Hùng Vương, Huyện Đức Hòa, Long An",
+    "latitude": 10.716991,
+    "longitude": 107.079482
   },
   {
     "id": "179",
-    "name": "Kho Quận 7 - 179",
-    "address": "855 Gò Ô Môi, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.75357,
-    "longitude": 106.691248
+    "name": "Kho Trung tâm - 179",
+    "address": "8 Trần Hưng Đạo, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 10.887391,
+    "longitude": 108.111353
   },
   {
     "id": "180",
-    "name": "Kho Quận 7 - 180",
-    "address": "1074/48 Lâm Văn Bền, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.728409,
-    "longitude": 106.717553
+    "name": "Kho Trung tâm - 180",
+    "address": "790 Nguyễn Trãi, Thị xã Phước Long, Bình Phước",
+    "latitude": 11.466986,
+    "longitude": 106.107881
   },
   {
     "id": "181",
-    "name": "Kho Quận 7 - 181",
-    "address": "699 Đường số 15, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.748933,
-    "longitude": 106.700659
+    "name": "Kho Trung tâm - 181",
+    "address": "1155 Lê Lợi, TP. Thuận An, Bình Dương",
+    "latitude": 10.68248,
+    "longitude": 108.196927
   },
   {
     "id": "182",
-    "name": "Kho Quận 7 - 182",
-    "address": "976 Lâm Văn Bền, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.720291,
-    "longitude": 106.692266
+    "name": "Kho Trung tâm - 182",
+    "address": "893 30/4, Huyện Dương Minh Châu, Tây Ninh",
+    "latitude": 11.788786,
+    "longitude": 107.782946
   },
   {
     "id": "183",
-    "name": "Kho Quận 7 - 183",
-    "address": "1484/14 Phạm Hữu Lầu, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.725595,
-    "longitude": 106.750683
+    "name": "Kho Trung tâm - 183",
+    "address": "540/11 Lý Thường Kiệt, TP. Long Khánh, Đồng Nai",
+    "latitude": 11.378579,
+    "longitude": 108.550531
   },
   {
     "id": "184",
-    "name": "Kho Quận 7 - 184",
-    "address": "690/46 Trần Xuân Soạn, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.725588,
-    "longitude": 106.736353
+    "name": "Kho Trung tâm - 184",
+    "address": "1140 30/4, TP. Thủ Đức, TP. Hồ Chí Minh",
+    "latitude": 10.647387,
+    "longitude": 106.349784
   },
   {
     "id": "185",
-    "name": "Kho Quận 7 - 185",
-    "address": "367 Nguyễn Thị Thập, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.727274,
-    "longitude": 106.7543
+    "name": "Kho Trung tâm - 185",
+    "address": "271/13 Lê Duẩn, Huyện Dầu Tiếng, Bình Dương",
+    "latitude": 12.192439,
+    "longitude": 107.006332
   },
   {
     "id": "186",
-    "name": "Kho Quận 7 - 186",
-    "address": "869 Đường số 65, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.759887,
-    "longitude": 106.738849
+    "name": "Kho Trung tâm - 186",
+    "address": "259 Võ Thị Sáu, TP. Tây Ninh, Tây Ninh",
+    "latitude": 12.315954,
+    "longitude": 107.863333
   },
   {
     "id": "187",
-    "name": "Kho Quận 7 - 187",
-    "address": "818/24 Phạm Hữu Lầu, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.752111,
-    "longitude": 106.725154
+    "name": "Kho Trung tâm - 187",
+    "address": "1365 Lê Duẩn, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 10.291011,
+    "longitude": 106.877089
   },
   {
     "id": "188",
-    "name": "Kho Quận 7 - 188",
-    "address": "161 Gò Ô Môi, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.738065,
-    "longitude": 106.718496
+    "name": "Kho Trung tâm - 188",
+    "address": "1491/23 Lê Lợi, Huyện Tuy Phong, Bình Thuận",
+    "latitude": 12.019485,
+    "longitude": 107.100349
   },
   {
     "id": "189",
-    "name": "Kho Quận 7 - 189",
-    "address": "1397/19 Lê Văn Lương, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.7469,
-    "longitude": 106.738051
+    "name": "Kho Trung tâm - 189",
+    "address": "1123/24 Lê Duẩn, Thị xã Phước Long, Bình Phước",
+    "latitude": 11.256321,
+    "longitude": 107.90898
   },
   {
     "id": "190",
-    "name": "Kho Quận 7 - 190",
-    "address": "1143 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.730503,
-    "longitude": 106.720894
+    "name": "Kho Trung tâm - 190",
+    "address": "381/24 Cách Mạng Tháng Tám, Huyện Bù Đăng, Bình Phước",
+    "latitude": 10.25926,
+    "longitude": 106.775153
   },
   {
     "id": "191",
-    "name": "Kho Quận 7 - 191",
-    "address": "503/38 Đường số 41, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.72095,
-    "longitude": 106.757187
+    "name": "Kho Trung tâm - 191",
+    "address": "502 Trần Phú, Huyện Xuyên Mộc, Bà Rịa - Vũng Tàu",
+    "latitude": 11.848972,
+    "longitude": 107.573285
   },
   {
     "id": "192",
-    "name": "Kho Quận 7 - 192",
-    "address": "1312 Lâm Văn Bền, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.737807,
-    "longitude": 106.74842
+    "name": "Kho Trung tâm - 192",
+    "address": "1135 Nguyễn Trãi, Thị xã La Gi, Bình Thuận",
+    "latitude": 12.298959,
+    "longitude": 107.069871
   },
   {
     "id": "193",
-    "name": "Kho Quận 7 - 193",
-    "address": "709 Đào Trí, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.750265,
-    "longitude": 106.740306
+    "name": "Kho Trung tâm - 193",
+    "address": "1372/41 Nguyễn Trãi, Huyện Lâm Hà, Lâm Đồng",
+    "latitude": 11.316837,
+    "longitude": 108.720384
   },
   {
     "id": "194",
-    "name": "Kho Quận 7 - 194",
-    "address": "1469 Nguyễn Lương Bằng, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.717979,
-    "longitude": 106.742639
+    "name": "Kho Trung tâm - 194",
+    "address": "1128 Phạm Văn Đồng, Huyện Đức Trọng, Lâm Đồng",
+    "latitude": 10.92371,
+    "longitude": 105.841807
   },
   {
     "id": "195",
-    "name": "Kho Quận 7 - 195",
-    "address": "80 Trần Xuân Soạn, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.745349,
-    "longitude": 106.720915
+    "name": "Kho Trung tâm - 195",
+    "address": "1486 Lê Duẩn, TP. Tân An, Long An",
+    "latitude": 12.269413,
+    "longitude": 106.685621
   },
   {
     "id": "196",
-    "name": "Kho Quận 7 - 196",
-    "address": "1024 Tôn Dật Tiên, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.720744,
-    "longitude": 106.724418
+    "name": "Kho Trung tâm - 196",
+    "address": "1111/20 Lê Lợi, TP. Biên Hòa, Đồng Nai",
+    "latitude": 10.887948,
+    "longitude": 107.828049
   },
   {
     "id": "197",
-    "name": "Kho Quận 7 - 197",
-    "address": "427 Nguyễn Thị Thập, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.728584,
-    "longitude": 106.746015
+    "name": "Kho Trung tâm - 197",
+    "address": "1263 Lê Lợi, Quận Gò Vấp, TP. Hồ Chí Minh",
+    "latitude": 11.722926,
+    "longitude": 107.869763
   },
   {
     "id": "198",
-    "name": "Kho Quận 7 - 198",
-    "address": "340 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.742729,
-    "longitude": 106.728173
+    "name": "Kho Trung tâm - 198",
+    "address": "603 Nguyễn Trãi, Huyện Chơn Thành, Bình Phước",
+    "latitude": 12.367339,
+    "longitude": 106.031341
   },
   {
     "id": "199",
-    "name": "Kho Quận 7 - 199",
-    "address": "1109/24 Phạm Hữu Lầu, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.717097,
-    "longitude": 106.749672
+    "name": "Kho Trung tâm - 199",
+    "address": "903 Lê Duẩn, Huyện Cần Giuộc, Long An",
+    "latitude": 10.565246,
+    "longitude": 106.132558
   },
   {
     "id": "200",
-    "name": "Kho Quận 7 - 200",
-    "address": "1086 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.718318,
-    "longitude": 106.75874
+    "name": "Kho Trung tâm - 200",
+    "address": "1232 Lê Duẩn, Huyện Cần Giuộc, Long An",
+    "latitude": 11.520907,
+    "longitude": 107.565467
   },
   {
     "id": "201",
-    "name": "Kho Quận 7 - 201",
-    "address": "954/29 Đường số 1, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.749608,
-    "longitude": 106.691439
+    "name": "Kho Trung tâm - 201",
+    "address": "1106 Phạm Văn Đồng, Huyện Đức Hòa, Long An",
+    "latitude": 10.365315,
+    "longitude": 105.598953
   },
   {
     "id": "202",
-    "name": "Kho Quận 7 - 202",
-    "address": "997/12 Đường số 1, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.727448,
-    "longitude": 106.742181
+    "name": "Kho Trung tâm - 202",
+    "address": "768 Lý Thường Kiệt, Huyện Di Linh, Lâm Đồng",
+    "latitude": 12.184168,
+    "longitude": 108.611606
   },
   {
     "id": "203",
-    "name": "Kho Quận 7 - 203",
-    "address": "209/36 Lê Văn Lương, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.71868,
-    "longitude": 106.715437
+    "name": "Kho Trung tâm - 203",
+    "address": "325 Lý Thường Kiệt, Huyện Long Thành, Đồng Nai",
+    "latitude": 12.31613,
+    "longitude": 106.293465
   },
   {
     "id": "204",
-    "name": "Kho Quận 7 - 204",
-    "address": "252/12 Đào Trí, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.718561,
-    "longitude": 106.736842
+    "name": "Kho Trung tâm - 204",
+    "address": "1159 Quang Trung, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 11.249057,
+    "longitude": 106.186359
   },
   {
     "id": "205",
-    "name": "Kho Quận 7 - 205",
-    "address": "1029/16 Đường số 1, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.72798,
-    "longitude": 106.749084
+    "name": "Kho Trung tâm - 205",
+    "address": "11/29 Lê Duẩn, TP. Thuận An, Bình Dương",
+    "latitude": 11.389395,
+    "longitude": 106.786316
   },
   {
     "id": "206",
-    "name": "Kho Quận 7 - 206",
-    "address": "847 Tôn Dật Tiên, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.744882,
-    "longitude": 106.712472
+    "name": "Kho Trung tâm - 206",
+    "address": "244 Võ Thị Sáu, Quận 3, TP. Hồ Chí Minh",
+    "latitude": 12.007504,
+    "longitude": 106.508276
   },
   {
     "id": "207",
-    "name": "Kho Quận 7 - 207",
-    "address": "1331 Nguyễn Hữu Thọ, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.730901,
-    "longitude": 106.734975
+    "name": "Kho Trung tâm - 207",
+    "address": "811 Võ Thị Sáu, Huyện Cần Giuộc, Long An",
+    "latitude": 10.554787,
+    "longitude": 106.773652
   },
   {
     "id": "208",
-    "name": "Kho Quận 7 - 208",
-    "address": "753 Đường số 1, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.714424,
-    "longitude": 106.733841
+    "name": "Kho Trung tâm - 208",
+    "address": "616 Lê Lợi, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 10.540951,
+    "longitude": 107.938537
   },
   {
     "id": "209",
-    "name": "Kho Quận 7 - 209",
-    "address": "709 Tôn Dật Tiên, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.719254,
-    "longitude": 106.758806
+    "name": "Kho Trung tâm - 209",
+    "address": "322/9 Phan Bội Châu, TP. Tây Ninh, Tây Ninh",
+    "latitude": 11.193143,
+    "longitude": 107.844152
   },
   {
     "id": "210",
-    "name": "Kho Quận 7 - 210",
-    "address": "548/43 Gò Ô Môi, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.755715,
-    "longitude": 106.745788
+    "name": "Kho Trung tâm - 210",
+    "address": "868/36 Quang Trung, TP. Biên Hòa, Đồng Nai",
+    "latitude": 11.219822,
+    "longitude": 108.079176
   },
   {
     "id": "211",
-    "name": "Kho Quận 7 - 211",
-    "address": "865/13 Lâm Văn Bền, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.740779,
-    "longitude": 106.705755
+    "name": "Kho Trung tâm - 211",
+    "address": "1057/17 Lê Lợi, Huyện Trảng Bom, Đồng Nai",
+    "latitude": 12.264271,
+    "longitude": 107.488583
   },
   {
     "id": "212",
-    "name": "Kho Quận 7 - 212",
-    "address": "1080/22 Tôn Dật Tiên, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.75864,
-    "longitude": 106.75651
+    "name": "Kho Trung tâm - 212",
+    "address": "1182 Phan Bội Châu, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 10.868945,
+    "longitude": 107.752987
   },
   {
     "id": "213",
-    "name": "Kho Quận 7 - 213",
-    "address": "468 Đường số 1, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.718265,
-    "longitude": 106.717723
+    "name": "Kho Trung tâm - 213",
+    "address": "718 30/4, TP. Thuận An, Bình Dương",
+    "latitude": 12.215759,
+    "longitude": 105.55691
   },
   {
     "id": "214",
-    "name": "Kho Quận 7 - 214",
-    "address": "464 Tôn Dật Tiên, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.742802,
-    "longitude": 106.730911
+    "name": "Kho Trung tâm - 214",
+    "address": "147 Điện Biên Phủ, Huyện Bù Đăng, Bình Phước",
+    "latitude": 11.72226,
+    "longitude": 108.278662
   },
   {
     "id": "215",
-    "name": "Kho Quận 7 - 215",
-    "address": "132/6 Phạm Hữu Lầu, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.745892,
-    "longitude": 106.70149
+    "name": "Kho Trung tâm - 215",
+    "address": "1358/1 Trần Hưng Đạo, TP. Tây Ninh, Tây Ninh",
+    "latitude": 10.791696,
+    "longitude": 108.490474
   },
   {
     "id": "216",
-    "name": "Kho Quận 7 - 216",
-    "address": "768/12 Nguyễn Thị Thập, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.748013,
-    "longitude": 106.736844
+    "name": "Kho Trung tâm - 216",
+    "address": "484/31 Điện Biên Phủ, TP. Thủ Đức, TP. Hồ Chí Minh",
+    "latitude": 10.73439,
+    "longitude": 107.181441
   },
   {
     "id": "217",
-    "name": "Kho Quận 7 - 217",
-    "address": "1371 Phạm Hữu Lầu, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.746016,
-    "longitude": 106.755071
+    "name": "Kho Trung tâm - 217",
+    "address": "953/2 Trần Phú, Huyện Chơn Thành, Bình Phước",
+    "latitude": 11.709513,
+    "longitude": 108.592312
   },
   {
     "id": "218",
-    "name": "Kho Quận 7 - 218",
-    "address": "712 Đường số 41, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.735749,
-    "longitude": 106.712684
+    "name": "Kho Trung tâm - 218",
+    "address": "1330 Phan Bội Châu, TP. Bà Rịa, Bà Rịa - Vũng Tàu",
+    "latitude": 12.095552,
+    "longitude": 105.626214
   },
   {
     "id": "219",
-    "name": "Kho Quận 7 - 219",
-    "address": "945 Phạm Hữu Lầu, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.74864,
-    "longitude": 106.739155
+    "name": "Kho Trung tâm - 219",
+    "address": "484 Phan Bội Châu, Huyện Châu Đức, Bà Rịa - Vũng Tàu",
+    "latitude": 10.491079,
+    "longitude": 106.868568
   },
   {
     "id": "220",
-    "name": "Kho Quận 7 - 220",
-    "address": "873 Phạm Hữu Lầu, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.723755,
-    "longitude": 106.726507
+    "name": "Kho Trung tâm - 220",
+    "address": "1169 Nguyễn Huệ, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 10.519,
+    "longitude": 107.716035
   },
   {
     "id": "221",
-    "name": "Kho Quận 7 - 221",
-    "address": "123 Mai Văn Vĩnh, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.755862,
-    "longitude": 106.733263
+    "name": "Kho Trung tâm - 221",
+    "address": "32 Điện Biên Phủ, Huyện Dầu Tiếng, Bình Dương",
+    "latitude": 11.161409,
+    "longitude": 108.029339
   },
   {
     "id": "222",
-    "name": "Kho Quận 7 - 222",
-    "address": "1226/5 Gò Ô Môi, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.756246,
-    "longitude": 106.734077
+    "name": "Kho Trung tâm - 222",
+    "address": "97 Lý Thường Kiệt, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 10.434984,
+    "longitude": 105.940613
   },
   {
     "id": "223",
-    "name": "Kho Quận 7 - 223",
-    "address": "1458 Phạm Hữu Lầu, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.747435,
-    "longitude": 106.701436
+    "name": "Kho Trung tâm - 223",
+    "address": "465 Nguyễn Huệ, Huyện Chơn Thành, Bình Phước",
+    "latitude": 10.637038,
+    "longitude": 105.611394
   },
   {
     "id": "224",
-    "name": "Kho Quận 7 - 224",
-    "address": "882/30 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.728311,
-    "longitude": 106.719495
+    "name": "Kho Trung tâm - 224",
+    "address": "738 30/4, Huyện Dầu Tiếng, Bình Dương",
+    "latitude": 10.689518,
+    "longitude": 107.082879
   },
   {
     "id": "225",
-    "name": "Kho Quận 7 - 225",
-    "address": "682 Nguyễn Hữu Thọ, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.748009,
-    "longitude": 106.735302
+    "name": "Kho Trung tâm - 225",
+    "address": "1308 30/4, TP. Thủ Dầu Một, Bình Dương",
+    "latitude": 12.129429,
+    "longitude": 105.639111
   },
   {
     "id": "226",
-    "name": "Kho Quận 7 - 226",
-    "address": "12 Đường số 41, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.741122,
-    "longitude": 106.73873
+    "name": "Kho Trung tâm - 226",
+    "address": "876 Phạm Văn Đồng, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 11.395206,
+    "longitude": 106.318611
   },
   {
     "id": "227",
-    "name": "Kho Quận 7 - 227",
-    "address": "1314/2 Lâm Văn Bền, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.759718,
-    "longitude": 106.718596
+    "name": "Kho Trung tâm - 227",
+    "address": "941 Nguyễn Huệ, Huyện Dương Minh Châu, Tây Ninh",
+    "latitude": 10.728158,
+    "longitude": 106.556968
   },
   {
     "id": "228",
-    "name": "Kho Quận 7 - 228",
-    "address": "1143/2 Phạm Hữu Lầu, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.714499,
-    "longitude": 106.722486
+    "name": "Kho Trung tâm - 228",
+    "address": "223 Cách Mạng Tháng Tám, TP. Tây Ninh, Tây Ninh",
+    "latitude": 12.33386,
+    "longitude": 106.826042
   },
   {
     "id": "229",
-    "name": "Kho Quận 7 - 229",
-    "address": "774 Huỳnh Tấn Phát, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.717475,
-    "longitude": 106.718861
+    "name": "Kho Trung tâm - 229",
+    "address": "532 Quang Trung, Huyện Cần Giuộc, Long An",
+    "latitude": 11.287639,
+    "longitude": 108.473274
   },
   {
     "id": "230",
-    "name": "Kho Quận 7 - 230",
-    "address": "394/47 Đường số 65, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.716396,
-    "longitude": 106.720998
+    "name": "Kho Trung tâm - 230",
+    "address": "648 Phạm Văn Đồng, Huyện Gò Dầu, Tây Ninh",
+    "latitude": 10.508491,
+    "longitude": 107.76307
   },
   {
     "id": "231",
-    "name": "Kho Quận 7 - 231",
-    "address": "1370 Mai Văn Vĩnh, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.751096,
-    "longitude": 106.694868
+    "name": "Kho Trung tâm - 231",
+    "address": "27 Lê Duẩn, TP. Thuận An, Bình Dương",
+    "latitude": 11.45887,
+    "longitude": 107.881091
   },
   {
     "id": "232",
-    "name": "Kho Quận 7 - 232",
-    "address": "314 Đào Trí, P. Tân Thuận Đông, Quận 7, TP. HCM",
-    "latitude": 10.722587,
-    "longitude": 106.732946
+    "name": "Kho Trung tâm - 232",
+    "address": "284 Trần Hưng Đạo, TP. Tây Ninh, Tây Ninh",
+    "latitude": 12.24236,
+    "longitude": 105.584608
   },
   {
     "id": "233",
-    "name": "Kho Quận 7 - 233",
-    "address": "808 Nguyễn Thị Thập, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.710661,
-    "longitude": 106.727049
+    "name": "Kho Trung tâm - 233",
+    "address": "970 Lý Thường Kiệt, TP. Thuận An, Bình Dương",
+    "latitude": 11.312068,
+    "longitude": 105.837406
   },
   {
     "id": "234",
-    "name": "Kho Quận 7 - 234",
-    "address": "61/9 Đào Trí, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.748979,
-    "longitude": 106.701226
+    "name": "Kho Trung tâm - 234",
+    "address": "437 Trần Phú, Huyện Đức Trọng, Lâm Đồng",
+    "latitude": 11.195955,
+    "longitude": 107.654775
   },
   {
     "id": "235",
-    "name": "Kho Quận 7 - 235",
-    "address": "639/45 Nguyễn Thị Thập, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.716033,
-    "longitude": 106.757969
+    "name": "Kho Trung tâm - 235",
+    "address": "588 Phan Bội Châu, Thị xã Hòa Thành, Tây Ninh",
+    "latitude": 10.956742,
+    "longitude": 105.910395
   },
   {
     "id": "236",
-    "name": "Kho Quận 7 - 236",
-    "address": "1029 Đường số 15, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.722374,
-    "longitude": 106.737972
+    "name": "Kho Trung tâm - 236",
+    "address": "1450 Hùng Vương, Huyện Lâm Hà, Lâm Đồng",
+    "latitude": 11.456661,
+    "longitude": 108.39841
   },
   {
     "id": "237",
-    "name": "Kho Quận 7 - 237",
-    "address": "1488 Huỳnh Tấn Phát, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.738726,
-    "longitude": 106.737381
+    "name": "Kho Trung tâm - 237",
+    "address": "478 Nguyễn Trãi, Huyện Dầu Tiếng, Bình Dương",
+    "latitude": 10.928899,
+    "longitude": 106.592725
   },
   {
     "id": "238",
-    "name": "Kho Quận 7 - 238",
-    "address": "787/4 Đường số 15, P. Tân Phong, Quận 7, TP. HCM",
-    "latitude": 10.73461,
-    "longitude": 106.728099
+    "name": "Kho Trung tâm - 238",
+    "address": "1192 Điện Biên Phủ, Huyện Hàm Thuận Bắc, Bình Thuận",
+    "latitude": 10.814411,
+    "longitude": 108.797622
   },
   {
     "id": "239",
-    "name": "Kho Quận 7 - 239",
-    "address": "376 Đường số 41, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.717117,
-    "longitude": 106.709916
+    "name": "Kho Trung tâm - 239",
+    "address": "954 Quang Trung, TP. Thủ Dầu Một, Bình Dương",
+    "latitude": 10.750451,
+    "longitude": 108.63231
   },
   {
     "id": "240",
-    "name": "Kho Quận 7 - 240",
-    "address": "37 Lê Văn Lương, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.743414,
-    "longitude": 106.735866
+    "name": "Kho Trung tâm - 240",
+    "address": "1047 Quang Trung, Thị xã Kiến Tường, Long An",
+    "latitude": 11.836576,
+    "longitude": 108.417208
   },
   {
     "id": "241",
-    "name": "Kho Quận 7 - 241",
-    "address": "843 Đường số 65, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.729731,
-    "longitude": 106.745403
+    "name": "Kho Trung tâm - 241",
+    "address": "27 Nguyễn Trãi, Huyện Củ Chi, TP. Hồ Chí Minh",
+    "latitude": 11.151154,
+    "longitude": 108.38487
   },
   {
     "id": "242",
-    "name": "Kho Quận 7 - 242",
-    "address": "663 Lê Văn Lương, P. Bình Thuận, Quận 7, TP. HCM",
-    "latitude": 10.714099,
-    "longitude": 106.696602
+    "name": "Kho Trung tâm - 242",
+    "address": "289 Cách Mạng Tháng Tám, Quận 3, TP. Hồ Chí Minh",
+    "latitude": 10.836585,
+    "longitude": 108.291472
   },
   {
     "id": "243",
-    "name": "Kho Quận 7 - 243",
-    "address": "1495 Mai Văn Vĩnh, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.737368,
-    "longitude": 106.721412
+    "name": "Kho Trung tâm - 243",
+    "address": "1384/28 Quang Trung, Huyện Tuy Phong, Bình Thuận",
+    "latitude": 10.934591,
+    "longitude": 108.53791
   },
   {
     "id": "244",
-    "name": "Kho Quận 7 - 244",
-    "address": "360/36 Lâm Văn Bền, P. Tân Hưng, Quận 7, TP. HCM",
-    "latitude": 10.722575,
-    "longitude": 106.725086
+    "name": "Kho Trung tâm - 244",
+    "address": "610/25 Nguyễn Huệ, Quận 3, TP. Hồ Chí Minh",
+    "latitude": 10.586062,
+    "longitude": 106.643772
   },
   {
     "id": "245",
-    "name": "Kho Quận 7 - 245",
-    "address": "712 Gò Ô Môi, P. Tân Phú, Quận 7, TP. HCM",
-    "latitude": 10.73396,
-    "longitude": 106.704952
+    "name": "Kho Trung tâm - 245",
+    "address": "1312 Lê Duẩn, TP. Đà Lạt, Lâm Đồng",
+    "latitude": 10.69091,
+    "longitude": 108.143869
   },
   {
     "id": "246",
-    "name": "Kho Quận 7 - 246",
-    "address": "1276 Đường số 15, P. Tân Quy, Quận 7, TP. HCM",
-    "latitude": 10.733233,
-    "longitude": 106.759144
+    "name": "Kho Trung tâm - 246",
+    "address": "322/12 Quang Trung, TP. Vũng Tàu, Bà Rịa - Vũng Tàu",
+    "latitude": 11.613726,
+    "longitude": 108.303917
   },
   {
     "id": "247",
-    "name": "Kho Quận 7 - 247",
-    "address": "10 Lâm Văn Bền, P. Tân Thuận Tây, Quận 7, TP. HCM",
-    "latitude": 10.713626,
-    "longitude": 106.740164
+    "name": "Kho Trung tâm - 247",
+    "address": "1084/37 Trần Phú, Huyện Đức Hòa, Long An",
+    "latitude": 10.705709,
+    "longitude": 106.1202
   },
   {
     "id": "248",
-    "name": "Kho Quận 7 - 248",
-    "address": "39 Huỳnh Tấn Phát, P. Phú Thuận, Quận 7, TP. HCM",
-    "latitude": 10.722485,
-    "longitude": 106.719293
+    "name": "Kho Trung tâm - 248",
+    "address": "659/37 Cách Mạng Tháng Tám, Thị xã Phú Mỹ, Bà Rịa - Vũng Tàu",
+    "latitude": 10.57412,
+    "longitude": 107.993901
   },
   {
     "id": "249",
-    "name": "Kho Quận 7 - 249",
-    "address": "181 Gò Ô Môi, P. Phú Mỹ, Quận 7, TP. HCM",
-    "latitude": 10.720565,
-    "longitude": 106.694402
+    "name": "Kho Trung tâm - 249",
+    "address": "460 Trần Hưng Đạo, Huyện Cần Giuộc, Long An",
+    "latitude": 10.31595,
+    "longitude": 108.583213
   },
   {
     "id": "250",
-    "name": "Kho Quận 7 - 250",
-    "address": "26 Trần Xuân Soạn, P. Tân Kiểng, Quận 7, TP. HCM",
-    "latitude": 10.714467,
-    "longitude": 106.747756
+    "name": "Kho Trung tâm - 250",
+    "address": "635 Nguyễn Huệ, Thị xã Trảng Bàng, Tây Ninh",
+    "latitude": 12.033663,
+    "longitude": 108.549717
   }
 ]
