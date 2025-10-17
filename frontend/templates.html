@@ -345,12 +345,12 @@
               .catch(error => console.error("Lỗi tải JSON depot:", error));
 
             // 4️⃣ Load customer markers (màu đỏ)
-            fetch("../data/customers_qk7.json")
+            fetch("../data/customers.json")
               .then(response => response.json())
               .then(data => {
                 data.forEach(order => {
-                  const marker = L.marker([order.lat, order.lng], { icon: customerIcon }).addTo(map);
-                  marker.bindPopup(`<b>${order.name}</b><br>Lat: ${order.lat}<br>Lon: ${order.lng}`);
+                  const marker = L.marker([order.latitude, order.longitude], { icon: customerIcon }).addTo(map);
+                  marker.bindPopup(`<b>${order.name}</b><br>Lat: ${order.latitude}<br>Lon: ${order.longitude}`);
                 });
               })
               .catch(error => console.error("Lỗi tải JSON customer:", error));
