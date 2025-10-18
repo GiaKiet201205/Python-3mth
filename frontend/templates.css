@@ -213,6 +213,20 @@ body {
     margin-bottom: 0.25rem;
 }
 
+.driver-contact-info {
+    font-size: 0.75rem; /* Cỡ chữ nhỏ hơn */
+    color: #6b7280;     /* Màu xám */
+    margin-bottom: 0.25rem; /* Khoảng cách bên dưới */
+    display: flex;
+    flex-wrap: wrap; /* Cho phép xuống dòng nếu không đủ chỗ */
+    gap: 0.75rem;      /* Khoảng cách giữa SĐT và Mã kho */
+    align-items: center;
+}
+
+.driver-contact-info span i {
+    margin-right: 0.25rem; /* Khoảng cách nhỏ giữa icon và text */
+}
+
 .driver-stats {
     display: flex;
     gap: 1rem;
@@ -831,4 +845,5 @@ body {
     #map {
         height: 100vh !important;
     }
+
 }

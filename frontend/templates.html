@@ -36,14 +36,13 @@
     <!-- Main Container -->
     <div class="main-container">
         <!-- Left Sidebar -->
-        <div class="sidebar">
+       <div class="sidebar">
             <div class="sidebar-header">
                 <div class="planning-section">
                     <h5 class="mb-0">
                         <i class="fas fa-calendar-alt"></i> Plan and Optimize
                     </h5>
                 </div>
-
 
                 <div class="action-buttons">
                     <button class="btn-primary" onclick="optimizeRoutes()">
@@ -56,7 +55,6 @@
                         <i class="fas fa-undo"></i> Reverse
                     </button>
                 </div>
-
                 <div class="mb-3">
                     <button class="btn-outline me-2" onclick="copyRoutes()">
                         <i class="fas fa-copy"></i> Copy
@@ -69,83 +67,14 @@
             <div class="drivers-section">
                 <h6 class="mb-3 px-2">
                     <i class="fas fa-truck"></i> Driver
-                    <span class="badge bg-primary rounded-pill ms-2">4 drivers selected</span>
+
+                    <span id="driver-count-badge" class="badge bg-primary rounded-pill ms-2">
+                        0 drivers
+                    </span>
                 </h6>
 
-                <!-- Driver List -->
-                <div class="driver-item selected" onclick="toggleDriver(this, 'driver001')">
-                    <input type="checkbox" class="driver-checkbox" checked>
-                    <div class="driver-color" style="background-color: #ef4444;"></div>
-                    <div class="driver-info">
-                        <div class="driver-name">Driver 001</div>
-                        <div class="driver-stats">
-<!--                            <span><i class="fas fa-clock"></i> 7h 57m</span>-->
-<!--                            <span><i class="fas fa-map-marker-alt"></i> Orders: 41</span>-->
-<!--                            <span><i class="fas fa-route"></i> 120km</span>-->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="driver-item selected" onclick="toggleDriver(this, 'driver002')">
-                    <input type="checkbox" class="driver-checkbox" checked>
-                    <div class="driver-color" style="background-color: #f97316;"></div>
-                    <div class="driver-info">
-                        <div class="driver-name">Driver 002</div>
-                        <div class="driver-stats">
-<!--                            <span><i class="fas fa-clock"></i> 7h 56m</span>-->
-<!--                            <span><i class="fas fa-map-marker-alt"></i> Orders: 40</span>-->
-<!--                            <span><i class="fas fa-route"></i> 98km</span>-->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="driver-item selected" onclick="toggleDriver(this, 'driver003')">
-                    <input type="checkbox" class="driver-checkbox" checked>
-                    <div class="driver-color" style="background-color: #22c55e;"></div>
-                    <div class="driver-info">
-                        <div class="driver-name">Driver 003</div>
-                        <div class="driver-stats">
-<!--                            <span><i class="fas fa-clock"></i> 7h 54m</span>-->
-<!--                            <span><i class="fas fa-map-marker-alt"></i> Orders: 58</span>-->
-<!--                            <span><i class="fas fa-route"></i> 37km</span>-->
-                        </div>
-                    </div>
-                </div>
-
-                <div class="driver-item selected" onclick="toggleDriver(this, 'driver004')">
-                    <input type="checkbox" class="driver-checkbox" checked>
-                    <div class="driver-color" style="background-color: #0bd2f5;"></div>
-                    <div class="driver-info">
-                        <div class="driver-name">Driver 004</div>
-                        <div class="driver-stats">
-<!--                            <span><i class="fas fa-clock"></i> 7h 59m</span>-->
-<!--                            <span><i class="fas fa-map-marker-alt"></i> Orders: 53</span>-->
-<!--                            <span><i class="fas fa-route"></i> 58km</span>-->
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Unassigned Drivers -->
-                <div class="driver-item" onclick="toggleDriver(this, 'driver005')">
-                    <input type="checkbox" class="driver-checkbox">
-                    <div class="driver-color" style="background-color: #6b7280;"></div>
-                    <div class="driver-info">
-                        <div class="driver-name">Driver 005</div>
-                        <div class="driver-stats">
-                            <span class="text-muted">Unassigned</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="driver-item" onclick="toggleDriver(this, 'driver006')">
-                    <input type="checkbox" class="driver-checkbox">
-                    <div class="driver-color" style="background-color: #6b7280;"></div>
-                    <div class="driver-info">
-                        <div class="driver-name">Driver 006</div>
-                        <div class="driver-stats">
-                            <span class="text-muted">Unassigned</span>
-                        </div>
-                    </div>
+                <div id="driver-list-container">
+                    <p style="padding: 0.75rem; color: var(--secondary-color);">Đang tải danh sách tài xế...</p>
                 </div>
             </div>
 
@@ -301,6 +230,8 @@
             initMap();
             populateOrdersTable();
             showNotification('Routes have been planned. Undo changes');
+
+            loadAndDisplayDrivers();
         });
 
         function initMap() {
@@ -345,12 +276,12 @@
               .catch(error => console.error("Lỗi tải JSON depot:", error));
 
             // 4️⃣ Load customer markers (màu đỏ)
-            fetch("../data/customers_qk7.json")
+            fetch("../data/customers.json")
               .then(response => response.json())
               .then(data => {
                 data.forEach(order => {
-                  const marker = L.marker([order.lat, order.lng], { icon: customerIcon }).addTo(map);
-                  marker.bindPopup(`<b>${order.name}</b><br>Lat: ${order.lat}<br>Lon: ${order.lng}`);
+                  const marker = L.marker([order.latitude, order.longitude], { icon: customerIcon }).addTo(map);
+                  marker.bindPopup(`<b>${order.name}</b><br>Lat: ${order.latitude}<br>Lon: ${order.longitude}`);
                 });
               })
               .catch(error => console.error("Lỗi tải JSON customer:", error));
@@ -434,11 +365,6 @@
             }
 
             updateSelectedDriversCount();
-        }
-
-        function updateSelectedDriversCount() {
-            const selectedCount = document.querySelectorAll('.driver-checkbox:checked').length;
-            document.querySelector('.badge').textContent = `${selectedCount} drivers selected`;
         }
 
         // Map functions
@@ -610,6 +536,91 @@
 
         function hideLoading() {
             document.getElementById('loading').style.display = 'none';
+        }
+
+        /**
+         * Tải dữ liệu từ file 'data/drivers.json' và hiển thị lên giao diện
+         */
+        async function loadAndDisplayDrivers() {
+            // Lấy "vùng chứa" (bạn cần đảm bảo div này tồn tại trong HTML)
+            const driverListContainer = document.getElementById('driver-list-container');
+            // Lấy cái badge đếm số lượng
+            const driverCountBadge = document.getElementById('driver-count-badge');
+
+            if (!driverListContainer) {
+                console.error("Lỗi: Không tìm thấy thẻ div với id='driver-list-container'.");
+                return;
+            }
+
+            try {
+                // 1. Lấy dữ liệu từ file JSON
+                const response = await fetch('../data/drivers.json');
+                if (!response.ok) {
+                    throw new Error(`Lỗi HTTP: ${response.status}`);
+                }
+
+                // 2. Chuyển đổi dữ liệu từ text sang mảng JavaScript
+                const drivers = await response.json();
+
+                // Xóa dòng chữ "Đang tải..."
+                driverListContainer.innerHTML = '';
+
+                // Mảng màu để gán xoay vòng cho tài xế
+                const colors = ['#ef4444', '#f97316', '#22c55e', '#0bd2f5', '#6b7280'];
+
+                // 3. Lặp qua TỪNG tài xế trong file JSON
+                drivers.forEach((driver, index) => {
+
+                    const color = colors[index % colors.length];
+
+                    // Tạo một thẻ div mới cho mỗi tài xế
+                    const driverItem = document.createElement('div');
+                    driverItem.className = 'driver-item'; // Gán class CSS y như cũ
+
+                    // Gán sự kiện onclick cho thẻ div này
+                    driverItem.onclick = function() {
+                        // Chúng ta sẽ dùng lại hàm toggleDriver bạn đã có
+                        toggleDriver(driverItem, driver.id);
+                    };
+
+                    // 4. Tạo nội dung HTML bên trong, sử dụng dữ liệu từ file JSON
+                    driverItem.innerHTML = `
+                    <input type="checkbox" class="driver-checkbox">
+                    <div class="driver-color" style="background-color: ${color};"></div>
+                    <div class="driver-info">
+                        <div class="driver-name">${driver.name} (ID: ${driver.id})</div>
+
+                        <div class="driver-contact-info">
+                            <span><i class="fas fa-phone-alt"></i> ${driver.phone}</span>
+                            <span><i class="fas fa-warehouse"></i> Kho: ${driver.depot_id}</span>
+                        </div>
+
+                        <div class="driver-stats">
+                            <span class="text-muted">Unassigned</span>
+                        </div>
+                    </div>
+                `;
+                    // 5. Thêm tài xế vừa tạo vào "vùng chứa"
+                    driverListContainer.appendChild(driverItem);
+                });
+
+                // 6. Cập nhật lại số lượng tài xế trên badge
+                if (driverCountBadge) {
+                    driverCountBadge.textContent = `${drivers.length} drivers`;
+                }
+
+            } catch (error) {
+                console.error("Lỗi không thể tải file drivers.json:", error);
+                driverListContainer.innerHTML = '<p style="color: red; padding: 0.75rem;">Không thể tải danh sách tài xế.</p>';
+            }
+        }
+
+        function updateSelectedDriversCount() {
+            const selectedCount = document.querySelectorAll('.driver-checkbox:checked').length;
+            const driverCountBadge = document.getElementById('driver-count-badge');
+            if (driverCountBadge) {
+                driverCountBadge.textContent = `${selectedCount} drivers selected`;
+            }
         }
 
         // Map resize handler
