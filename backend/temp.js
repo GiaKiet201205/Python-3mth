@@ -185,26 +185,81 @@ function fullScreen() {
 async function optimizeRoutes() {
   showLoading();
   try {
+    // Chọn chiến lược (thay đổi nếu cần)
+    const strategy = 'benchmark'; // hoặc 'strategy1', 'strategy2', 'strategy3'
+
     const response = await fetch("http://127.0.0.1:8000/api/calculate/", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
-        num_vehicles_per_depot: 2
+        num_vehicles_per_depot: 2,
+        strategy: strategy,
+        time_limit:45
       })
     });
+
     const result = await response.json();
     hideLoading();
+
     if (result.status === "success") {
-      showNotification("Các tuyến đường đã được tối ưu hóa thành công!", "success");
-      console.log("Kết quả:", result);
-      // Có thể render routes lên map ở đây
+      showNotification("Các tuyến đường đã được tối ưu hoá thành công!", "success");
+      console.log("Kết quả:", result.data);
+
+      // Render routes lên map
+      renderRoutesOnMap(result.data);
     } else {
       showNotification(result.message || "Không tìm thấy giải pháp!", "error");
     }
   } catch (error) {
     hideLoading();
     console.error("Error:", error);
-    showNotification("Lỗi khi tối ưu hóa tuyến đường!", "error");
+    showNotification("Lỗi khi tối ưu hoá tuyến đường!", "error");
+  }
+}
+
+// Hàm vẽ routes lên map
+function renderRoutesOnMap(data) {
+  // Xoá các routes cũ nếu có
+  routes.forEach(route => map.removeLayer(route));
+  routes = [];
+
+  // Định nghĩa các màu khác nhau cho mỗi tuyến
+  const colors = ['red', 'blue', 'green', 'purple', 'orange', 'yellow'];
+
+  if (data.results) {
+    // Benchmark results có nhiều chiến lược
+    data.results.forEach((strategyResult, index) => {
+      if (strategyResult.status === 'success') {
+        strategyResult.routes.forEach((route, routeIdx) => {
+          drawRoute(route, colors[routeIdx % colors.length]);
+        });
+      }
+    });
+  } else if (data.routes) {
+    // Single strategy result
+    data.routes.forEach((route, index) => {
+      drawRoute(route, colors[index % colors.length]);
+    });
+  }
+}
+
+function drawRoute(route, color) {
+  const routeCoordinates = [];
+
+  route.route.forEach(nodeIndex => {
+    const location = ordersData[nodeIndex] || {latitude: 0, longitude: 0};
+    routeCoordinates.push([location.latitude, location.longitude]);
+  });
+
+  if (routeCoordinates.length > 0) {
+    const polyline = L.polyline(routeCoordinates, {
+      color: color,
+      weight: 3,
+      opacity: 0.7,
+      dashArray: '5, 5'
+    }).addTo(map);
+
+    routes.push(polyline);
   }
 }
 
@@ -229,7 +284,7 @@ async function loadDriversData() {
             priority: customer.priority || 'normal',
             weight: customer.demand ? customer.demand.weight || 0 : 0,
             volume: customer.demand ? customer.demand.volume || 0 : 0,
-            duration: customer.service_time || 30,
+            duration: customer.service_time || 45,
             latitude: customer.latitude,
             longitude: customer.longitude
         }));
